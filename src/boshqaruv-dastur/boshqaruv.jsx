@@ -3,7 +3,7 @@ import "./boshqaruv.scss"
 
 const Boshqaruv = () => {
   return (
-    <div >
+    <div className='b-container' >
 
         <div className="boshqaruv">
             <div className="boshqaruv-top">

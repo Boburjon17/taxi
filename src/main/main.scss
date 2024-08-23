@@ -222,3 +222,95 @@
 
                 
             }
+
+            @media screen and (max-width:768px) {
+
+                .m-continer{
+                    width: 100%;
+                    margin: 0 auto;
+                  
+                 
+                
+                    .main{
+                        width: 100%;
+                        margin: 30px 0 ;              
+                        background-image: url(mainImg3.png);
+                        background-repeat: no-repeat;
+                        // background-position:  -30px;
+                        background-position:bottom ;
+                   
+                        background-size: 100%;
+                   
+                       
+                     
+                
+
+                        .main-right{
+                            width: 100%;
+                            height: auto;
+                            margin: 0 auto;
+                      
+                      
+                            .main-r-top{
+                                width: 100%;
+                            
+                                
+                                
+                
+                                h1{
+                                    width: 90%;
+                                    font-size: 60px;
+                                    margin: 0 auto;
+                                    text-align: center;
+                                   
+                                }
+                                h6{
+                                    width: 90%;
+                                    font-size: 25px;
+                                    text-align: center ;
+                                    margin: 30px auto;
+                               
+                                }
+                                .button-b{
+                                    width: 100%;
+                            
+                
+                
+                                    button{
+                                        width: 70%;
+                                        line-height: 35px;                        
+                                        
+                                        p{
+
+                                          font-size: 26px;
+              
+                                        } 
+                                      }
+                
+                                }
+                               
+                            }
+                            .main-r-bottom{
+                                width: 90%;
+                                height: auto;
+                                margin: 53px auto 0 auto;
+                                
+                               
+                                
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    
+                                }
+                            }
+                        }
+                    }
+                    hr{
+                        max-width: 100%;
+                        height: 0;
+                        border-top: 1px dashed grey;
+                        margin: 10px 0;
+                    }
+                  }
+                
+            }

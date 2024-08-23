@@ -266,3 +266,110 @@
     }
     
 }
+
+@media screen  and (max-width:768px) {
+
+    .dastur{
+        width:100%;
+        height: auto;
+        margin: 0 auto;
+
+    
+        .dastur-f{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 30px auto;
+            .dastur-left{
+                width: 100%;
+                margin-top :30px ;
+                
+              
+              
+                .dastur-title{
+                    width: auto;
+                   
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                  
+                    h1{
+                        width: auto;
+                        height: auto;
+                        font-size: 28px;
+                        
+                    }
+        
+                
+                }
+                p{ 
+                    width: 95%;    
+                    margin: 30px auto;
+        
+                }
+                .aktiv-lorem{
+                   width: 100%;
+                   height: auto;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   gap: 120px;
+                   
+                
+                   .aktiv{
+                    width: 180px;
+                    height: auto;
+                    padding: 10px 0;
+                  
+                   }
+                   
+                }
+                .button-dastur{
+                    width: auto;
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: center;
+                    
+                    button{
+                        width: 60%;
+                        height: 45px;
+                        padding: 12px 18px ;
+                        background-color: rgba(25, 105, 225, 1);
+                        border-radius: 12px;
+                        gap: 10px;
+                        border: none; 
+                       
+                        
+                        h3{
+                          width: auto;
+                          color: white;
+                          font-size: 16px;
+                          font-weight: 400;
+                          
+                        } 
+                      }
+                }
+                
+        
+                
+            }
+            .dastur-img{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+     
+               
+            }
+        
+        }
+    
+        
+    }
+    
+}

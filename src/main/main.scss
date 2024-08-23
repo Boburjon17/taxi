@@ -1,0 +1,224 @@
+
+
+@font-face {
+    font-family: 'RAYDIS';
+    src: url('../fonts/raydis/raydis.ttf');
+  }
+
+  @font-face {
+    font-family: ' Cygre Medium';
+    src: url('../fonts/cygre/Cygre-Medium.ttf');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Cygre SemiBold';
+    src: url('../fonts/cygre/Cygre-SemiBold.ttf');
+  }
+
+  .m-continer{
+    width: 100%;
+    margin: 0 auto;
+  
+ 
+
+    .main{
+        width: 100%;
+        margin: 53px 0 ;              
+        background-image: url(public/mainImg3.png);
+        background-repeat: no-repeat;
+        // background-position:  -30px;
+        background-position: bottom ;
+   
+        background-size: 100%;
+   
+       
+     
+
+        .main-left{
+            width: 0;
+            display: none;
+            
+           
+        }
+        .main-right{
+            width: 810px;
+            height: auto;
+            margin: 0 auto;
+      
+      
+            .main-r-top{
+                width: 782px;
+            
+                
+                
+
+                h1{
+                    font-size: 60px;
+                    font-family: 'RAYDIS';
+                    text-transform: uppercase;
+                    font-weight: 800;
+                    color: rgba(16, 24, 36, 1);
+                    span{
+                        color: rgba(231, 183, 58, 1);
+                    }
+                }
+                h6{
+                    width: 100%;
+                    font-size: 20px;
+                    text-align: center ;
+                    font-family: 'Cygre Medium';
+                    font-weight: 400;
+                    margin: 30px 0;
+                    color: rgba(100, 111, 128, 1);
+                }
+                .button-b{
+                    width: 100%;
+                 
+                    display: flex;
+                    justify-content: center;
+
+
+                    button{
+                        padding: 12px 18px ;
+                        background-color: rgba(25, 105, 225, 1);
+                        border-radius: 12px;
+                        border: none; 
+                        line-height: 26.4px;
+                       
+                        
+                        p{
+                          width: auto;
+                          color: white;
+                          font-size: 16px;
+                          font-family: 'Cygre SemiBold';
+                          font-weight: 600;
+
+                          
+                        } 
+                      }
+
+                }
+               
+            }
+            .main-r-bottom{
+                width: 808px;
+                height: 456px;
+                margin-top: 73px;
+               
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    hr{
+        max-width: 100%;
+        height: 0;
+        border-top: 1px dashed grey;
+        margin: 10px 0;
+    }
+  }
+     
+        
+
+
+            @media screen and (max-width:447px) {
+
+                .m-continer{
+                    width: 100%;
+                    margin: 0 auto;
+                  
+                 
+                
+                    .main{
+                        width: 100%;
+                        margin: 0 ;              
+                        background-image: url(public/mainImg3.png);
+                        background-repeat: no-repeat;
+                        background-position: bottom;
+                                   
+                        background-size: 100%;
+                   
+                       
+                     
+                
+                        .main-left{
+                            width: 0;
+                            display: none;
+                            
+                           
+                        }
+                        .main-right{
+                            width: 100%;
+                            height: auto;
+                            
+                           
+                      
+                      
+                            .main-r-top{
+                                width: 100%;
+                                margin: 40px 0 56px 0;
+                           
+                             
+                                
+                                
+                
+                                h1{
+                                    font-size: 40px;
+                                    text-align: center;
+                                }
+                                h6{
+                                    width: 100%;
+                                    font-size: 16px;
+                                   line-height: 22.4px;
+                                    padding: 0 10px;
+                                }
+                                .button-b{
+                                    width: 100%;
+                           
+                
+                                    button{
+                                        width: 352px;
+                                        height: 42px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                       
+                                        
+                                        p{
+                                          width: auto;
+                
+                                          
+                                        } 
+                                      }
+                
+                                }
+                               
+                            }
+                            .main-r-bottom{
+                                width: 100%;
+                                height: auto;
+                                margin-top: 0;
+                               
+                                
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                    hr{
+                        max-width: 100%;
+                        height: 0;
+                        border-top: 1px dashed grey;
+                        margin: 10px 0;
+                    }
+                  }
+                     
+            
+
+                
+            }

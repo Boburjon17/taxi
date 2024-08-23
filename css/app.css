@@ -1,0 +1,12 @@
+.app-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 447px) {
+  .app-container {
+    max-width: 447px;
+    margin: 0 auto;
+    border: 2px solid red;
+  }
+}

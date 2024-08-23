@@ -1,0 +1,199 @@
+.boshqaruv {
+  width: 1440px;
+  margin: 0 auto;
+}
+.boshqaruv .boshqaruv-top {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boshqaruv .boshqaruv-top .boshqaruv-title {
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.boshqaruv .boshqaruv-top .boshqaruv-title h1 {
+  font-size: 28px;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgb(16, 24, 36);
+}
+.boshqaruv .boshqaruv-top .boshqaruv-title h1 span {
+  color: rgb(231, 183, 58);
+}
+.boshqaruv .boshqaruv-top .boshqaruv-title img {
+  width: 60px;
+  height: 30px;
+}
+.boshqaruv .boshqaruv-top p {
+  width: 65%;
+  font-size: 16px;
+  color: grey;
+  font-family: "Poppins", system-ui;
+  padding: 10px 0;
+}
+.boshqaruv .boshqaruv-top .category {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boshqaruv .boshqaruv-top .category .icon {
+  width: 200px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.boshqaruv .boshqaruv-top .category .icon .icon-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgb(25, 105, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boshqaruv .boshqaruv-top .category .icon .icon-img i {
+  font-size: 20px;
+}
+.boshqaruv .boshqaruv-top .category .icon h3 {
+  width: auto;
+  font-size: 15px;
+  font-family: "Poppins", system-ui;
+  font-weight: 500;
+  text-align: center;
+}
+.boshqaruv .boshqaruv-top .button-boshqar {
+  width: auto;
+  padding: 20px 0;
+}
+.boshqaruv .boshqaruv-top .button-boshqar button {
+  padding: 12px 18px;
+  background-color: rgb(25, 105, 225);
+  border-radius: 12px;
+  gap: 10px;
+  border: none;
+}
+.boshqaruv .boshqaruv-top .button-boshqar button h3 {
+  width: auto;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.boshqaruv .boshqaruv-bottom {
+  width: 1440px;
+  margin: 0 auto;
+}
+.boshqaruv .boshqaruv-bottom .except {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+  border: 10px solid rgb(35, 33, 34);
+  box-shadow: 0px 0.47px 1.4px 0px rgba(255, 255, 255, 0.1) inset;
+  box-shadow: 0px 0.47px 0.93px 0px rgba(0, 0, 0, 0.5) inset;
+  border-radius: 12px 12px 5px 5px;
+  background-color: #181818;
+}
+.boshqaruv .boshqaruv-bottom .except .middle {
+  width: 670px;
+  height: 470px;
+  margin: 5px auto;
+  background-color: #000000;
+  border-radius: 12px 12px 5px 5px;
+}
+.boshqaruv .boshqaruv-bottom .except .middle .video {
+  width: 650px;
+  height: 450px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px 12px 5px 5px;
+}
+.boshqaruv .boshqaruv-bottom .except .middle .video h1 {
+  font-size: 24px;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgb(16, 24, 36);
+}
+
+hr {
+  width: 100%;
+  height: 0;
+  border-top: 1px dashed grey;
+  margin: 25px 0;
+}
+
+@media screen and (max-width: 447px) {
+  .boshqaruv {
+    width: 447px;
+    margin: 0 auto;
+  }
+  .boshqaruv .boshqaruv-top {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boshqaruv .boshqaruv-top .boshqaruv-title {
+    width: 50%;
+    height: 70px;
+    gap: 0px;
+  }
+  .boshqaruv .boshqaruv-top .boshqaruv-title h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .boshqaruv .boshqaruv-top .boshqaruv-title img {
+    width: 40px;
+    height: 20px;
+    margin-bottom: 25px;
+  }
+  .boshqaruv .boshqaruv-top p {
+    width: 95%;
+    font-size: 16px;
+    color: grey;
+    font-family: "Poppins", system-ui;
+    padding: 10px 0;
+  }
+  .boshqaruv .boshqaruv-top .category {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .boshqaruv .boshqaruv-top .category .icon {
+    margin: 10px 0;
+  }
+  .boshqaruv .boshqaruv-top .button-boshqar button {
+    padding: 12px 140px;
+  }
+  .boshqaruv .boshqaruv-bottom {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .boshqaruv .boshqaruv-bottom .except {
+    width: 420px;
+    height: 330px;
+    margin: 0 auto;
+  }
+  .boshqaruv .boshqaruv-bottom .except .middle {
+    width: 405px;
+    height: 305px;
+  }
+  .boshqaruv .boshqaruv-bottom .except .middle .video {
+    width: 390px;
+    height: 290px;
+  }
+  .boshqaruv .boshqaruv-bottom .except .middle .video h1 {
+    font-size: 14px;
+  }
+}

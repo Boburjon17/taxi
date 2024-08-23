@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'RAYDIS';
+    src: url('../fonts/raydis/raydis.ttf');
+  }
+
+  .dastur-h-container{
+    max-width: 100%;
+    margin: 0 auto;
+
+    .dastur-h{
+        width: 1130px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        .dastur-left{
+            width: 47%;
+            img{
+                width: 512px;
+                height: 608px;
+            }
+          
+           
+            
+    
+            
+        }
+        .dastur-img{
+            width: 47%;
+            height: auto;
+           
+    
+            .dastur-title{
+                width: auto;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                h1{
+                    font-size: 28px;
+                    font-family: "RAYDIS", sans-serif;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                   
+                    color: rgba(16, 24, 36, 1);
+                    span{
+                        color: rgba(231, 183, 58, 1);
+                    }
+                }
+    
+                img{
+                    width: 37px;
+                    height: 21px;
+                }
+            }
+            p{ 
+                width: auto;
+                height: auto;
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                color: rgba(100, 111, 128, 1);
+                font-weight: 300;
+                font-family: "Poppins", system-ui;
+                margin: 30px 0;
+    
+            }
+            .aktiv-lorem{
+               width: 371px;
+               height: 85px;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+            
+               .aktiv{
+                width: 170px;
+                height: 90%;
+                border: 1px solid grey;
+                border-radius: 24px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    font-size: 32px;
+                    font-family: "Matemasie", sans-serif;
+                    font-weight: 800;
+                    color: rgba(16, 24, 36, 1);
+                    span{
+                        color: rgba(231, 183, 58, 1);
+                    }
+                }
+                h6{
+                    width: auto;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: "Poppins", system-ui;
+                    color: grey;
+                }
+               }
+               
+            }
+            .button-dastur{
+                width: auto;
+                margin-top: 30px;
+                
+                button{
+                    width: 170px;
+                    height: 45px;
+                    padding: 12px 18px ;
+                    background-color: rgba(25, 105, 225, 1);
+                    border-radius: 12px;
+                    gap: 10px;
+                    border: none; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    
+                   
+                    
+                    h3{
+                      width: auto;
+                      color: white;
+                      font-size: 16px;
+                      font-weight: 400;
+                      line-height: 26.4px;
+                      font-family: 'Cygre SemiBold';
+                     
+                      
+                    } 
+                  }
+            }
+           
+           
+        }
+    
+    }
+    
+     hr {
+        width: 100%;
+        height: 0;
+        border-top: 1px  dashed  rgb(181, 21, 21);
+       
+    }
+
+
+  }
+
+
+
+@media screen and (max-width:447px) {
+
+    .dastur-h-container{
+        width: 100%;
+        height: auto;
+
+        .dastur-h{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+    
+            margin: 30px 0;
+            .dastur-left{
+                width: 100%;
+                height: auto;
+                margin: 0 10px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+              
+               
+                
+        
+                
+            }
+            .dastur-img{
+                width: 100%;
+                height: auto;
+                margin-top: 30px;
+    
+                .dastur-title{
+                    width: 60%;
+                    display: flex;
+                    align-items: start;
+                    margin: 10px auto;
+                    gap: 0px;
+                    h1{
+                        font-size: 24px;
+                        text-align: center;
+                    
+                    }
+        
+                    img{
+                        width: 37px;
+                        height: 21px;
+                        
+                    }
+                }
+                p{ 
+                    width: 95%;
+                    height: auto;
+                    font-size: 16px;
+                   text-align: center;
+                   margin: 24px 0;
+                    
+        
+                }
+                .aktiv-lorem{
+                   width: 100%;
+                   height: auto;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   gap: 12px;
+                   
+                   
+                
+                   .aktiv{
+                    width: 160px;
+                    height: 100%;
+                    border: 1px solid grey;
+                    border-radius: 24px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 10px 0;
+                    h2{
+                        font-size: 24px;
+                        font-family: "Matemasie", sans-serif;
+                        font-weight: 800;
+                        color: rgba(16, 24, 36, 1);
+                        span{
+                            color: rgba(231, 183, 58, 1);
+                        }
+                    }
+                    h6{
+                        width: auto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: "Poppins", system-ui;
+                        color: grey;
+                    }
+                   }
+                   
+                }
+                .button-dastur{
+                    width: auto;
+                    padding: 20px 0;
+                     text-align: center;
+                    
+                    
+                    button{
+                        width: 351px;
+                        padding: 12px 18px ;
+                        background-color: rgba(25, 105, 225, 1);
+                        border-radius: 12px;
+                        gap: 10px;
+                        border: none; 
+                        margin: 0 auto;
+
+                       
+                        
+                        h3{
+                          width: 170px;
+                          color: white;
+                          font-size: 16px;
+                          font-weight: 400;
+                 
+                          
+                        } 
+                      }
+                }
+               
+                // img{
+                //     width: 500px;
+                //     height: 550px;
+                // }
+            }
+        
+        }
+
+        hr{
+            width: 100%;
+            border-top: 1px  dashed  grey;
+           
+        }
+
+    }
+   
+  
+    
+}

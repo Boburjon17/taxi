@@ -1,0 +1,308 @@
+   
+   @font-face {
+    font-family: 'RAYDIS';
+    src: url('../fonts/raydis/raydis.ttf');
+  }
+  
+  @font-face {
+    font-family: ' Cygre Medium';
+    src: url('../fonts/cygre/Cygre-Medium.ttf');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'Cygre SemiBold';
+    src: url('../fonts/cygre/Cygre-SemiBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Cygre SemiBold';
+    src: url('../fonts/cygre/Cygre-SemiBold.ttf');
+  }
+   
+   .boshqaruv{
+        width: 916px;
+        height: auto;
+        margin: 0 auto;
+       
+      
+        
+        .boshqaruv-top{
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .boshqaruv-title{
+                width: 916px;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+               
+                h1{
+                    font-size: 28px;
+                    font-family: "RAYDIS", sans-serif;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: rgba(16, 24, 36, 1);
+                    span{
+                        color: rgba(231, 183, 58, 1);
+                    }
+                }
+                img{
+                    width: 37px;
+                    height: 21px;
+                }
+            }
+            p{
+                width: 916px;
+                height: auto;
+                font-weight: 400;
+                font-size: 18px;
+                color: grey;
+                font-family: " Cygre Medium", system-ui;
+                
+                line-height: 23.4px;
+               margin: 30px 0;
+
+            }
+            .category{
+                width: 74%;
+                height:auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .icon{
+                    width: 200px;
+                    height: 110px;
+                 
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    .icon-img{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        border: 2px solid rgba(25, 105, 225, 1);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        i{
+                            font-size: 20px;
+                        }
+                    }
+                    h3{
+                        width: auto;
+                        font-size: 16px;
+                        font-family: "Cygre Medium", system-ui;
+                        font-weight: 500;
+                        text-align: center;
+                        line-height: 20.8px;
+
+                    }
+                }
+
+            }
+            .button-boshqar{
+                width: auto;
+               margin: 30px 0 50px 0;
+                
+                button{
+                    width: 170px;
+                    height: 45px;
+                    padding: 12px 18px ;
+                    background-color: rgba(25, 105, 225, 1);
+                    border-radius: 12px;
+                    gap: 10px;
+                    border: none; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   
+                    
+                    h3{
+
+                      width: auto;
+                      color: white;
+                      font-size: 16px;
+                      font-weight: 600;
+                      font-family: 'Cygre SemiBold';
+                      line-height: 26.4px;
+                      
+                    } 
+                  }
+            }
+        }
+        .boshqaruv-bottom{
+            width: 890px;
+            height: auto;
+            margin: 0 auto;
+        
+           
+        
+
+            .except{
+                width: 895px;
+                height: 616px;
+                margin: 0 auto;
+                border: 10px solid rgba(35, 33, 34, 1) !important; 
+                border-radius: 32px 18px;
+                background-color: #181818;
+
+
+              .middle{
+                width: 878px;
+                height:584px ;
+                margin: 5px auto;
+                background-color :#000000;
+                border-radius: 12px 12px 0 0;
+                .video{
+                    width: 848px;
+                    height: 551px;
+                    margin: 5px auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: white;
+                    border-radius: 12px  12px 0 0;
+                    border: 1px solid green;
+                    h1{
+                     font-size: 24px;
+                    font-family: "RAYDIS", sans-serif;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: rgba(16, 24, 36, 1);
+
+                    }
+
+                   
+                }
+              }
+
+            }
+        }
+    }
+    hr{
+        width: 100%;
+        height: 0;
+        border-top: 1px dashed grey;
+        margin: 25px 0;
+    }
+
+
+    @media screen and (max-width:447px) {
+        .boshqaruv{
+            width: 100%;
+            height: auto;
+            margin: 30px auto;
+            
+            
+            .boshqaruv-top{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+    
+                .boshqaruv-title{
+                    width: 50%;
+                    height: auto;
+                    display: flex;
+                    align-items: start;
+                  
+                    gap: 10px;
+                   
+                    h1{
+                        font-size: 24px;
+                        text-align: center;
+                        
+                    }
+                    img{
+                        width: 40px;
+                        height: 20px;
+                      
+                    }
+                }
+                p{
+                    width: 90%;
+                    font-size: 16px;
+                    color: grey;
+                    font-family: "Cygre Medium";
+                    padding:  0;
+                    margin: 24px 0;
+                    text-align: center;
+    
+                }
+                .category{
+                    width: auto;
+                    height: auto;
+                    flex-wrap: wrap;
+                    display: flex;
+                    
+                    
+                   
+                   
+                    .icon{
+                        width: 49%;
+
+                         margin: 10px 0;
+                        
+                    }
+    
+                }
+                .button-boshqar{
+                
+                    
+                    button{
+                        width: 351px;
+
+                        padding: 12px 18px ;
+        
+                      }
+                }
+            }
+            .boshqaruv-bottom{
+                width: 100%;
+                margin: 0 auto;
+            
+    
+                .except{
+                    width: 351px;
+                    height: 247px;
+                    border-radius: 13px 7px;
+                    margin: 0 auto;
+                    border: 2px solid rgb(35, 33, 34);
+                    
+    
+                  .middle{
+                    width: 335px;
+                    height:227px ;
+                    margin: 0 auto;
+                   
+                    .video{
+                        width: 335px;
+                        height: 218px;
+                        height: 4px 0;
+                        border: none;
+                        margin: 0 auto;
+                        
+                        h1{
+                    
+                         font-size: 11px;
+                       
+                        }
+    
+                       
+                    }
+                  }
+    
+                }
+            }
+        }
+        
+    }

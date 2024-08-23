@@ -1,0 +1,115 @@
+.main {
+  width: 1440px;
+  display: flex;
+  gap: 35px;
+  padding: 0 50px;
+  background-image: url(public/mainImg3.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.main .main-left {
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.main .main-left img {
+  width: auto;
+  height: 350px;
+}
+.main .main-right {
+  width: 60%;
+}
+.main .main-right .main-r-top {
+  width: 100%;
+}
+.main .main-right .main-r-top h1 {
+  font-size: 60px;
+  font-family: "Matemasie", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(16, 24, 36);
+}
+.main .main-right .main-r-top h1 span {
+  color: rgb(231, 183, 58);
+}
+.main .main-right .main-r-top p {
+  width: 90%;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(100, 111, 128);
+}
+.main .main-right .main-r-top .button-b {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.main .main-right .main-r-top .button-b button {
+  padding: 12px 18px;
+  background-color: rgb(25, 105, 225);
+  border-radius: 12px;
+  border: none;
+}
+.main .main-right .main-r-top .button-b button p {
+  width: auto;
+  color: white;
+  font-size: 16px;
+}
+.main .main-right .main-r-bottom {
+  width: auto;
+  height: auto;
+}
+.main .main-right .main-r-bottom img {
+  width: auto;
+  height: auto;
+}
+
+hr {
+  width: 100%;
+  height: 0;
+  border-top: 3px dashed grey;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 447px) {
+  .main {
+    width: 447px;
+    display: flex;
+    gap: 35px;
+    padding: 0 10px;
+    background-image: url(public/mainImg3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  .main .main-left {
+    display: none;
+  }
+  .main .main-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main .main-right .main-r-top {
+    width: 100%;
+  }
+  .main .main-right .main-r-top h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .main .main-right .main-r-top p {
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Poppins", system-ui;
+  }
+  .main .main-right .main-r-bottom {
+    width: 440px;
+    height: 213px;
+  }
+  .main .main-right .main-r-bottom img {
+    width: 100%;
+    height: auto;
+  }
+}

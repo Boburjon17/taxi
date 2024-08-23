@@ -1,0 +1,194 @@
+
+@font-face {
+    font-family: 'RAYDIS';
+    src: url('../fonts/raydis/raydis.ttf');
+  }
+
+  @font-face {
+    font-family: "Cygre ";
+    src: url('../fonts/cygre/Cygre-Book.ttf');
+  }
+
+
+  .afzal-container{
+
+
+    .title{
+        width: 1130px;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+       
+        h1{
+            font-size: 28px;
+            font-family: "RAYDIS", sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: rgba(16, 24, 36, 1);
+            span{
+                color: rgba(231, 183, 58, 1);
+            }
+        }
+        img{
+            width: 36.91px;
+            height: 21.46px;
+        }
+    }
+    
+    .boxes{
+        width: 1130px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        .box{
+            width: 49%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            border: 2px solid rgba(230, 235, 243, 1);
+            border-radius: 18px;
+            margin: 10px 0;
+          
+    
+            .box-text{
+                width: 70%;
+                padding: 0 10px;
+               
+                .box-title{
+                    width: 90%;
+                    padding: 10px 0;
+                    p{
+                        font-size: 24px;
+                        font-weight: 700;
+                        font-family: "Poppins", system-ui;
+                        color: rgba(55, 60, 68, 1);
+                    }
+                }
+                .box-p{
+                    width: auto;
+                    p{
+                        
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: "Poppins", system-ui;
+                        color: rgba(100, 111, 128, 1);
+                    }
+                   
+    
+                }
+            }
+            .box-img{
+                width: 30%;
+                
+            }
+    
+        }
+    }
+    hr{
+        width: 100%;
+        border: 1px dashed grey;
+        
+    }
+  }
+
+
+
+
+@media screen and (max-width:447px) {
+
+    .afzal-container{
+        width: 100%;
+        .title{
+            width: auto;
+            height: auto;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+           
+            h1{
+                width: 254px;
+                font-size: 24px;
+                text-align: center;
+         ;
+                
+            }
+        }
+        
+        .boxes{
+            width:100%;
+            
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .box{
+                width: 445px;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                border: 2px solid rgba(230, 235, 243, 1);
+                border-radius: 18px;
+                margin: 10px 20px;
+                padding: 10px 0;
+                position: relative;
+                
+              
+        
+                .box-text{
+                    width: 100%;
+                    margin-top: 140px;
+                   
+                    .box-title{
+                        width: 100%;
+                        padding: 10px 0;
+                        p{
+                            font-size: 18px;
+                           
+                           
+                        }
+                    }
+                    .box-p{
+                        width: auto;
+                        
+                        p{
+                            width: auto;
+                         font-size: 14px;
+                        font-weight: 400;
+                        font-family: "Poppins", system-ui;
+                        margin: 15px 0;
+
+                        }
+        
+                    }
+                }
+                .box-img{
+                    width: 100%;
+                    height: auto;
+                   
+                    position: absolute;
+                    top: 0;
+                    img{
+                        width: auto;
+                        height: auto;
+                    }
+                    
+                }
+        
+            }
+        }
+
+
+    }
+
+
+   
+
+    
+}

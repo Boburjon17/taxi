@@ -6,7 +6,7 @@ const Afzallik = () => {
     <div className='afzal-container'>
         <div id='afzal' className="title">
             <h1>Bizning <span> Afzalliklarimiz </span></h1>
-            <img src="public/afzal.png" alt="" />
+            <img src="afzal.png" alt="" />
         </div>
         <div className="boxes">
             <div className="box">
@@ -19,7 +19,7 @@ const Afzallik = () => {
                     </div>
                 </div>
                 <div className="box-img">
-                    <img src="public/box1.png" alt="" />
+                    <img src="box1.png" alt="" />
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ const Afzallik = () => {
                     </div>
                 </div>
                 <div className="box-img">
-                    <img src="public/box2.png" alt="" />
+                    <img src="box2.png" alt="" />
                 </div>
             </div>
 
@@ -49,7 +49,7 @@ const Afzallik = () => {
                     </div>
                 </div>
                 <div className="box-img">
-                    <img src="public/box3.png" alt="" />
+                    <img src="box3.png" alt="" />
                 </div>
             </div>
 
@@ -65,7 +65,7 @@ const Afzallik = () => {
                     </div>
                 </div>
                 <div className="box-img">
-                    <img src="public/box1.png" alt="" />
+                    <img src="box1.png" alt="" />
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ const Main = () => {
     <div className='m-continer' >
         <div className="main">
             {/* <div className="main-left">
-                <img src="public/mainImg1.png" alt="" />
+                <img src="mainImg1.png" alt="" />
             </div> */}
             <div className="main-right">
                 <div className="main-r-top">
@@ -17,7 +17,7 @@ const Main = () => {
                    </div>
                 </div>
                 <div className="main-r-bottom">
-                    <img src="public/mainImg2.png" alt="" />
+                    <img src="mainImg2.png" alt="" />
                 </div>
             </div>
            

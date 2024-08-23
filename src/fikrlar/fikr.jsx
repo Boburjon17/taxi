@@ -45,7 +45,7 @@ const Fikr = () => {
           
             <div className="fikr-title">
                 <h1>Bizning egalari <span>fikrlari</span> </h1>
-                <img src="public/afzal.png" alt="" />
+                <img src="afzal.png" alt="" />
             </div>
             <div className="fikr-p">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
@@ -101,7 +101,7 @@ const Fikr = () => {
         
          
           <div className="brend-img">
-            <img src="public/fikr1.png" alt="" />
+            <img src="fikr1.png" alt="" />
           </div>
          
         </SwiperSlide>
@@ -110,7 +110,7 @@ const Fikr = () => {
         
           
           <div className="brend-img">
-            <img src="public/fikr2.png" alt="" />
+            <img src="fikr2.png" alt="" />
           </div>
          
         </SwiperSlide>
@@ -119,7 +119,7 @@ const Fikr = () => {
         
         
           <div className="brend-img">
-            <img src= "public/fikr3.png" alt="" />
+            <img src= "fikr3.png" alt="" />
           </div>
          
         </SwiperSlide>
@@ -128,7 +128,7 @@ const Fikr = () => {
         
           
           <div className="brend-img">
-            <img src= "public/fikr4.png" alt="" />
+            <img src= "fikr4.png" alt="" />
           </div>
          
         </SwiperSlide>
@@ -139,7 +139,7 @@ const Fikr = () => {
         
          
         <div className="brend-img">
-          <img src="public/fikr1.png" alt="" />
+          <img src="fikr1.png" alt="" />
         </div>
        
       </SwiperSlide>

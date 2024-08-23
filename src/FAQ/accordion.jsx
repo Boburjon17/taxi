@@ -13,7 +13,7 @@ const Accordionn = () => {
         <div className="Faq">
             <div className="faq-title">
                 <h1>FAQ</h1>
-                <img src="public/afzal.png" alt="" />
+                <img src="afzal.png" alt="" />
             </div>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
 

@@ -11,7 +11,7 @@ const Navbar = () => {
         
       <i className="fa-solid fa-bars"></i>
       
-        <img src="public/logo.png" alt="" />
+        <img src="logo.png" alt="" />
         <ul>
           <li><a href='#afzal'>Bizning afzalliklarimiz</a></li>
           <li><a href='#foydalanuvchi'>Foydalanuvchi dasturi</a></li>

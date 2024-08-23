@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer" id='aloqa'>
             <div className="footer-title">
                 <h1>Biz bilan<span> bog’lanish</span></h1>
-                <img src="public/afzal.png" alt="" />
+                <img src="afzal.png" alt="" />
             </div>
             <p>Biz bilan hamkorlik qilmoqchi bo’lsangiz quyidagi aloqa ma’lumotlari orqali bog’lanishingiz mumkin.</p>
             <div className="footer-contact">
@@ -76,7 +76,7 @@ const Footer = () => {
                 <div className="f-bottom-small">
 
                 <div className="logo">
-                        <img src="public/logo.png" alt="" />
+                        <img src="logo.png" alt="" />
                         <h3>Loremipsum.uz Barcha huquqlar himoyalangan</h3>
                     </div>
                     <div className="phone">

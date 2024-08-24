@@ -14,17 +14,19 @@
  
 
 
-    nav{
-        max-width: 1440px;
+    .nav-container{
+        width: 100%;
         margin: 0 auto;
         
-        .nav-container{
+        nav{
         width: 1300px;
          padding: 10px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0 auto;
+
+        .img-i{
 
             i{
                 display: none !important;
@@ -34,6 +36,10 @@
                 width:103px ;
                 height: 38px;
             }
+
+        }
+
+          
             ul{
                 width: 788px;
                 display: flex;
@@ -97,38 +103,43 @@
 
     }
 
-
-   
-
     @media screen and (max-width:447px) {
-
-     
-
-       
    
-        nav{
+        .nav-container{
+            width: 100%;
 
-            .nav-container{
-                width:100%;
-            padding: 5px 10px;
+            nav{
+            width:100%;
+            height: auto;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 0 ;
+            margin: 0 auto ;
+            padding: 5px;
             
-    
-            gap: 20px;
-            
-            i{
-                display: flex !important;
+         gap: 0;
 
+            .img-i{
+                width: auto;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                i{
+                    display: flex !important;
+    
+                    
+                }
+               
+                img{
+                    width:100% ;
                 
+                    
+                }
+
             }
+            
            
-            img{
-                width:auto ;
-                // margin-right: 30px;
-            }
             ul{
                
                 display: none;
@@ -159,28 +170,38 @@
 
     }
 
-    @media screen and (max-width:768px) {
+    @media screen and (min-width: 447px) and (max-width:768px) {
 
-        nav{
+        .nav-container{
             max-width: 100%;
             margin: 0 auto;
       
-            .nav-container{
+            nav{
             width: 100%;
              padding: 10px 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin: 0 auto;
-    
+
+            .img-i{
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
                 i{
                     display: flex !important;
                 }
                 img{
                     width: auto;
                    
-                    margin-right: 300px;
+                
                 }
+
+
+            }
+    
+               
                
                 ul{
                     width: 0;
@@ -194,6 +215,68 @@
                     padding: 12px 18px;
                     
         
+                }
+    
+    
+            }
+           
+           
+    
+        }
+        
+    }
+
+    @media screen and (min-width:768px) and (max-width:990px)  {
+
+        .nav-container{
+            max-width: 100%;
+            margin: 0 auto;
+            
+            nav{
+            width: 100%;
+            padding: 10px ;
+
+            .img-i{
+                width: auto;
+                display: flex;
+                align-items: center;
+                gap: 70px;
+
+
+                
+                i{
+                    display: flex !important;
+                }
+
+                img{
+                    width: auto;
+                }
+
+            }
+    
+             
+                ul{
+                    width: 0;
+                    display:none;
+                
+                }
+                
+
+
+
+                button{
+                    padding: 12px 18px;
+                    border: 2px solid rgba(25, 105, 225, 1);
+                    background-color: white;
+                    border-radius: 12px;
+        
+                    p{
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: rgba(25, 105, 225, 1);
+                    font-family:Cygre SemiBold ;
+                        
+                    }
                 }
     
     

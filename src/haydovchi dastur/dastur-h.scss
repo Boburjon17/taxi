@@ -295,7 +295,7 @@
     
 }
 
-@media screen  and (max-width:768px) {
+@media screen and (min-width:447px)  and (max-width:768px) {
 
     .dastur-h-container{
         max-width: 100%;
@@ -379,6 +379,102 @@
                          } 
                        }
                  }
+               
+            }
+        
+        }
+        
+         hr {
+            width: 100%;
+            height: 0;
+            border-top: 1px  dashed  rgb(181, 21, 21);
+           
+        }
+    
+    
+      }
+    
+}
+
+@media screen and (min-width: 768px)  and (max-width:990px)  {
+
+    .dastur-h-container{
+        width: 100%;
+    
+        .dastur-h{
+            width: 90%;
+           
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            margin: 30px auto;
+            .dastur-left{
+                  width: 600px;
+                height: auto;
+     
+                img{
+                    width: 100%;
+                    height: 100%;
+               
+                }
+              
+               
+                
+        
+                
+            }
+            .dastur-img{
+                
+                width: 100%;
+                margin: 30px 0;
+              
+                .dastur-title{
+                    width: auto;
+                    justify-content:center;
+                    gap: 10px;
+                }
+                p{ 
+                    width: auto;
+                    font-size: 18px;
+                    margin: 30px 0;
+        
+                }
+                .aktiv-lorem{
+                   width: 100%;
+                   height: auto;        
+                   display: flex;
+                   justify-content: center;
+                   gap: 30px;
+                  
+                
+                   .aktiv{
+                    width: 27%;
+                    padding: 10px 0;
+                   }
+                   
+                }
+                .button-dastur{
+                    width: 100%;
+                    margin-top: 30px;
+                    display: flex;
+                    justify-content: center;
+
+                    
+                    button{
+                        width: 60%; 
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       
+                        
+                        h3{
+                          font-size: 24px;
+                          line-height: 30px;
+                          
+                          
+                        } 
+                      }
+                }
                
             }
         

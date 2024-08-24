@@ -124,7 +124,7 @@
         
 
 
-            @media screen and (max-width:447px) {
+ @media screen and (max-width:447px) {
 
                 .m-continer{
                     width: 100%;
@@ -223,7 +223,7 @@
                 
             }
 
-            @media screen and (max-width:768px) {
+ @media screen and (min-width:447px) and (max-width:768px) {
 
                 .m-continer{
                     width: 100%;
@@ -312,5 +312,86 @@
                         margin: 10px 0;
                     }
                   }
+                
+            }
+
+@media screen and (min-width:768px) and (max-width:990px) {
+
+                .m-continer{
+                    width: 100%;
+                    .main{
+                        width: 100%;
+                        margin: 50px 0 ;              
+                        background-image: url(mainImg3.png);
+                        background-repeat: no-repeat;
+                        // background-position:  -30px;
+                        background-position: bottom ;
+                        background-size: 100%;
+                   
+                        .main-right{
+                            width: 100%;
+                            height: auto;
+                            margin: 0 auto;
+                      
+                      
+                            .main-r-top{
+                                width: 100%;
+                
+                                h1{
+
+                                    font-size: 60px;
+                                    text-align: center;
+                                } 
+                                    
+                                h6{
+                                    width: 90%;
+                                   line-height: 30px;
+                                    margin: 20px auto;
+                                }
+                                .button-b{
+                                    width: 100%;
+                
+                                    button{
+                                        width: 60%;
+                                        line-height: 30px;
+                                        p{
+                                          font-size: 24px;
+                                          
+                                        } 
+                                      }
+                
+                                }
+                               
+                            }
+                            .main-r-bottom{
+                                width: 100%;
+                                height: auto;
+                                margin-top: 0;
+                                margin: 73px auto 0 auto ;
+                            
+                                display: flex;
+                                justify-content: center;
+                               
+                                
+                                img{
+                                    width: 90%;
+                                    height: auto;
+                                  
+                                
+                                   
+                                    
+                                }
+                            }
+                        }
+                    }
+                    hr{
+                        max-width: 100%;
+                        height: 0;
+                        border-top: 1px dashed grey;
+                        margin: 10px 0;
+                    }
+                  }
+
+
                 
             }

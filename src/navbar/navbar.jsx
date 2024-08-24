@@ -3,15 +3,20 @@ import "./navbar.scss"
 
 const Navbar = () => {
   return (
-    
+    <div className='nav-container'>
 
 
       <nav>
-        <div className='nav-container'>
         
-      <i className="fa-solid fa-bars"></i>
+          <div className="img-i">
+
+          <i className="fa-solid fa-bars"></i>
       
-        <img src="logo.png" alt="" />
+      <img src="logo.png" alt="" />
+
+          </div>
+        
+     
         <ul>
           <li><a href='#afzal'>Bizning afzalliklarimiz</a></li>
           <li><a href='#foydalanuvchi'>Foydalanuvchi dasturi</a></li>
@@ -20,17 +25,13 @@ const Navbar = () => {
           <li><p>FAQ</p></li>
           <li><a href='#aloqa'>Aloqa</a></li>
         </ul>
-        {/* <div className="contact">
-         
-            <p>+998 97 628 28 82</p>
-        
-        </div> */}
 
         <button>
         <p>+998 97 628 28 82</p>
         </button>
-        </div>
+      
       </nav>
+      </div>
     
   )
 }

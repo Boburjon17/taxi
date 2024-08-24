@@ -65,7 +65,7 @@ const Afzallik = () => {
                     </div>
                 </div>
                 <div className="box-img">
-                    <img src="box1.png" alt="" />
+                    <img src="box4.png" alt="" />
                 </div>
             </div>
         </div>

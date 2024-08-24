@@ -726,7 +726,7 @@
 
        }
 
-       @media screen and (max-width: 768px) {
+       @media screen and (min-width:447px) and (max-width: 768px) {
         
         .footer-container{
             width: 100%;

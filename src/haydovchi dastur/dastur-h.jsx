@@ -48,7 +48,6 @@ const DasturH = () => {
             </div>
         </div>
 
-        <hr />
     </div>
   )
 }

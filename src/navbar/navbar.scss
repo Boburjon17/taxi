@@ -226,7 +226,7 @@
         
     }
 
-    @media screen and (min-width:768px) and (max-width:990px)  {
+    @media screen and (min-width:769px) and (max-width:990px)  {
 
         .nav-container{
             max-width: 100%;
@@ -288,7 +288,7 @@
         
     }
 
-    @media screen and (min-width:990px) and (max-width:1200px) {
+    @media screen and (min-width:991px) and (max-width:1200px) {
 
         .nav-container{
             width: 100%;
@@ -316,6 +316,98 @@
     
         }
         
+    }
+
+    @media screen and (min-width:1201px) {
+
+       .nav-container{
+        width: 100%;
+        margin: 0 auto;
+        
+        nav{
+        width: 100%;
+         padding: 10px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        .img-i{
+
+            i{
+                display: none !important;
+            }
+           
+            img{
+                width:103px ;
+                height: 38px;
+            }
+
+        }
+
+          
+            ul{
+                width: 788px;
+                display: flex;
+                justify-content: space-between;
+               
+      
+                li{
+                    a{
+                        font-family: "Cygre Medium";
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: rgba(16, 24, 36, 1);
+                        opacity: 80%;
+                    }
+                }
+            }
+            // .contact{
+            //     width: 175px;
+            //     height: 45px;
+            //     display: flex;
+            //     justify-content: center;
+            //     align-items: center;
+            //     padding: 5px 0;
+            //     border-radius: 12px;
+            //     border: 2px solid rgba(25, 105, 225, 1);
+            //     &:hover{
+            //         background-color:rgba(25, 105, 225, 1) ;
+            //         p{
+            //             color: white; 
+            //         }
+            //     }
+    
+            //     p{
+            //         font-size: 16px;
+            //         font-weight: 5x00;
+            //         color:rgba(25, 105, 225, 1) ;
+            //         font-family: "Roboto", sans-serif;
+                   
+            //     }
+    
+            // }
+            button{
+                padding: 12px 18px;
+                border: 2px solid rgba(25, 105, 225, 1);
+                background-color: white;
+                border-radius: 12px;
+    
+                p{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(25, 105, 225, 1);
+                font-family:Cygre SemiBold ;
+                    
+                }
+            }
+
+
+        }
+       
+       
+
+    } 
     }
     
 

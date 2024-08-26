@@ -1,0 +1,589 @@
+@font-face {
+  font-family: "RAYDIS";
+  src: url("../fonts/raydis/raydis.ttf");
+}
+.dastur-h-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.dastur-h-container .dastur-h {
+  width: 1130px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+}
+.dastur-h-container .dastur-h .dastur-left {
+  width: 47%;
+}
+.dastur-h-container .dastur-h .dastur-left img {
+  width: 512px;
+  height: 608px;
+}
+.dastur-h-container .dastur-h .dastur-img {
+  width: 47%;
+  height: auto;
+}
+.dastur-h-container .dastur-h .dastur-img .dastur-title {
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+  font-size: 28px;
+  font-family: "RAYDIS", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: rgb(16, 24, 36);
+}
+.dastur-h-container .dastur-h .dastur-img .dastur-title h1 span {
+  color: rgb(231, 183, 58);
+}
+.dastur-h-container .dastur-h .dastur-img .dastur-title img {
+  width: 37px;
+  height: 21px;
+}
+.dastur-h-container .dastur-h .dastur-img p {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: rgb(100, 111, 128);
+  font-weight: 300;
+  font-family: "Poppins", system-ui;
+  margin: 30px 0;
+}
+.dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+  width: 371px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+  width: 170px;
+  height: 90%;
+  border: 1px solid grey;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+  font-size: 32px;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 800;
+  color: rgb(16, 24, 36);
+}
+.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+  color: rgb(231, 183, 58);
+}
+.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+  width: auto;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", system-ui;
+  color: grey;
+}
+.dastur-h-container .dastur-h .dastur-img .button-dastur {
+  width: auto;
+  margin-top: 30px;
+}
+.dastur-h-container .dastur-h .dastur-img .button-dastur button {
+  width: 170px;
+  height: 45px;
+  padding: 12px 18px;
+  background-color: rgb(25, 105, 225);
+  border-radius: 12px;
+  gap: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+  width: auto;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  font-family: "Cygre SemiBold";
+}
+
+@media screen and (max-width: 447px) {
+  .dastur-h-container {
+    width: 100%;
+    height: auto;
+  }
+  .dastur-h-container .dastur-h {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .dastur-h-container .dastur-h .dastur-left {
+    width: 100%;
+    height: auto;
+    margin: 0 10px;
+  }
+  .dastur-h-container .dastur-h .dastur-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .dastur-h-container .dastur-h .dastur-img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+    width: 60%;
+    display: flex;
+    align-items: start;
+    margin: 10px auto;
+    gap: 0px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title img {
+    width: 37px;
+    height: 21px;
+  }
+  .dastur-h-container .dastur-h .dastur-img p {
+    width: 95%;
+    height: auto;
+    font-size: 16px;
+    text-align: center;
+    margin: 24px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+    width: 160px;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+    font-size: 24px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 800;
+    color: rgb(16, 24, 36);
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+    color: rgb(231, 183, 58);
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: grey;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+    width: auto;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+    width: 351px;
+    padding: 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    margin: 0 auto;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+    width: 170px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dastur-h-container hr {
+    width: 100%;
+    border-top: 1px dashed grey;
+  }
+}
+@media screen and (min-width: 448px) and (max-width: 768px) {
+  .dastur-h-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .dastur-h-container .dastur-h {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  .dastur-h-container .dastur-h .dastur-left {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+    width: auto;
+    justify-content: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img p {
+    width: 95%;
+    margin: 30px auto;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+    width: 180px;
+    height: auto;
+    padding: 10px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+    width: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+    width: 60%;
+    height: 45px;
+    padding: 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+    width: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .dastur-h-container hr {
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed rgb(181, 21, 21);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .dastur-h-container {
+    width: 100%;
+  }
+  .dastur-h-container .dastur-h {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  .dastur-h-container .dastur-h .dastur-left {
+    width: 600px;
+    height: auto;
+  }
+  .dastur-h-container .dastur-h .dastur-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .dastur-h-container .dastur-h .dastur-img {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+    width: auto;
+    justify-content: center;
+    gap: 10px;
+  }
+  .dastur-h-container .dastur-h .dastur-img p {
+    width: auto;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+    width: 27%;
+    padding: 10px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .dastur-h-container hr {
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed rgb(181, 21, 21);
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .dastur-h-container {
+    width: 100%;
+  }
+  .dastur-h-container .dastur-h {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .dastur-h-container .dastur-h .dastur-left {
+    width: 47%;
+  }
+  .dastur-h-container .dastur-h .dastur-left img {
+    width: 100%;
+    height: auto;
+  }
+  .dastur-h-container .dastur-h .dastur-img {
+    width: 47%;
+    height: auto;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title img {
+    width: 37px;
+    height: 21px;
+  }
+  .dastur-h-container .dastur-h .dastur-img p {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(100, 111, 128);
+    font-weight: 300;
+    font-family: "Poppins", system-ui;
+    margin: 30px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+    width: 371px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+    width: 170px;
+    height: 90%;
+    border: 1px solid grey;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+    font-size: 32px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 800;
+    color: rgb(16, 24, 36);
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+    color: rgb(231, 183, 58);
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: grey;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+    width: auto;
+    margin-top: 30px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+    width: 170px;
+    height: 45px;
+    padding: 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+    width: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+    font-family: "Cygre SemiBold";
+  }
+}
+@media screen and (min-width: 1201px) {
+  .dastur-h-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .dastur-h-container .dastur-h {
+    width: 1130px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .dastur-h-container .dastur-h .dastur-left {
+    width: 47%;
+  }
+  .dastur-h-container .dastur-h .dastur-left img {
+    width: 512px;
+    height: 608px;
+  }
+  .dastur-h-container .dastur-h .dastur-img {
+    width: 47%;
+    height: auto;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .dastur-h-container .dastur-h .dastur-img .dastur-title img {
+    width: 37px;
+    height: 21px;
+  }
+  .dastur-h-container .dastur-h .dastur-img p {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(100, 111, 128);
+    font-weight: 300;
+    font-family: "Poppins", system-ui;
+    margin: 30px 0;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+    width: 371px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+    width: 170px;
+    height: 90%;
+    border: 1px solid grey;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+    font-size: 32px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 800;
+    color: rgb(16, 24, 36);
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+    color: rgb(231, 183, 58);
+  }
+  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: grey;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+    width: auto;
+    margin-top: 30px;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+    width: 170px;
+    height: 45px;
+    padding: 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+    width: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+    font-family: "Cygre SemiBold";
+  }
+  .dastur-h-container hr {
+    width: 100%;
+    height: 0;
+    border-top: 1px dashed rgb(181, 21, 21);
+  }
+}

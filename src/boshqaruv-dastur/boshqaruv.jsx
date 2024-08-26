@@ -55,7 +55,6 @@ const Boshqaruv = () => {
                 </div>
             </div>
         </div>
-        <hr />
 
 
     </div>

@@ -1,35 +1,47 @@
-.title {
-  width: 1440px;
+@font-face {
+  font-family: "RAYDIS";
+  src: url("../fonts/raydis/raydis.ttf");
+}
+@font-face {
+  font-family: "Cygre ";
+  src: url("../fonts/cygre/Cygre-Book.ttf");
+}
+.afzal-container {
+  width: 100%;
+  margin: 30px 0;
+}
+.afzal-container .title {
+  width: 1130px;
   height: 100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.title h1 {
+.afzal-container .title h1 {
   font-size: 28px;
-  font-family: "Matemasie", sans-serif;
-  font-weight: 800;
+  font-family: "RAYDIS", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   color: rgb(16, 24, 36);
 }
-.title h1 span {
+.afzal-container .title h1 span {
   color: rgb(231, 183, 58);
 }
-.title img {
-  width: 60px;
-  height: 30px;
+.afzal-container .title img {
+  width: 36.91px;
+  height: 21.46px;
 }
-
-.boxes {
-  width: 1440px;
+.afzal-container .boxes {
+  width: 1130px;
+  height: auto;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.boxes .box {
-  width: 40%;
+.afzal-container .boxes .box {
+  width: 49%;
   height: 200px;
   display: flex;
   align-items: center;
@@ -37,54 +49,58 @@
   border-radius: 18px;
   margin: 10px 0;
 }
-.boxes .box .box-text {
+.afzal-container .boxes .box .box-text {
   width: 70%;
   padding: 0 10px;
 }
-.boxes .box .box-text .box-title {
-  width: 70%;
+.afzal-container .boxes .box .box-text .box-title {
+  width: 90%;
   padding: 10px 0;
 }
-.boxes .box .box-text .box-title p {
+.afzal-container .boxes .box .box-text .box-title p {
   font-size: 24px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", system-ui;
   color: rgb(55, 60, 68);
 }
-.boxes .box .box-text .box-p {
+.afzal-container .boxes .box .box-text .box-p {
   width: auto;
+}
+.afzal-container .boxes .box .box-text .box-p p {
   font-size: 14px;
   font-weight: 400;
   font-family: "Poppins", system-ui;
+  color: rgb(100, 111, 128);
 }
-.boxes .box .box-img {
+.afzal-container .boxes .box .box-img {
   width: 30%;
 }
 
-hr {
-  width: 100%;
-  border: 1px dashed grey;
-}
-
 @media screen and (max-width: 447px) {
-  .title {
-    width: 90%;
-    height: 80px;
-    display: flex;
-    align-items: end;
-    gap: 0px;
+  .afzal-container {
+    width: 100%;
+    margin: 30px auto;
   }
-  .title h1 {
+  .afzal-container .title {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .afzal-container .title h1 {
+    width: 254px;
     font-size: 24px;
     text-align: center;
   }
-  .boxes {
-    max-width: 447px;
+  .afzal-container .boxes {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .boxes .box {
+  .afzal-container .boxes .box {
     width: 445px;
     height: auto;
     display: flex;
@@ -93,27 +109,322 @@ hr {
     border: 2px solid rgb(230, 235, 243);
     border-radius: 18px;
     margin: 10px 20px;
+    padding: 10px 0;
+    position: relative;
   }
-  .boxes .box .box-text {
+  .afzal-container .boxes .box .box-text {
     width: 100%;
+    margin-top: 140px;
   }
-  .boxes .box .box-text .box-title {
+  .afzal-container .boxes .box .box-text .box-title {
     width: 100%;
     padding: 10px 0;
   }
-  .boxes .box .box-text .box-title p {
-    font-size: 24px;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-    color: rgb(55, 60, 68);
+  .afzal-container .boxes .box .box-text .box-title p {
+    font-size: 18px;
   }
-  .boxes .box .box-text .box-p {
+  .afzal-container .boxes .box .box-text .box-p {
+    width: auto;
+  }
+  .afzal-container .boxes .box .box-text .box-p p {
     width: auto;
     font-size: 14px;
     font-weight: 400;
     font-family: "Poppins", system-ui;
+    margin: 15px 0;
   }
-  .boxes .box .box-img {
+  .afzal-container .boxes .box .box-img {
     width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+  }
+  .afzal-container .boxes .box .box-img img {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (min-width: 448px) and (max-width: 768px) {
+  .afzal-container {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .afzal-container .title {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  .afzal-container .title h1 {
+    width: auto;
+    font-size: 32px;
+  }
+  .afzal-container .title img {
+    width: 42.91px;
+    height: 24.46px;
+  }
+  .afzal-container .boxes {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .afzal-container .boxes .box {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    align-items: start;
+    border: 2px solid rgb(230, 235, 243);
+    padding: 20px;
+    margin: 15px 0;
+  }
+  .afzal-container .boxes .box .box-text {
+    width: 90%;
+    padding: 0 20px;
+  }
+  .afzal-container .boxes .box .box-text .box-title {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .afzal-container .boxes .box .box-text .box-title p {
+    font-size: 30px;
+  }
+  .afzal-container .boxes .box .box-text .box-p {
+    width: 100%;
+  }
+  .afzal-container .boxes .box .box-text .box-p p {
+    font-size: 20px;
+  }
+  .afzal-container .boxes .box .box-img {
+    width: 35%;
+    height: auto;
+  }
+  .afzal-container .boxes .box .box-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .afzal-container hr {
+    width: 100%;
+    border: 1px dashed grey;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .afzal-container {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .afzal-container .title {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .afzal-container .boxes {
+    width: 95%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .afzal-container .boxes .box {
+    width: 48%;
+    height: auto;
+    display: flex;
+    margin: 0;
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .afzal-container .boxes .box .box-text {
+    width: 100%;
+    padding: 10px;
+  }
+  .afzal-container .boxes .box .box-text .box-title {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .afzal-container .boxes .box .box-text .box-title p {
+    width: 100%;
+    font-size: 25px;
+  }
+  .afzal-container .boxes .box .box-text .box-p {
+    width: 95%;
+  }
+  .afzal-container .boxes .box .box-text .box-p p {
+    font-size: 16px;
+  }
+  .afzal-container .boxes .box .box-img {
+    width: 40%;
+    height: auto;
+  }
+  .afzal-container .boxes .box .box-img img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+  }
+  .afzal-container hr {
+    width: 100%;
+    border: 1px dashed grey;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .afzal-container {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .afzal-container .title {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .afzal-container .title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .afzal-container .title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .afzal-container .title img {
+    width: 36.91px;
+    height: 21.46px;
+  }
+  .afzal-container .boxes {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .afzal-container .boxes .box {
+    width: 47%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(230, 235, 243);
+    border-radius: 18px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  .afzal-container .boxes .box .box-text {
+    width: 70%;
+    padding: 0 10px;
+  }
+  .afzal-container .boxes .box .box-text .box-title {
+    width: auto;
+    padding: 10px 0;
+  }
+  .afzal-container .boxes .box .box-text .box-title p {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    color: rgb(55, 60, 68);
+  }
+  .afzal-container .boxes .box .box-text .box-p {
+    width: 100%;
+  }
+  .afzal-container .boxes .box .box-text .box-p p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: rgb(100, 111, 128);
+  }
+  .afzal-container .boxes .box .box-img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .afzal-container hr {
+    width: 100%;
+    border: 1px dashed grey;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .afzal-container {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .afzal-container .title {
+    width: 1130px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .afzal-container .title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .afzal-container .title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .afzal-container .title img {
+    width: 36.91px;
+    height: 21.46px;
+  }
+  .afzal-container .boxes {
+    width: 1130px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .afzal-container .boxes .box {
+    width: 49%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(230, 235, 243);
+    border-radius: 18px;
+    margin: 10px 0;
+  }
+  .afzal-container .boxes .box .box-text {
+    width: 70%;
+    padding: 0 10px;
+  }
+  .afzal-container .boxes .box .box-text .box-title {
+    width: 90%;
+    padding: 10px 0;
+  }
+  .afzal-container .boxes .box .box-text .box-title p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    color: rgb(55, 60, 68);
+  }
+  .afzal-container .boxes .box .box-text .box-p {
+    width: auto;
+  }
+  .afzal-container .boxes .box .box-text .box-p p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: rgb(100, 111, 128);
+  }
+  .afzal-container .boxes .box .box-img {
+    width: 30%;
+  }
+  .afzal-container hr {
+    width: 100%;
+    border: 1px dashed grey;
   }
 }

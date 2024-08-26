@@ -22,7 +22,7 @@ const Main = () => {
             </div>
            
         </div>
-        <hr />
+        
     </div>
   )
 }

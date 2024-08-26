@@ -13,7 +13,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
+        margin: 30px auto;
         .dastur-left{
             width: 47%;
             img{
@@ -135,13 +135,6 @@
         }
     
     }
-    
-     hr {
-        width: 100%;
-        height: 0;
-        border-top: 1px  dashed  rgb(181, 21, 21);
-       
-    }
 
 
   }
@@ -160,9 +153,9 @@
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
-            margin: 0 auto;
+            margin: 30px auto;
     
-            margin: 30px 0;
+            
             .dastur-left{
                 width: 100%;
                 height: auto;
@@ -295,7 +288,7 @@
     
 }
 
-@media screen and (min-width:447px)  and (max-width:768px) {
+@media screen and (min-width:448px)  and (max-width:768px) {
 
     .dastur-h-container{
         max-width: 100%;
@@ -492,7 +485,7 @@
     
 }
 
-@media screen and (min-width:990px) and (max-width:1200px) {
+@media screen and (min-width:991px) and (max-width:1200px) {
     .dastur-h-container{
         width: 100%;
     
@@ -625,6 +618,147 @@
             }
         
         }
+    
+    
+       
+}
+}
+
+@media screen and (min-width:1201px) {
+
+
+    .dastur-h-container{
+        max-width: 100%;
+        margin: 0 auto;
+    
+        .dastur-h{
+            width: 1130px;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px  auto;
+            .dastur-left{
+                width: 47%;
+                img{
+                    width: 512px;
+                    height: 608px;
+                }
+              
+               
+                
+        
+                
+            }
+            .dastur-img{
+                width: 47%;
+                height: auto;
+               
+        
+                .dastur-title{
+                    width: auto;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    h1{
+                        font-size: 28px;
+                        font-family: "RAYDIS", sans-serif;
+                        font-weight: 800;
+                        text-transform: uppercase;
+                       
+                        color: rgba(16, 24, 36, 1);
+                        span{
+                            color: rgba(231, 183, 58, 1);
+                        }
+                    }
+        
+                    img{
+                        width: 37px;
+                        height: 21px;
+                    }
+                }
+                p{ 
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    font-size: 15px;
+                    color: rgba(100, 111, 128, 1);
+                    font-weight: 300;
+                    font-family: "Poppins", system-ui;
+                    margin: 30px 0;
+        
+                }
+                .aktiv-lorem{
+                   width: 371px;
+                   height: 85px;
+                   display: flex;
+                   justify-content: space-between;
+                   align-items: center;
+                
+                   .aktiv{
+                    width: 170px;
+                    height: 90%;
+                    border: 1px solid grey;
+                    border-radius: 24px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h2{
+                        font-size: 32px;
+                        font-family: "Matemasie", sans-serif;
+                        font-weight: 800;
+                        color: rgba(16, 24, 36, 1);
+                        span{
+                            color: rgba(231, 183, 58, 1);
+                        }
+                    }
+                    h6{
+                        width: auto;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: "Poppins", system-ui;
+                        color: grey;
+                    }
+                   }
+                   
+                }
+                .button-dastur{
+                    width: auto;
+                    margin-top: 30px;
+                    
+                    button{
+                        width: 170px;
+                        height: 45px;
+                        padding: 12px 18px ;
+                        background-color: rgba(25, 105, 225, 1);
+                        border-radius: 12px;
+                        gap: 10px;
+                        border: none; 
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+        
+                        
+                       
+                        
+                        h3{
+                          width: auto;
+                          color: white;
+                          font-size: 16px;
+                          font-weight: 400;
+                          line-height: 26.4px;
+                          font-family: 'Cygre SemiBold';
+                         
+                          
+                        } 
+                      }
+                }
+               
+               
+            }
+        
+        }
         
          hr {
             width: 100%;
@@ -634,6 +768,7 @@
         }
     
     
-       
-}
+      }
+
+    
 }

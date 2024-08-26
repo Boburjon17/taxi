@@ -1,123 +1,211 @@
-.footer {
+@font-face {
+  font-family: "RAYDIS";
+  src: url("../fonts/raydis/raydis.ttf");
+}
+@font-face {
+  font-family: " Cygre Medium";
+  src: url("../fonts/cygre/Cygre-Medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Cygre SemiBold";
+  src: url("../fonts/cygre/Cygre-SemiBold.ttf");
+}
+.footer-container {
+  width: 100%;
+}
+.footer-container .footer {
   width: 1400px;
-  margin: 0 auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer .footer-title {
+.footer-container .footer .footer-title {
   width: 100%;
-  height: 100px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
-.footer .footer-title h1 {
+.footer-container .footer .footer-title h1 {
   font-size: 28px;
-  font-family: "Matemasie", sans-serif;
-  font-weight: 800;
+  font-family: "RAYDIS", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   color: rgb(16, 24, 36);
 }
-.footer .footer-title h1 span {
+.footer-container .footer .footer-title h1 span {
   color: rgb(231, 183, 58);
 }
-.footer .footer-title img {
-  width: 60px;
-  height: 30px;
+.footer-container .footer .footer-title img {
+  width: 37px;
+  height: 21px;
 }
-.footer p {
+.footer-container .footer p {
   width: auto;
-  height: 50px;
+  height: auto;
   font-size: 18px;
   font-weight: 300;
   font-family: "Poppins", system-ui;
   color: grey;
+  margin: 10px 0 40px 0;
 }
-.footer .footer-contact {
+.footer-container .footer .footer-contact {
   width: auto;
+  height: auto;
 }
-.footer .footer-contact .malumot {
-  width: auto;
+.footer-container .footer .footer-contact .malumot {
+  width: 950px;
   height: 100px;
   display: flex;
-  justify-content: center;
+  gap: 46px;
 }
-.footer .footer-contact .malumot .icon {
-  width: 350px;
+.footer-container .footer .footer-contact .malumot .icon-phone {
+  width: 282px;
+  height: auto;
   display: flex;
   gap: 20px;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-.footer .footer-contact .malumot .icon .f-icon-img {
-  width: 50px;
-  height: 50px;
+.footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   border: 2px solid rgb(25, 105, 225);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer .footer-contact .malumot .icon .f-icon-img i {
+.footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img i {
   font-size: 20px;
 }
-.footer .footer-contact .malumot .icon .contact-text {
-  width: 100%;
+.footer-container .footer .footer-contact .malumot .icon-phone .contact-text {
+  width: 182px;
+  height: auto;
 }
-.footer .footer-contact .malumot .icon .contact-text h2 {
+.footer-container .footer .footer-contact .malumot .icon-phone .contact-text h2 {
+  width: 100%;
+  height: 31px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins", system-ui;
+  line-height: 30.53px;
+}
+.footer-container .footer .footer-contact .malumot .icon-phone .contact-text p {
+  height: auto;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Cygre Medium";
+}
+.footer-container .footer .footer-contact .malumot .icon-loc {
+  width: 339px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(25, 105, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img i {
+  font-size: 20px;
+}
+.footer-container .footer .footer-contact .malumot .icon-loc .contact-text {
+  width: 259px;
+}
+.footer-container .footer .footer-contact .malumot .icon-loc .contact-text h2 {
   width: auto;
   height: 35px;
   font-size: 18px;
   font-weight: 700;
   font-family: "Poppins", system-ui;
 }
-.footer .footer-contact .malumot .icon .contact-text p {
+.footer-container .footer .footer-contact .malumot .icon-loc .contact-text p {
   font-size: 16px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: " Cygre Medium";
 }
-.footer .footer-contact .footer-middle {
-  width: auto;
+.footer-container .footer .footer-contact .malumot .icon-mail {
+  width: 236px;
   display: flex;
-  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(25, 105, 225);
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.footer .footer-contact .footer-middle h1 {
-  width: auto;
-  height: 50px;
+.footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img i {
   font-size: 20px;
-  font-family: "Matemasie", sans-serif;
-  font-weight: 800;
+}
+.footer-container .footer .footer-contact .malumot .icon-mail .contact-text {
+  width: 156px;
+}
+.footer-container .footer .footer-contact .malumot .icon-mail .contact-text h2 {
+  width: auto;
+  height: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins", system-ui;
+}
+.footer-container .footer .footer-contact .malumot .icon-mail .contact-text p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: " Cygre Medium";
+}
+.footer-container .footer .footer-contact .footer-middle {
+  width: 740px;
+  margin: 0 auto;
+}
+.footer-container .footer .footer-contact .footer-middle h1 {
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  font-family: "RAYDIS", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   color: rgb(16, 24, 36);
   text-align: center;
+  margin: 40px 0 10px 0;
 }
-.footer .footer-contact .footer-middle h1 span {
+.footer-container .footer .footer-contact .footer-middle h1 span {
   color: rgb(231, 183, 58);
 }
-.footer .footer-contact .footer-middle img {
+.footer-container .footer .footer-contact .footer-middle img {
   width: 60px;
   height: 30px;
 }
-.footer .footer-contact h6 {
+.footer-container .footer .footer-contact h6 {
   width: auto;
-  height: 50px;
+  height: auto;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Poppins", system-ui;
-  color: grey;
+  color: rgb(103, 108, 116);
   text-align: center;
 }
-.footer .footer-contact .inputt {
-  width: 630px;
+.footer-container .footer .footer-contact .inputt {
+  width: 660px;
   height: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap: 24px;
+  margin: 30px 0 40px 0;
 }
-.footer .footer-contact .inputt input {
-  width: 450px;
+.footer-container .footer .footer-contact .inputt input {
+  width: 466px;
   height: 48px;
   border-radius: 12px;
   outline: none;
@@ -125,48 +213,61 @@
   background-color: rgb(244, 246, 249);
   color: black;
   padding: 0 10px;
+  margin: 0 auto;
 }
-.footer .footer-contact .inputt button {
-  padding: 12px 18px;
+.footer-container .footer .footer-contact .inputt button {
+  width: 170px;
+  height: 45px;
+  padding: 12px 18px 12px 18px;
   background-color: rgb(25, 105, 225);
   border-radius: 12px;
   gap: 10px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer .footer-contact .inputt button h5 {
+.footer-container .footer .footer-contact .inputt button h5 {
   width: auto;
   color: white;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
+  font-family: "Cygre SemiBold";
+  line-height: 26.4px;
 }
-.footer hr {
-  width: 1500px;
+.footer-container .footer hr {
+  width: 100%;
+  height: 0;
+  margin: 60px 0 27px 0;
   border-top: 1px dashed grey;
 }
-.footer .footer-bottom {
-  width: 1440px;
+.footer-container .footer .footer-bottom {
+  width: 100%;
   height: auto;
-  margin: 0 auto;
   display: flex;
-  gap: 400px;
   justify-content: end;
+}
+.footer-container .footer .footer-bottom .f-bottom-small {
+  width: 735px;
+  display: flex;
+  justify-content: space-between;
   align-items: start;
 }
-.footer .footer-bottom .logo {
+.footer-container .footer .footer-bottom .f-bottom-small .logo {
   width: auto;
   height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer .footer-bottom .logo h3 {
+.footer-container .footer .footer-bottom .f-bottom-small .logo h3 {
   font-size: 16px;
   color: grey;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   padding-top: 10px;
 }
-.footer .footer-bottom .phone {
+.footer-container .footer .footer-bottom .f-bottom-small .phone {
   width: auto;
   height: auto;
   display: flex;
@@ -174,121 +275,201 @@
   justify-content: center;
   gap: 20px;
 }
-.footer .footer-bottom .phone i {
+.footer-container .footer .footer-bottom .f-bottom-small .phone i {
   font-size: 20px;
   color: rgb(25, 105, 225);
 }
-.footer .footer-bottom .phone h4 {
+.footer-container .footer .footer-bottom .f-bottom-small .phone h4 {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: " Cygre Medium", system-ui;
+  color: rgb(103, 108, 116);
+  line-height: 24px;
 }
 
 @media screen and (max-width: 447px) {
-  .footer {
+  .footer-container .footer {
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
   }
-  .footer .footer-title {
+  .footer-container .footer .footer-title {
     width: 50%;
-    height: 100px;
-    gap: 0px;
+    height: auto;
   }
-  .footer .footer-title h1 {
+  .footer-container .footer .footer-title h1 {
     font-size: 24px;
   }
-  .footer .footer-title img {
-    width: 40px;
-    height: 25px;
+  .footer-container .footer .footer-title img {
+    width: 37px;
+    height: 21px;
   }
-  .footer p {
+  .footer-container .footer p {
     width: 95%;
-    height: 50px;
+    height: auto;
     font-size: 14px;
     text-align: center;
+    margin: 12px 0 24px 0;
   }
-  .footer .footer-contact {
-    width: auto;
+  .footer-container .footer .footer-contact {
+    width: 100%;
   }
-  .footer .footer-contact .malumot {
+  .footer-container .footer .footer-contact .malumot {
     width: auto;
     height: auto;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 0 10px;
   }
-  .footer .footer-contact .malumot .icon {
-    width: 350px;
+  .footer-container .footer .footer-contact .malumot .icon-phone {
+    width: 282px;
+    height: auto;
     display: flex;
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: center;
   }
-  .footer .footer-contact .malumot .icon .f-icon-img {
-    width: 50px;
-    height: 50px;
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img {
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 2px solid rgb(25, 105, 225);
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .footer .footer-contact .malumot .icon .f-icon-img i {
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img i {
     font-size: 20px;
   }
-  .footer .footer-contact .malumot .icon .contact-text {
-    width: 100%;
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text {
+    width: 182px;
+    height: auto;
   }
-  .footer .footer-contact .malumot .icon .contact-text h2 {
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text h2 {
+    width: 100%;
+    height: 31px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    line-height: 30.53px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text p {
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc {
+    width: 339px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text {
+    width: 271px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text h2 {
+    width: 90%;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text p {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+    text-align: start;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail {
+    width: 236px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text {
+    width: 156px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text h2 {
     width: auto;
     height: 35px;
     font-size: 18px;
     font-weight: 700;
     font-family: "Poppins", system-ui;
   }
-  .footer .footer-contact .malumot .icon .contact-text p {
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text p {
     font-size: 16px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    font-family: " Cygre Medium";
   }
-  .footer .footer-contact .footer-middle {
+  .footer-container .footer .footer-contact .footer-middle {
     width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 24px 0 30px 0;
   }
-  .footer .footer-contact .footer-middle h1 {
-    width: auto;
-    height: 50px;
-    font-size: 20px;
-    font-family: "Matemasie", sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: rgb(16, 24, 36);
+  .footer-container .footer .footer-contact .footer-middle h1 {
+    width: 80%;
+    height: auto;
+    margin: 0;
     text-align: center;
   }
-  .footer .footer-contact .footer-middle h1 span {
+  .footer-container .footer .footer-contact .footer-middle h1 span {
     color: rgb(231, 183, 58);
   }
-  .footer .footer-contact .footer-middle img {
-    width: 60px;
-    height: 30px;
+  .footer-container .footer .footer-contact .footer-middle img {
+    width: 37px;
+    height: 21px;
   }
-  .footer .footer-contact h6 {
+  .footer-container .footer .footer-contact h6 {
     width: auto;
-    height: 50px;
-    font-size: 16px;
+    height: auto;
+    font-size: 14px;
     font-weight: 300;
     font-family: "Poppins", system-ui;
     color: grey;
     text-align: center;
+    margin-top: 0;
+    margin: 12px 0 30px 0;
   }
-  .footer .footer-contact .inputt {
-    width: 630px;
+  .footer-container .footer .footer-contact .inputt {
+    width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    margin: 0;
   }
-  .footer .footer-contact .inputt input {
-    width: 450px;
+  .footer-container .footer .footer-contact .inputt input {
+    width: 90%;
     height: 48px;
     border-radius: 12px;
     outline: none;
@@ -296,48 +477,350 @@
     background-color: rgb(244, 246, 249);
     color: black;
     padding: 0 10px;
+    margin: 10px 0;
   }
-  .footer .footer-contact .inputt button {
+  .footer-container .footer .footer-contact .inputt button {
+    width: 90%;
     padding: 12px 18px;
     background-color: rgb(25, 105, 225);
     border-radius: 12px;
     gap: 10px;
     border: none;
   }
-  .footer .footer-contact .inputt button h5 {
-    width: auto;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .footer hr {
-    width: 1500px;
+  .footer-container .footer hr {
+    width: 100%;
     border-top: 1px dashed grey;
   }
-  .footer .footer-bottom {
-    width: 1440px;
+  .footer-container .footer .footer-bottom {
+    width: 100%;
     height: auto;
     margin: 0 auto;
-    display: flex;
-    gap: 400px;
+    display: block;
+    flex-wrap: nowrap;
+    gap: 0;
     justify-content: end;
     align-items: start;
   }
-  .footer .footer-bottom .logo {
+  .footer-container .footer .footer-bottom .f-bottom-small {
+    width: auto;
+    display: block;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo h3 {
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+    margin-top: 50px;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 60px;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone i {
+    font-size: 20px;
+    color: rgb(25, 105, 225);
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone h4 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 448px) and (max-width: 768px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-container .footer {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .footer-container .footer .footer-title {
+    width: 100%;
+  }
+  .footer-container .footer p {
+    width: 90%;
+  }
+  .footer-container .footer .footer-contact {
+    width: 100%;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone {
+    width: 282px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text {
+    width: 182px;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text h2 {
+    width: 100%;
+    height: 31px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    line-height: 30.53px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text p {
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc {
+    width: 339px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text {
+    width: 259px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text h2 {
+    width: auto;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail {
+    width: 236px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text {
+    width: 156px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text h2 {
+    width: auto;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .footer-middle {
+    width: 740px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .inputt {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px auto 40px auto;
+  }
+  .footer-container .footer .footer-contact .inputt input {
+    width: 466px;
+    height: 48px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(244, 246, 249);
+    color: black;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .inputt button {
+    width: 170px;
+    height: 45px;
+    padding: 12px 18px 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .inputt button h5 {
+    width: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Cygre SemiBold";
+    line-height: 26.4px;
+  }
+  .footer-container .footer hr {
+    width: 100%;
+    height: 0;
+    margin: 60px 0 27px 0;
+    border-top: 1px dashed grey;
+  }
+  .footer-container .footer .footer-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-container .footer {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .footer-container .footer .footer-title {
+    width: 100%;
+  }
+  .footer-container .footer p {
+    width: 100%;
+  }
+  .footer-container .footer .footer-contact {
+    width: auto;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .footer-container .footer .footer-contact .footer-middle {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .inputt {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px 0 40px 0;
+  }
+  .footer-container .footer .footer-contact .inputt input {
+    width: 80%;
+    height: 45px;
+    padding: 0;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .inputt button {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .inputt button h5 {
+    width: auto;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .footer-container .footer hr {
+    width: 100%;
+    height: 0;
+    margin: 60px 0 27px 0;
+    border-top: 1px dashed grey;
+  }
+  .footer-container .footer .footer-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo {
     width: auto;
     height: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .footer .footer-bottom .logo h3 {
+  .footer-container .footer .footer-bottom .f-bottom-small .logo h3 {
     font-size: 16px;
     color: grey;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     padding-top: 10px;
   }
-  .footer .footer-bottom .phone {
+  .footer-container .footer .footer-bottom .f-bottom-small .phone {
     width: auto;
     height: auto;
     display: flex;
@@ -345,12 +828,569 @@
     justify-content: center;
     gap: 20px;
   }
-  .footer .footer-bottom .phone i {
+  .footer-container .footer .footer-bottom .f-bottom-small .phone i {
     font-size: 20px;
     color: rgb(25, 105, 225);
   }
-  .footer .footer-bottom .phone h4 {
+  .footer-container .footer .footer-bottom .f-bottom-small .phone h4 {
     font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium", system-ui;
+    color: rgb(103, 108, 116);
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-container .footer {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer .footer-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-container .footer .footer-title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .footer-container .footer .footer-title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .footer-container .footer .footer-title img {
+    width: 37px;
+    height: 21px;
+  }
+  .footer-container .footer p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Poppins", system-ui;
+    color: grey;
+    margin: 10px 0 40px 0;
+  }
+  .footer-container .footer .footer-contact {
+    width: auto;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot {
+    width: 950px;
+    height: 100px;
+    display: flex;
+    gap: 46px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone {
+    width: 282px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text {
+    width: 182px;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text h2 {
+    width: 100%;
+    height: 31px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    line-height: 30.53px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text p {
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc {
+    width: 339px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text {
+    width: 259px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text h2 {
+    width: auto;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail {
+    width: 236px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text {
+    width: 156px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text h2 {
+    width: auto;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .footer-middle {
+    width: 740px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .footer-middle h1 {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+    text-align: center;
+    margin: 40px 0 10px 0;
+  }
+  .footer-container .footer .footer-contact .footer-middle h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .footer-container .footer .footer-contact .footer-middle img {
+    width: 60px;
+    height: 30px;
+  }
+  .footer-container .footer .footer-contact h6 {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: rgb(103, 108, 116);
+    text-align: center;
+  }
+  .footer-container .footer .footer-contact .inputt {
+    width: 660px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 30px 0 40px 0;
+  }
+  .footer-container .footer .footer-contact .inputt input {
+    width: 466px;
+    height: 48px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(244, 246, 249);
+    color: black;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .inputt button {
+    width: 170px;
+    height: 45px;
+    padding: 12px 18px 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .inputt button h5 {
+    width: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Cygre SemiBold";
+    line-height: 26.4px;
+  }
+  .footer-container .footer hr {
+    width: 100%;
+    height: 0;
+    margin: 60px 0 27px 0;
+    border-top: 1px dashed grey;
+  }
+  .footer-container .footer .footer-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small {
+    width: 735px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo {
+    width: auto;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo h3 {
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone i {
+    font-size: 20px;
+    color: rgb(25, 105, 225);
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium", system-ui;
+    color: rgb(103, 108, 116);
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .footer-container {
+    width: 100%;
+  }
+  .footer-container .footer {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer .footer-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-container .footer .footer-title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .footer-container .footer .footer-title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .footer-container .footer .footer-title img {
+    width: 37px;
+    height: 21px;
+  }
+  .footer-container .footer p {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Poppins", system-ui;
+    color: grey;
+    margin: 10px 0 40px 0;
+  }
+  .footer-container .footer .footer-contact {
+    width: auto;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot {
+    width: 950px;
+    height: 100px;
+    display: flex;
+    gap: 46px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone {
+    width: 282px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text {
+    width: 182px;
+    height: auto;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text h2 {
+    width: 100%;
+    height: 31px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+    line-height: 30.53px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-phone .contact-text p {
+    height: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc {
+    width: 339px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text {
+    width: 259px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text h2 {
+    width: auto;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-loc .contact-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail {
+    width: 236px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(25, 105, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img i {
+    font-size: 20px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text {
+    width: 156px;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text h2 {
+    width: auto;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", system-ui;
+  }
+  .footer-container .footer .footer-contact .malumot .icon-mail .contact-text p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium";
+  }
+  .footer-container .footer .footer-contact .footer-middle {
+    width: 740px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .footer-middle h1 {
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+    text-align: center;
+    margin: 40px 0 10px 0;
+  }
+  .footer-container .footer .footer-contact .footer-middle h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .footer-container .footer .footer-contact .footer-middle img {
+    width: 60px;
+    height: 30px;
+  }
+  .footer-container .footer .footer-contact h6 {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", system-ui;
+    color: rgb(103, 108, 116);
+    text-align: center;
+  }
+  .footer-container .footer .footer-contact .inputt {
+    width: 660px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 30px 0 40px 0;
+  }
+  .footer-container .footer .footer-contact .inputt input {
+    width: 466px;
+    height: 48px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(244, 246, 249);
+    color: black;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .footer-container .footer .footer-contact .inputt button {
+    width: 170px;
+    height: 45px;
+    padding: 12px 18px 12px 18px;
+    background-color: rgb(25, 105, 225);
+    border-radius: 12px;
+    gap: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-container .footer .footer-contact .inputt button h5 {
+    width: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Cygre SemiBold";
+    line-height: 26.4px;
+  }
+  .footer-container .footer hr {
+    width: 100%;
+    height: 0;
+    margin: 60px 0 27px 0;
+    border-top: 1px dashed grey;
+  }
+  .footer-container .footer .footer-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo {
+    width: auto;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .logo h3 {
+    font-size: 16px;
+    color: grey;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone i {
+    font-size: 20px;
+    color: rgb(25, 105, 225);
+  }
+  .footer-container .footer .footer-bottom .f-bottom-small .phone h4 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: " Cygre Medium", system-ui;
+    color: rgb(103, 108, 116);
+    line-height: 24px;
   }
 }

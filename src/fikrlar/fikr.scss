@@ -134,13 +134,13 @@
 }
 
 
-@media screen  and (max-width:447px) {
+@media screen and (min-width:0px)  and (max-width:447px) {
 
   .fikr-container{
     width: 100%;
     .fikr{
       width: 100%;
-      margin: 0 auto;
+      margin: 30px auto;
       
   
       .fikr-title{
@@ -251,7 +251,7 @@
 
   
 }
- @media screen and (min-width:447px)  and (max-width:768px) {
+ @media screen and (min-width:448px)  and (max-width:768px) {
   .fikr-container{
     width: 100%;
     .fikr{
@@ -332,7 +332,7 @@
   
  }
 
- @media screen and (min-width:768px ) and (max-width:990px) {
+ @media screen and (min-width:769px ) and (max-width:990px) {
 
   .fikr-container{
     width: 100%;
@@ -405,7 +405,7 @@
   
  }
 
- @media screen and (min-width:990px)  and (max-width:1200px) {
+ @media screen and (min-width:991px)  and (max-width:1200px) {
 
   
 .fikr-container{
@@ -414,7 +414,6 @@
   .fikr{
     width: 100%;
     margin: 0 auto;
-    border: 2px solid red;
     
 
    
@@ -511,6 +510,134 @@
 
 }
 
+  
+ }
+
+ @media screen and (min-width:1201px) {
+
+  .fikr-container{
+    width: 100%;
+    .fikr{
+      width: 1291px;
+      margin: 30px  auto;
+      
+  
+     
+  
+    
+  
+      .fikr-title{
+          width: 90%;
+          height: auto;
+           margin: 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          gap: 10px;
+         
+         
+          h1{
+              font-size: 28px;
+              font-family: "RAYDIS", sans-serif;
+              font-weight: 700;
+              text-transform: uppercase;
+             
+              color: rgba(16, 24, 36, 1);
+             
+              span{
+                  color: rgba(231, 183, 58, 1);
+              }
+          }
+          img{
+              width: 37px;
+              height: 21px;
+          }
+      }
+  
+      .fikr-p{
+        width: auto;
+        height: auto;
+        margin: 10px 0 30px 0;
+  
+        p{
+          width: 90%;
+          height: auto;
+          font-size: 18px;
+          font-weight: 400;
+          font-family: "Cygre Thin", system-ui;
+          color: rgba(100, 111, 128, 1);
+          line-height: 23.4px;
+           margin: 0 auto;
+         
+      }
+  
+      }
+    
+  
+  
+  
+  
+      .sliderBrend-container{
+          width: 95%;
+          height: auto;
+    
+          margin: 30px 0 60px auto;
+          
+          
+         
+          
+          .swiper{
+           width: 100%;
+           height: auto;
+       
+          
+      
+        
+           .swiper-slide {
+              width: 300px;
+               height: 420px;
+                
+                 .brend-img{
+                   width: 100%;
+                   height: 100%;
+                  
+                   
+                  
+                   img{
+                     width: 100%;
+                     height: 100%;
+                     border-radius: 18px;
+                     
+                  
+                   }
+                 }
+               }
+  
+               .swiper-pagination{
+                display: none;
+              }
+              
+              .swiper-slide img {
+                display: flex;
+                width: 20%;
+                height: 100%;
+                
+              //   object-fit: cover;
+              }
+  
+  
+  
+          }
+  
+          
+        
+      
+      
+        }
+       
+  }
+  
+  }
   
  }
 

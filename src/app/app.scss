@@ -7,35 +7,90 @@
     
     
     .sectionn {
-      width: 100%;
+      width: auto;
       position: fixed;
       top: 50%;
       transform: translateY(-50%);
       left: 20px;
       position: fixed;
       z-index: 5;
+
+      .scroll-handle{
+      width: 100%;
+      height: auto;
+      display: flex;
+      gap: 5px;
+
+      .scroll-dot{
+        width: 50%;
+      
+        height: auto;
+        display: block;
+
+        .dot-big{
+
+          width: 30px;
+          height: 30px;
+          border: 2px solid rgba(157, 168, 184, 1);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        margin: 25px 0;
+    
+        
+          
+          .dot {
+            width: 18px;
+            height: 18px;
+            background-color: rgba(157, 168, 184, 1);
+            border-radius: 50%;
+            margin: 0;
+            border: none;
+            transition: background-color 0.3s ease;
+           
+          }
+          
+          .dot.active {
+            background-color: blue;
+          }
+    
+    
+        }
+
+      }
+        
+    
+
+    .scroll-img{
+      width: 50%;
+      height: 80px;
+      transition: transform 0.3s ease-in-out; 
+      img{
+        width: auto;
+
+        height: 100%;
+      }
+      .scroll-img.active{
+
+        
+      transition: top 0.3s ease;
+      }
+    }
+
+
+      }
+      
      
    
-    
-    .dot {
-      width: 25px;
-      height: 25px;
-      background-color: white;
-      border-radius: 50%;
-      margin: 20px 0;
-      border: 1px solid grey;
-      transition: background-color 0.3s ease;
-     
-    }
-    
-    .dot.active {
-      background-color: blue;
-    }
+   
     
     
     
    
   }
+
+ 
 
   .content {
     margin-left: 50px;
@@ -48,7 +103,7 @@
       justify-content: center;
       align-items: center;
       font-size: 2rem;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px dashed #ccc;
     }
   }
   
@@ -110,7 +165,7 @@
   
 }
 
-@media screen and (min-width:447px) and (max-width:768px) {
+@media screen and (min-width:448px) and (max-width:768px) {
   .scrol{
     width: 100%;
     margin: 0 auto;
@@ -148,17 +203,17 @@
 }
 
 
-@media screen and (min-width:768px) and (max-width:990px) {
+@media screen and (min-width:769px) and (max-width:990px) {
 
   .scrol{
     max-width: 100%;
     border: 2px solid green;
     
-    
     .sectionn {
-     display: none;
-  }
 
+      display: none;
+   
+  }
   .content {
     margin-left: 0;
     padding-top: 0;
@@ -175,7 +230,7 @@
   
 }
 
-@media screen and (min-width:990px) and (max-width:1200px) {
+@media screen and (min-width:991px) and (max-width:1200px) {
 
   .scrol{
     max-width: 100%;
@@ -187,30 +242,83 @@
     
     
     .sectionn {
-      width: 100%;
+      width: auto;
       position: fixed;
       top: 50%;
       transform: translateY(-50%);
-      left: 10px;
+      left: 0;
       position: fixed;
       z-index: 5;
+
+      .scroll-handle{
+      width: 100%;
+      height: auto;
+      display: flex;
+      gap: 5px;
+
+      .scroll-dot{
+        width: 50%;
+      
+        height: auto;
+        display: block;
+
+        .dot-big{
+
+          width: 30px;
+          height: 30px;
+          border: 2px solid rgba(157, 168, 184, 1);
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        margin: 25px 0;
+    
+        
+          
+          .dot {
+            width: 18px;
+            height: 18px;
+            background-color: rgba(157, 168, 184, 1);
+            border-radius: 50%;
+            margin: 0;
+            border: none;
+            transition: background-color 0.3s ease;
+           
+          }
+          
+          .dot.active {
+            background-color: blue;
+          }
+    
+    
+        }
+
+      }
+        
+    
+
+    .scroll-img{
+      width: 50%;
+      height: 80px;
+      transition: transform 0.3s ease-in-out; 
+      img{
+        width: auto;
+
+        height: 100%;
+      }
+      .scroll-img.active{
+
+        
+      transition: top 0.3s ease;
+      }
+    }
+
+
+      }
+      
      
    
-    
-    .dot {
-      width: 25px;
-      height: 25px;
-      background-color: white;
-      border-radius: 50%;
-      margin: 20px 0;
-      border: 1px solid grey;
-      transition: background-color 0.3s ease;
-     
-    }
-    
-    .dot.active {
-      background-color: blue;
-    }
+   
     
     
     
@@ -236,5 +344,69 @@
 
   }
 
+  
+}
+
+@media screen and (min-width:1201px) {
+
+  .scrol{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    
+    
+    .sectionn {
+      width: auto;
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 20px;
+      position: fixed;
+      z-index: 5;
+   
+    
+    .dot {
+      width: 25px;
+      height: 25px;
+      background-color: white;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 1px solid grey;
+      transition: background-color 0.3s ease;
+     
+    }
+    
+    .dot.active {
+      background-color: blue;
+    }
+    
+    
+    
+   
+  }
+  
+
+  .content {
+    margin-left: 0;
+    padding-top: 0;
+    width: 100%;
+    .section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      border-bottom: 1px dashed #ccc;
+    }
+  }
+  
+   
+
+  }
+  
   
 }

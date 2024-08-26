@@ -1,113 +1,366 @@
-.fikr {
-  width: 1440px;
+@font-face {
+  font-family: "RAYDIS";
+  src: url("../fonts/raydis/raydis.ttf");
+}
+@font-face {
+  font-family: " Cygre Thin";
+  src: url(../fonts/cygre/Cygre-Thin.ttf);
+}
+.fikr-container {
+  width: 100%;
+}
+.fikr-container .fikr {
+  width: 1291px;
   margin: 0 auto;
 }
-.fikr .fikr-title {
-  width: 100%;
-  height: 70px;
+.fikr-container .fikr .fikr-title {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 20px;
+  gap: 10px;
 }
-.fikr .fikr-title h1 {
+.fikr-container .fikr .fikr-title h1 {
   font-size: 28px;
-  font-family: "Matemasie", sans-serif;
-  font-weight: 800;
+  font-family: "RAYDIS", sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   color: rgb(16, 24, 36);
 }
-.fikr .fikr-title h1 span {
+.fikr-container .fikr .fikr-title h1 span {
   color: rgb(231, 183, 58);
 }
-.fikr .fikr-title img {
-  width: 60px;
-  height: 30px;
+.fikr-container .fikr .fikr-title img {
+  width: 37px;
+  height: 21px;
 }
-.fikr p {
+.fikr-container .fikr .fikr-p {
   width: auto;
-  height: 50px;
+  height: auto;
+  margin: 10px 0 30px 0;
+}
+.fikr-container .fikr .fikr-p p {
+  width: 87%;
+  height: auto;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Poppins", system-ui;
-  color: grey;
+  font-family: "Cygre Thin", system-ui;
+  color: rgb(100, 111, 128);
+  line-height: 23.4px;
+  margin: 0 auto;
 }
-.fikr .sliderBrend-container {
-  width: 1440px;
+.fikr-container .fikr .sliderBrend-container {
+  width: 1300px;
+  height: auto;
+  margin: 30px 0 60px auto;
 }
-.fikr .sliderBrend-container .swiper {
+.fikr-container .fikr .sliderBrend-container .swiper {
   width: 100%;
   height: auto;
 }
-.fikr .sliderBrend-container .swiper .swiper-slide {
-  width: 200px;
-  height: 350px;
+.fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
+  width: 300px;
+  height: 420px;
 }
-.fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
+.fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
   width: 100%;
   height: 100%;
 }
-.fikr .sliderBrend-container .swiper .swiper-slide .brend-img img {
+.fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img img {
   width: 100%;
   height: 100%;
+  border-radius: 18px;
 }
-.fikr .sliderBrend-container .swiper-pagination {
+.fikr-container .fikr .sliderBrend-container .swiper .swiper-pagination {
   display: none;
 }
-.fikr .sliderBrend-container .swiper-slide img {
+.fikr-container .fikr .sliderBrend-container .swiper .swiper-slide img {
   display: flex;
   width: 20%;
   height: 100%;
 }
 
-@media screen and (max-width: 447px) {
-  .fikr {
+@media screen and (min-width: 0px) and (max-width: 447px) {
+  .fikr-container {
     width: 100%;
   }
-  .fikr .fikr-title {
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
-    gap: 0;
+  .fikr-container .fikr {
+    width: 100%;
+    margin: 30px auto;
   }
-  .fikr .fikr-title h1 {
+  .fikr-container .fikr .fikr-title {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  .fikr-container .fikr .fikr-title h1 {
     font-size: 24px;
   }
-  .fikr .fikr-title img {
-    width: 40px;
-    height: 20px;
-    margin-bottom: 30px;
+  .fikr-container .fikr .fikr-title img {
+    width: 37px;
+    height: 21px;
   }
-  .fikr p {
-    width: 95%;
-    height: 100px;
-    font-size: 16px;
-    text-align: center;
+  .fikr-container .fikr .fikr-p {
+    width: auto;
+    height: auto;
+    margin: 12px 0 24px 0;
   }
-  .fikr .sliderBrend-container {
+  .fikr-container .fikr .fikr-p p {
+    width: 87%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Cygre Thin", system-ui;
+    color: rgb(100, 111, 128);
+    line-height: 23.4px;
+    margin: 0 auto;
+  }
+  .fikr-container .fikr .sliderBrend-container {
     width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper {
+    width: 100%;
+    height: auto;
     padding-left: 10px;
   }
-  .fikr .sliderBrend-container .swiper {
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
+    width: 230px;
+    height: 322px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
+    width: 100%;
+    height: 100%;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-pagination {
+    display: none;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide img {
+    display: flex;
+    width: auto;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 448px) and (max-width: 768px) {
+  .fikr-container {
+    width: 100%;
+  }
+  .fikr-container .fikr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fikr-container .fikr .fikr-title {
+    width: 100%;
+    justify-content: center;
+  }
+  .fikr-container .fikr .fikr-p {
+    width: auto;
+    height: auto;
+    margin: 10px auto 30px auto;
+  }
+  .fikr-container .fikr .fikr-p p {
+    width: 85%;
+    text-align: center;
+  }
+  .fikr-container .fikr .sliderBrend-container {
+    width: 100%;
+    height: auto;
+    margin: 30px auto 60px auto;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
+    width: 300px;
+    height: 350px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-pagination {
+    display: none;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide img {
+    display: flex;
+    width: 20%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .fikr-container {
+    width: 100%;
+  }
+  .fikr-container .fikr {
+    width: 100%;
+    margin: 30px auto;
+  }
+  .fikr-container .fikr .fikr-title {
+    width: 90%;
+    height: auto;
+    justify-content: center;
+  }
+  .fikr-container .fikr .fikr-p {
+    width: 90%;
+    height: auto;
+    margin: 10px auto 30px auto;
+  }
+  .fikr-container .fikr .fikr-p p {
+    width: 100%;
+  }
+  .fikr-container .fikr .sliderBrend-container {
+    width: 95%;
+    height: auto;
+    margin: 30px 0 60px auto;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper {
     width: 100%;
     height: auto;
   }
-  .fikr .sliderBrend-container .swiper .swiper-slide {
-    width: 200px;
-    height: 350px;
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
+    width: 300px;
+    height: 340px;
   }
-  .fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .fikr-container {
+    width: 100%;
+  }
+  .fikr-container .fikr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fikr-container .fikr .fikr-title {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  .fikr-container .fikr .fikr-p {
+    width: auto;
+    height: auto;
+    margin: 10px 0 30px 0;
+  }
+  .fikr-container .fikr .fikr-p p {
+    width: 90%;
+    height: auto;
+  }
+  .fikr-container .fikr .sliderBrend-container {
+    width: 95%;
+    height: auto;
+    margin: 30px 0 60px auto;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper {
+    width: 100%;
+    height: auto;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
+    width: 300px;
+    height: 420px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
     width: 100%;
     height: 100%;
   }
-  .fikr .sliderBrend-container .swiper .swiper-slide .brend-img img {
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img img {
     width: 100%;
     height: 100%;
+    border-radius: 18px;
   }
-  .fikr .sliderBrend-container .swiper-pagination {
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-pagination {
     display: none;
   }
-  .fikr .sliderBrend-container .swiper-slide img {
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide img {
+    display: flex;
+    width: 20%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .fikr-container {
+    width: 100%;
+  }
+  .fikr-container .fikr {
+    width: 1291px;
+    margin: 30px auto;
+  }
+  .fikr-container .fikr .fikr-title {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+  }
+  .fikr-container .fikr .fikr-title h1 {
+    font-size: 28px;
+    font-family: "RAYDIS", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(16, 24, 36);
+  }
+  .fikr-container .fikr .fikr-title h1 span {
+    color: rgb(231, 183, 58);
+  }
+  .fikr-container .fikr .fikr-title img {
+    width: 37px;
+    height: 21px;
+  }
+  .fikr-container .fikr .fikr-p {
+    width: auto;
+    height: auto;
+    margin: 10px 0 30px 0;
+  }
+  .fikr-container .fikr .fikr-p p {
+    width: 90%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Cygre Thin", system-ui;
+    color: rgb(100, 111, 128);
+    line-height: 23.4px;
+    margin: 0 auto;
+  }
+  .fikr-container .fikr .sliderBrend-container {
+    width: 95%;
+    height: auto;
+    margin: 30px 0 60px auto;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper {
+    width: 100%;
+    height: auto;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
+    width: 300px;
+    height: 420px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
+    width: 100%;
+    height: 100%;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-pagination {
+    display: none;
+  }
+  .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide img {
     display: flex;
     width: 20%;
     height: 100%;

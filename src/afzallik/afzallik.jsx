@@ -69,7 +69,7 @@ const Afzallik = () => {
                 </div>
             </div>
         </div>
-        <hr />
+        
     </div>
   )
 }

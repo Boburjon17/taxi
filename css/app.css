@@ -1,12 +1,269 @@
-.app-container {
-  max-width: 1500px;
+.scrol {
+  max-width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.scrol .sectionn {
+  width: auto;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  position: fixed;
+  z-index: 5;
+}
+.scrol .sectionn .scroll-handle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 5px;
+}
+.scrol .sectionn .scroll-handle .scroll-dot {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+.scrol .sectionn .scroll-handle .scroll-dot .dot-big {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(157, 168, 184);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+.scrol .sectionn .scroll-handle .scroll-dot .dot-big .dot {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(157, 168, 184);
+  border-radius: 50%;
+  margin: 0;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.scrol .sectionn .scroll-handle .scroll-dot .dot-big .dot.active {
+  background-color: blue;
+}
+.scrol .sectionn .scroll-handle .scroll-img {
+  width: 50%;
+  height: 80px;
+  transition: transform 0.3s ease-in-out;
+}
+.scrol .sectionn .scroll-handle .scroll-img img {
+  width: auto;
+  height: 100%;
+}
+.scrol .sectionn .scroll-handle .scroll-img .scroll-img.active {
+  transition: top 0.3s ease;
+}
+.scrol .content {
+  margin-left: 50px;
+  padding-top: 20px;
+  width: 100%;
+}
+.scrol .content .section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-bottom: 1px dashed #ccc;
 }
 
 @media screen and (max-width: 447px) {
-  .app-container {
-    max-width: 447px;
+  .scrol {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    border: 2px solid red;
+  }
+  .scrol .sectionn {
+    display: none;
+  }
+  .scrol .sectionn .dot {
+    display: none;
+  }
+  .scrol .content {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .scrol .content .section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 448px) and (max-width: 768px) {
+  .scrol {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .scrol .sectionn {
+    display: none;
+  }
+  .scrol .content {
+    margin-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+  .scrol .content .section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .scrol {
+    max-width: 100%;
+    border: 2px solid green;
+  }
+  .scrol .sectionn {
+    display: none;
+  }
+  .scrol .content {
+    margin-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+  .scrol .content .section {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .scrol {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 2px solid green;
+  }
+  .scrol .sectionn {
+    width: auto;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    position: fixed;
+    z-index: 5;
+  }
+  .scrol .sectionn .scroll-handle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 5px;
+  }
+  .scrol .sectionn .scroll-handle .scroll-dot {
+    width: 50%;
+    height: auto;
+    display: block;
+  }
+  .scrol .sectionn .scroll-handle .scroll-dot .dot-big {
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(157, 168, 184);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+  }
+  .scrol .sectionn .scroll-handle .scroll-dot .dot-big .dot {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(157, 168, 184);
+    border-radius: 50%;
+    margin: 0;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .scrol .sectionn .scroll-handle .scroll-dot .dot-big .dot.active {
+    background-color: blue;
+  }
+  .scrol .sectionn .scroll-handle .scroll-img {
+    width: 50%;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .scrol .sectionn .scroll-handle .scroll-img img {
+    width: auto;
+    height: 100%;
+  }
+  .scrol .sectionn .scroll-handle .scroll-img .scroll-img.active {
+    transition: top 0.3s ease;
+  }
+  .scrol .content {
+    margin-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+  .scrol .content .section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .scrol {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+  }
+  .scrol .sectionn {
+    width: auto;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    position: fixed;
+    z-index: 5;
+  }
+  .scrol .sectionn .dot {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 1px solid grey;
+    transition: background-color 0.3s ease;
+  }
+  .scrol .sectionn .dot.active {
+    background-color: blue;
+  }
+  .scrol .content {
+    margin-left: 0;
+    padding-top: 0;
+    width: 100%;
+  }
+  .scrol .content .section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-bottom: 1px dashed #ccc;
   }
 }

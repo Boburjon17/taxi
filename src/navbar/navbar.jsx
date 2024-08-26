@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./navbar.scss"
 
 const Navbar = () => {
+  const  [bars , setBars]= useState()
+
+
   return (
     <div className='nav-container'>
 
@@ -10,7 +13,7 @@ const Navbar = () => {
         
           <div className="img-i">
 
-          <i className="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars  "></i>
       
       <img src="logo.png" alt="" />
 

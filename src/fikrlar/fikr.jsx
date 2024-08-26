@@ -152,14 +152,6 @@ const Fikr = () => {
       </Swiper>
     </div>
 
-
-
-
-
- 
-
-
-
             </div>
         </div>
   

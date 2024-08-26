@@ -241,3 +241,81 @@
     
       }
 }
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+    
+    .faq-container{
+        width: 100%;
+    
+        .Faq{
+            width: 90%;
+            margin: 0 auto;
+        
+        
+            .faq-title{
+                width: 100%;
+                height: auto;
+                
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 20px;
+               
+                h1{
+                    font-size: 28px;
+                    font-family: "RAYDIS", sans-serif;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: rgba(16, 24, 36, 1);
+                   
+                    span{
+                        color: rgba(231, 183, 58, 1);
+                    }
+                }
+                img{
+                    width: 37px;
+                    height: 21px;
+                }
+            }
+            p{
+                width: auto;
+                height: auto;
+                font-size: 18px;
+                font-weight: 400;
+                font-family: "Poppins", system-ui;
+                color: grey;
+                margin: 10px 0 30px 0;
+            }
+        
+            .accordion{
+                width: 100%;
+                #box{
+                  width: 100%;
+                    margin-top: 10px ;
+                    border-radius: 12px;
+                    // border: 1px solid grey;
+                }
+        
+                #h1-title{
+                    width: auto;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: "Cygre SemiBold", system-ui;
+                    color: rgba(16, 24, 36, 1);
+                    line-height: 23.4px;
+                    // margin: 13px 0 16px 0;
+                }
+                #p-title{
+                    font-size: 16px;
+                    font-weight: 350;
+                    font-family: "Cygre Book", system-ui;
+                    color: rgba(55, 60, 68, 1);
+                    line-height: 20.8px;
+                }
+        
+        
+            }
+        
+        }
+    
+      }
+}

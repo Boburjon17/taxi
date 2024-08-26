@@ -364,3 +364,100 @@
       }
     
 }
+
+@media screen and (min-width:990px) and (max-width:1200px) {
+
+   
+  .afzal-container{
+
+    width: 100%;
+
+    .title{
+        width: 90%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+       
+        h1{
+            font-size: 28px;
+            font-family: "RAYDIS", sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: rgba(16, 24, 36, 1);
+            span{
+                color: rgba(231, 183, 58, 1);
+            }
+        }
+        img{
+            width: 36.91px;
+            height: 21.46px;
+        }
+    }
+    
+    .boxes{
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    
+        .box{
+            width: 47%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            border: 2px solid rgba(230, 235, 243, 1);
+            border-radius: 18px;
+            margin:  0;
+            padding: 10px 0;
+          
+    
+            .box-text{
+                width: 70%;
+                padding: 0 10px;
+               
+                .box-title{
+                    width: auto;
+                    padding: 10px 0;
+                    p{
+                        font-size: 22px;
+                        font-weight: 700;
+                        font-family: "Poppins", system-ui;
+                        color: rgba(55, 60, 68, 1);
+                    }
+                }
+                .box-p{
+                    width: 100%;
+                    p{
+                        
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: "Poppins", system-ui;
+                        color: rgba(100, 111, 128, 1);
+                    }
+                   
+    
+                }
+            }
+            .box-img{
+                width: 30%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                
+            }
+    
+        }
+    }
+    hr{
+        width: 100%;
+        border: 1px dashed grey;
+        
+    }
+  } 
+    
+}

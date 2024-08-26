@@ -174,3 +174,67 @@
   }
   
 }
+
+@media screen and (min-width:990px) and (max-width:1200px) {
+
+  .scrol{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 2px solid green;
+    
+    
+    .sectionn {
+      width: 100%;
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      position: fixed;
+      z-index: 5;
+     
+   
+    
+    .dot {
+      width: 25px;
+      height: 25px;
+      background-color: white;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 1px solid grey;
+      transition: background-color 0.3s ease;
+     
+    }
+    
+    .dot.active {
+      background-color: blue;
+    }
+    
+    
+    
+   
+  }
+
+  .content {
+    margin-left:0;
+    padding-top:0;
+    width: 100%;
+    .section {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+  
+   
+
+  }
+
+  
+}

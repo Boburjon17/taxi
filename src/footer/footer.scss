@@ -995,3 +995,296 @@
           }
 
     }
+
+    @media screen and (min-width:768px) and (max-width:990px) {
+      
+        .footer-container{
+            width: 100%;
+            .footer{
+                width: 90%;
+                margin: 30px auto;
+               
+            
+            
+                .footer-title{
+                    width: 100%;
+
+                }
+                p{
+                    width: 100%;
+                }
+                .footer-contact{
+                    width: auto;
+                    height: auto;
+                  
+                
+               
+                    .malumot{   
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: start;
+                        flex-wrap: wrap;
+                        gap: 20px;
+                       
+                       
+                       
+                        
+                    
+                      
+                        // .icon-phone{
+            
+                        //     width: 282px;
+                        //     height: auto;
+                        //     display: flex;
+                        //     gap: 20px;
+                        //     justify-content: center;
+                            
+                        
+                        
+                           
+            
+                   
+            
+                        //     .f-icon-img{
+                        //         width: 60px;
+                        //         height: 60px;
+                        //         border-radius: 50%;
+                        //         border: 2px solid rgba(25, 105, 225, 1);
+                        //         display: flex;
+                        //         justify-content: center;
+                        //         align-items: center;
+                        //         i{
+                        //             font-size: 20px;
+                        //         }
+                        //     }
+                        //     .contact-text{
+                        //         width: 182px;
+                        //         height: auto;
+                                
+                             
+                                
+                        
+                              
+                        //         h2{
+                        //             width: 100%;
+                        //             height: 31px;
+                        //             font-size: 18px;
+                        //             font-weight: 700;
+                        //             font-family: "Poppins", system-ui;
+                        //             line-height: 30.53px;
+                                 
+                                    
+                        //         }
+                        //         p{
+                        //             height: auto;
+                        //             font-size: 16px;
+                        //             font-weight: 500;
+                        //             font-family: 'Cygre Medium';
+            
+                        //         }
+                        //     }
+                        // }
+            
+                        // .icon-loc{
+            
+                        //     width: 339px;
+                        //     display: flex;
+                        //     gap: 20px;
+                        //     justify-content: center;
+                      
+                        
+                           
+            
+                   
+            
+                        //     .f-icon-img{
+                        //         width: 60px;
+                        //         height: 60px;
+                        //         border-radius: 50%;
+                        //         border: 2px solid rgba(25, 105, 225, 1);
+                        //         display: flex;
+                        //         justify-content: center;
+                        //         align-items: center;
+                        //         i{
+                        //             font-size: 20px;
+                        //         }
+                        //     }
+                        //     .contact-text{
+                        //         width: 259px;
+                             
+                                
+                        
+                              
+                        //         h2{
+                        //             width: auto;
+                        //             height: 35px;
+                        //             font-size: 18px;
+                        //             font-weight: 700;
+                        //             font-family: "Poppins", system-ui;
+                                    
+                        //         }
+                        //         p{
+                        //             font-size: 16px;
+                        //             font-weight: 500;
+                        //             font-family: ' Cygre Medium';
+            
+                        //         }
+                        //     }
+                        // }
+            
+            
+                        // .icon-mail{
+            
+                        //     width: 236px;
+                        //     display: flex;
+                        //     gap: 20px;
+                        //     justify-content: center;
+                        
+                        
+                           
+            
+                   
+            
+                        //     .f-icon-img{
+                        //         width: 60px;
+                        //         height: 60px;
+                        //         border-radius: 50%;
+                        //         border: 2px solid rgba(25, 105, 225, 1);
+                        //         display: flex;
+                        //         justify-content: center;
+                        //         align-items: center;
+                        //         i{
+                        //             font-size: 20px;
+                        //         }
+                        //     }
+                        //     .contact-text{
+                        //         width: 156px;
+                             
+                                
+                        
+                              
+                        //         h2{
+                        //             width: auto;
+                        //             height: 35px;
+                        //             font-size: 18px;
+                        //             font-weight: 700;
+                        //             font-family: "Poppins", system-ui;
+                                    
+                        //         }
+                        //         p{
+                        //             font-size: 16px;
+                        //             font-weight: 500;
+                        //             font-family: ' Cygre Medium';
+            
+                        //         }
+                        //     }
+                        // }
+                    }
+            
+                    .footer-middle{
+                        width: 100%;
+                        margin: 0 auto;
+                      
+                    }
+                    .inputt{
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                        margin: 30px 0 40px 0;
+                     
+                    
+                        input{
+                            width: 80%;
+                            height: 45px;
+                            padding: 0  ;
+                            margin: 10px auto;
+                
+                            display: flex;
+                            justify-content: center;
+                            
+                        }
+                        button{
+                            width: 60%;
+                            height: auto;
+                            margin: 0 auto;
+                           
+                            
+                            h5{
+                              width: auto;
+                              font-size: 20px;
+                              line-height: 28px;
+                              
+                            } 
+                        }
+                    }
+            
+                    }
+                    hr{
+                        width: 100%;
+                        height: 0;
+                        margin: 60px 0 27px 0;
+                        border-top: 1px dashed grey;
+                    }
+            
+                    .footer-bottom{
+                        width: 100%;
+                        height: auto;
+                        display: flex;
+                        justify-content: end;
+                        
+                      
+            
+                        .f-bottom-small{
+                            width: 100%;
+                      
+                        display: flex;
+                        
+                        justify-content: space-between;
+                        align-items: start;
+                      
+                            .logo{
+                                width: auto;
+                                height: 70px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                h3{
+                                    font-size: 16px;
+                                    color: grey;
+                                    font-weight: 400;
+                                    font-family: "Roboto", sans-serif;
+                                    padding-top: 10px ;
+                
+                                }
+                            }
+                
+                            .phone{
+                                width: auto;
+                                height: auto;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 20px;
+                                i{
+                                    font-size: 20px;
+                                    color: rgba(25, 105, 225, 1);
+                                }
+                                h4{
+                                   font-size: 16px;
+                                   font-weight: 500; 
+                                   font-family: " Cygre Medium", system-ui;
+                                   color: rgba(103, 108, 116, 1);
+                                   line-height: 24px;
+                                }
+                
+                            }
+            
+                        }
+                   
+                       
+                    }
+                }
+        
+          }
+    }

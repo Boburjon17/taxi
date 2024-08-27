@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./navbar.scss"
 
 const Navbar = () => {
   const  [bars , setBars]= useState()
+
 
 
   return (
@@ -13,13 +14,30 @@ const Navbar = () => {
         
           <div className="img-i">
 
-          <i className="fa-solid fa-bars  "></i>
-      
-      <img src="logo.png" alt="" />
+          <i onClick={()=> setBars(!bars)}  className="fa-solid fa-bars  "></i>
+         <img src="logo.png" alt="" />
 
           </div>
+
+          {/* {
+            bars=false ? alert(9):" "
+          } */}
         
      
+        <ul>
+          <li><a href='#afzal'>Bizning afzalliklarimiz</a></li>
+          <li><a href='#foydalanuvchi'>Foydalanuvchi dasturi</a></li>
+          <li><a href='#haydovchi'>Haydovchi dasturi</a></li>
+          <li><a href='#mijoz'>Mijozlar izohlari</a></li>
+          <li><a href='#faq'>FAQ</a></li>
+          <li><a href='#aloqa'>Aloqa</a></li>
+        </ul>
+
+        <button>
+        <p>+998 97 628 28 82</p>
+        </button>
+
+        <div className={bars? "bars" :"bars active"}>
         <ul>
           <li><a href='#afzal'>Bizning afzalliklarimiz</a></li>
           <li><a href='#foydalanuvchi'>Foydalanuvchi dasturi</a></li>
@@ -29,9 +47,8 @@ const Navbar = () => {
           <li><a href='#aloqa'>Aloqa</a></li>
         </ul>
 
-        <button>
-        <p>+998 97 628 28 82</p>
-        </button>
+
+        </div>
       
       </nav>
       </div>

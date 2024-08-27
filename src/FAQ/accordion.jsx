@@ -9,7 +9,7 @@ import "./accordion.scss"
 const Accordionn = () => {
   return (
     <div className="faq-container">
-       <div className="Faq">
+       <div id="faq" className="Faq">
             <div className="faq-title">
                 <h1>FAQ</h1>
                 <img src="afzal.png" alt="" />

@@ -377,6 +377,7 @@
 
     @media screen and (max-width:447px) {
         .footer-container{
+            width: 100%;
             .footer{
                 width: 100%;
                 margin: 30px auto;
@@ -410,6 +411,7 @@
                 }
                 .footer-contact{
                     width: 100%;
+                    
                     .malumot{
                         width: auto;
                         height: auto;
@@ -418,24 +420,16 @@
                         gap: 18px;
                         padding: 0 10px;
                        
-                       
                         
                     
                       
                         .icon-phone{
             
-                            width: 282px;
+                            width: 275px;
                             height: auto;
                             display: flex;
                             gap: 20px;
                             justify-content: center;
-                            
-                        
-                        
-                           
-            
-                   
-            
                             .f-icon-img{
                                 width: 60px;
                                 height: 60px;
@@ -444,6 +438,7 @@
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                               
                                 i{
                                     font-size: 20px;
                                 }
@@ -483,11 +478,6 @@
                             display: flex;
                             gap: 20px;
                             justify-content: center;
-                      
-                        
-                           
-            
-                   
             
                             .f-icon-img{
                                 width: 60px;
@@ -534,13 +524,7 @@
                             width: 236px;
                             display: flex;
                             gap: 20px;
-                            justify-content: center;
-                        
-                        
-                           
-            
-                   
-            
+                            justify-content: center;;
                             .f-icon-img{
                                 width: 60px;
                                 height: 60px;
@@ -908,56 +892,59 @@
                     }
             
                     .footer-middle{
-                        width: 740px;
+                        width: 100%;
                         margin: 0 auto;
                        
-                       
-                    }
-                    .inputt{
-                        width: 90%;
-                        height: auto;
-                        display: flex;
-                        justify-content: center;
-                        gap: 24px;
-                        margin: 30px auto 40px auto;
-                  
-                    
-                        input{
-                            width: 466px;
-                            height: 48px;
-                            border-radius: 12px;
-                            outline: none;
-                            border: none;
-                            background-color:rgba(244, 246, 249, 1);
-                            color: black;
-                            padding: 0 10px;
-                            margin: 0 auto;
-                            
-                        }
-                        button{
-                            width: 170px;
-                            height: 45px;
-                            padding: 12px 18px 12px 18px ;
-                            background-color: rgba(25, 105, 225, 1);
-                            border-radius: 12px;
-                            gap: 10px;
-                            border: none; 
+                        .inputt{
+                            width: 100%;
+                            height: auto;
                             display: flex;
                             justify-content: center;
-                            align-items: center;
-                           
-                            
-                            h5{
-                              width: auto;
-                              color: white;
-                              font-size: 16px;
-                              font-weight: 600;
-                              font-family: 'Cygre SemiBold';
-                              line-height: 26.4px;
-                              
-                            } 
+                            gap: 24px;
+                            margin: 30px auto 40px auto;
+                            padding: 0 10px;
+                      
+                        
+                            input{
+                                width: 70%;
+                                height: 48px;
+                                border-radius: 12px;
+                                outline: none;
+                                // border: none;
+                                border: 2px solid blue;
+                                background-color:rgba(244, 246, 249, 1);
+                                color: black;
+                                padding: 0 10px;
+                                margin: 0 auto;
+
+                                
+                            }
+                            button{
+                                width: 170px;
+                                height: 45px;
+                                padding: 12px 18px 12px 18px ;
+                                background-color: rgba(25, 105, 225, 1);
+                                border-radius: 12px;
+                                gap: 10px;
+                                border: none; 
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                               
+                                
+                                h5{
+                                  width: auto;
+                                  color: white;
+                                  font-size: 16px;
+                                  font-weight: 600;
+                                  font-family: 'Cygre SemiBold';
+                                  line-height: 26.4px;
+                                  
+                                } 
+                            }
                         }
                     }
+                    
             
                     }
                     hr{

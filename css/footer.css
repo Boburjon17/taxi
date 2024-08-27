@@ -288,6 +288,9 @@
 }
 
 @media screen and (max-width: 447px) {
+  .footer-container {
+    width: 100%;
+  }
   .footer-container .footer {
     width: 100%;
     margin: 30px auto;
@@ -322,7 +325,7 @@
     padding: 0 10px;
   }
   .footer-container .footer .footer-contact .malumot .icon-phone {
-    width: 282px;
+    width: 275px;
     height: auto;
     display: flex;
     gap: 20px;
@@ -672,29 +675,30 @@
     font-family: " Cygre Medium";
   }
   .footer-container .footer .footer-contact .footer-middle {
-    width: 740px;
+    width: 100%;
     margin: 0 auto;
   }
-  .footer-container .footer .footer-contact .inputt {
-    width: 90%;
+  .footer-container .footer .footer-contact .footer-middle .inputt {
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     gap: 24px;
     margin: 30px auto 40px auto;
+    padding: 0 10px;
   }
-  .footer-container .footer .footer-contact .inputt input {
-    width: 466px;
+  .footer-container .footer .footer-contact .footer-middle .inputt input {
+    width: 70%;
     height: 48px;
     border-radius: 12px;
     outline: none;
-    border: none;
+    border: 2px solid blue;
     background-color: rgb(244, 246, 249);
     color: black;
     padding: 0 10px;
     margin: 0 auto;
   }
-  .footer-container .footer .footer-contact .inputt button {
+  .footer-container .footer .footer-contact .footer-middle .inputt button {
     width: 170px;
     height: 45px;
     padding: 12px 18px 12px 18px;
@@ -706,7 +710,7 @@
     justify-content: center;
     align-items: center;
   }
-  .footer-container .footer .footer-contact .inputt button h5 {
+  .footer-container .footer .footer-contact .footer-middle .inputt button h5 {
     width: auto;
     color: white;
     font-size: 16px;

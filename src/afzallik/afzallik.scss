@@ -103,9 +103,8 @@
         width: 100%;
         margin: 30px auto;
         .title{
-            width: auto;
+            width: 100%;
             height: auto;
-            
             display: flex;
             justify-content: center;
             align-items: center;
@@ -198,23 +197,25 @@
   .afzal-container{
     width: 100%;
    margin: 30px auto;
+   
  
 
 
     .title{
-        width: 100%;
+        width: 90%;
         height: auto;
         justify-content: center;
         margin: 20px auto;
+        gap: 10px;
        
         h1{
             width: auto;
-            font-size: 32px;
+            font-size: 25px;
            
         }
         img{
-            width: 42.91px;
-            height: 24.46px;
+            width: 37px;
+            height: 21px;
         }
     }
     
@@ -234,28 +235,28 @@
             justify-content: start;
             align-items: start;
             border: 2px solid rgba(230, 235, 243, 1);
-            padding: 20px ;
+            padding: 10px ;
             margin: 15px 0;
           
     
             .box-text{
-                width: 90%;
-                padding: 0 20px ;
+                width: 100%;
+                padding: 0 5px ;
                 
                
                 .box-title{
                     width: 100%;
                     padding: 10px 0;
                     p{
-                        font-size: 30px;
+                        font-size: 22px;
                        
                     }
                 }
                 .box-p{
                     width: 100%;
                     p{
-                        
-                        font-size: 20px;
+                        width: 100%;
+                        font-size: 14px;
                       
                     }
                    
@@ -263,7 +264,7 @@
                 }
             }
             .box-img{
-                width: 35%;
+                width: 30%;
                 height: auto;
                 img{
                     width: 100%;

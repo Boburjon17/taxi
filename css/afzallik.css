@@ -82,7 +82,7 @@
     margin: 30px auto;
   }
   .afzal-container .title {
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -150,18 +150,19 @@
     margin: 30px auto;
   }
   .afzal-container .title {
-    width: 100%;
+    width: 90%;
     height: auto;
     justify-content: center;
     margin: 20px auto;
+    gap: 10px;
   }
   .afzal-container .title h1 {
     width: auto;
-    font-size: 32px;
+    font-size: 25px;
   }
   .afzal-container .title img {
-    width: 42.91px;
-    height: 24.46px;
+    width: 37px;
+    height: 21px;
   }
   .afzal-container .boxes {
     width: 100%;
@@ -179,28 +180,29 @@
     justify-content: start;
     align-items: start;
     border: 2px solid rgb(230, 235, 243);
-    padding: 20px;
+    padding: 10px;
     margin: 15px 0;
   }
   .afzal-container .boxes .box .box-text {
-    width: 90%;
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 5px;
   }
   .afzal-container .boxes .box .box-text .box-title {
     width: 100%;
     padding: 10px 0;
   }
   .afzal-container .boxes .box .box-text .box-title p {
-    font-size: 30px;
+    font-size: 22px;
   }
   .afzal-container .boxes .box .box-text .box-p {
     width: 100%;
   }
   .afzal-container .boxes .box .box-text .box-p p {
-    font-size: 20px;
+    width: 100%;
+    font-size: 14px;
   }
   .afzal-container .boxes .box .box-img {
-    width: 35%;
+    width: 30%;
     height: auto;
   }
   .afzal-container .boxes .box .box-img img {

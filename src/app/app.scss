@@ -172,6 +172,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+    
+    border: 2px solid red;
    
     
     
@@ -207,7 +209,6 @@
 
   .scrol{
     max-width: 100%;
-    border: 2px solid green;
     
     .sectionn {
 
@@ -238,7 +239,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    border: 2px solid green;
     
     
     .sectionn {

@@ -14,38 +14,38 @@
   align-items: center;
   margin: 30px auto;
 }
-.dastur-h-container .dastur-h .dastur-left {
+.dastur-h-container .dastur-h .dastur-left-h {
   width: 47%;
 }
-.dastur-h-container .dastur-h .dastur-left img {
+.dastur-h-container .dastur-h .dastur-left-h img {
   width: 512px;
   height: 608px;
 }
-.dastur-h-container .dastur-h .dastur-img {
+.dastur-h-container .dastur-h .dastur-img-h {
   width: 47%;
   height: auto;
 }
-.dastur-h-container .dastur-h .dastur-img .dastur-title {
+.dastur-h-container .dastur-h .dastur-img-h .dastur-title {
   width: auto;
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+.dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
   font-size: 28px;
   font-family: "RAYDIS", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   color: rgb(16, 24, 36);
 }
-.dastur-h-container .dastur-h .dastur-img .dastur-title h1 span {
+.dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 span {
   color: rgb(231, 183, 58);
 }
-.dastur-h-container .dastur-h .dastur-img .dastur-title img {
+.dastur-h-container .dastur-h .dastur-img-h .dastur-title img {
   width: 37px;
   height: 21px;
 }
-.dastur-h-container .dastur-h .dastur-img p {
+.dastur-h-container .dastur-h .dastur-img-h p {
   width: auto;
   height: auto;
   display: flex;
@@ -56,14 +56,14 @@
   font-family: "Poppins", system-ui;
   margin: 30px 0;
 }
-.dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+.dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
   width: 371px;
   height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+.dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
   width: 170px;
   height: 90%;
   border: 1px solid grey;
@@ -72,27 +72,27 @@
   flex-direction: column;
   align-items: center;
 }
-.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+.dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
   font-size: 32px;
   font-family: "Matemasie", sans-serif;
   font-weight: 800;
   color: rgb(16, 24, 36);
 }
-.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+.dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 span {
   color: rgb(231, 183, 58);
 }
-.dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+.dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
   width: auto;
   font-size: 14px;
   font-weight: 400;
   font-family: "Poppins", system-ui;
   color: grey;
 }
-.dastur-h-container .dastur-h .dastur-img .button-dastur {
+.dastur-h-container .dastur-h .dastur-img-h .button-dastur {
   width: auto;
   margin-top: 30px;
 }
-.dastur-h-container .dastur-h .dastur-img .button-dastur button {
+.dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
   width: 170px;
   height: 45px;
   padding: 12px 18px;
@@ -104,7 +104,7 @@
   justify-content: center;
   align-items: center;
 }
-.dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+.dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
   width: auto;
   color: white;
   font-size: 16px;
@@ -119,106 +119,84 @@
     height: auto;
   }
   .dastur-h-container .dastur-h {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 30px auto;
   }
-  .dastur-h-container .dastur-h .dastur-left {
-    width: 100%;
+  .dastur-h-container .dastur-h .dastur-left-h {
+    width: 90%;
     height: auto;
     margin: 0 10px;
   }
-  .dastur-h-container .dastur-h .dastur-left img {
+  .dastur-h-container .dastur-h .dastur-left-h img {
     width: 100%;
     height: 100%;
   }
-  .dastur-h-container .dastur-h .dastur-img {
+  .dastur-h-container .dastur-h .dastur-img-h {
     width: 100%;
-    height: auto;
-    margin-top: 30px;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title {
-    width: 60%;
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
+    width: 65%;
+    height: auto;
     display: flex;
     align-items: start;
+    gap: 20px;
     margin: 10px auto;
-    gap: 0px;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
     font-size: 24px;
+    height: auto;
     text-align: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title img {
-    width: 37px;
-    height: 21px;
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title img {
+    width: 40px;
+    height: 20px;
+    margin-top: 10px;
   }
-  .dastur-h-container .dastur-h .dastur-img p {
+  .dastur-h-container .dastur-h .dastur-img-h p {
     width: 95%;
     height: auto;
-    font-size: 16px;
     text-align: center;
-    margin: 24px 0;
+    font-size: 16px;
+    color: rgb(100, 111, 128);
+    font-weight: 300;
+    font-family: "Poppins", system-ui;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
     width: 100%;
     height: auto;
-    display: flex;
+    margin: 0 auto;
+    padding: 0;
     justify-content: center;
-    align-items: center;
-    gap: 12px;
+    gap: 20px;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
-    width: 160px;
-    height: 100%;
-    border: 1px solid grey;
-    border-radius: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
+    width: 45%;
     padding: 10px 0;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
-    font-size: 24px;
-    font-family: "Matemasie", sans-serif;
-    font-weight: 800;
-    color: rgb(16, 24, 36);
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
+    font-size: 22px;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
-    color: rgb(231, 183, 58);
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
+    font-size: 12px;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
-    width: auto;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Poppins", system-ui;
-    color: grey;
-  }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur {
-    width: auto;
-    padding: 20px 0;
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur {
+    width: 100%;
+    margin: 24px 0 30px 0;
     text-align: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
-    width: 351px;
-    padding: 12px 18px;
-    background-color: rgb(25, 105, 225);
-    border-radius: 12px;
-    gap: 10px;
-    border: none;
-    margin: 0 auto;
-  }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
-    width: 170px;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .dastur-h-container hr {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
     width: 100%;
-    border-top: 1px dashed grey;
+    height: 45px;
+    padding: 12px 18px;
+    text-align: center;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
+    width: auto;
+    height: auto;
   }
 }
 @media screen and (min-width: 448px) and (max-width: 768px) {
@@ -227,53 +205,67 @@
     margin: 0 auto;
   }
   .dastur-h-container .dastur-h {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px auto;
   }
-  .dastur-h-container .dastur-h .dastur-left {
-    width: 100%;
+  .dastur-h-container .dastur-h .dastur-left-h {
+    width: 70%;
     height: auto;
     display: flex;
     justify-content: center;
   }
-  .dastur-h-container .dastur-h .dastur-img {
+  .dastur-h-container .dastur-h .dastur-left-h img {
+    width: 100%;
+    height: 100%;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h {
     width: 100%;
     height: auto;
     margin-top: 30px;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
     width: auto;
     justify-content: center;
   }
-  .dastur-h-container .dastur-h .dastur-img p {
-    width: 95%;
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
+    font-size: 25px;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h p {
+    width: 100%;
     margin: 30px auto;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 20px;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
-    width: 180px;
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
+    width: 160px;
     height: auto;
-    padding: 10px 0;
+    padding: 0;
+    border-radius: 12px;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur {
-    width: auto;
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
+    font-size: 24px;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
+    font-size: 14px;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur {
+    width: 100%;
     margin-top: 30px;
     display: flex;
     justify-content: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
-    width: 60%;
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
+    width: 351px;
     height: 45px;
     padding: 12px 18px;
     background-color: rgb(25, 105, 225);
@@ -281,16 +273,11 @@
     gap: 10px;
     border: none;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
     width: auto;
     color: white;
     font-size: 16px;
     font-weight: 400;
-  }
-  .dastur-h-container hr {
-    width: 100%;
-    height: 0;
-    border-top: 1px dashed rgb(181, 21, 21);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -303,52 +290,52 @@
     justify-content: center;
     margin: 30px auto;
   }
-  .dastur-h-container .dastur-h .dastur-left {
+  .dastur-h-container .dastur-h .dastur-left-h {
     width: 600px;
     height: auto;
   }
-  .dastur-h-container .dastur-h .dastur-left img {
+  .dastur-h-container .dastur-h .dastur-left-h img {
     width: 100%;
     height: 100%;
   }
-  .dastur-h-container .dastur-h .dastur-img {
+  .dastur-h-container .dastur-h .dastur-img-h {
     width: 100%;
     margin: 30px 0;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
     width: auto;
     justify-content: center;
     gap: 10px;
   }
-  .dastur-h-container .dastur-h .dastur-img p {
+  .dastur-h-container .dastur-h .dastur-img-h p {
     width: auto;
     font-size: 18px;
     margin: 30px 0;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     gap: 30px;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
     width: 27%;
     padding: 10px 0;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur {
     width: 100%;
     margin-top: 30px;
     display: flex;
     justify-content: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
     font-size: 22px;
     line-height: 30px;
   }
@@ -371,38 +358,38 @@
     align-items: center;
     margin: 30px auto;
   }
-  .dastur-h-container .dastur-h .dastur-left {
+  .dastur-h-container .dastur-h .dastur-left-h {
     width: 47%;
   }
-  .dastur-h-container .dastur-h .dastur-left img {
+  .dastur-h-container .dastur-h .dastur-left-h img {
     width: 100%;
     height: auto;
   }
-  .dastur-h-container .dastur-h .dastur-img {
+  .dastur-h-container .dastur-h .dastur-img-h {
     width: 47%;
     height: auto;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
     width: auto;
     display: flex;
     align-items: center;
     gap: 20px;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
     font-size: 28px;
     font-family: "RAYDIS", sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     color: rgb(16, 24, 36);
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 span {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 span {
     color: rgb(231, 183, 58);
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title img {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title img {
     width: 37px;
     height: 21px;
   }
-  .dastur-h-container .dastur-h .dastur-img p {
+  .dastur-h-container .dastur-h .dastur-img-h p {
     width: auto;
     height: auto;
     display: flex;
@@ -413,14 +400,14 @@
     font-family: "Poppins", system-ui;
     margin: 30px 0;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
     width: 371px;
     height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
     width: 170px;
     height: 90%;
     border: 1px solid grey;
@@ -429,27 +416,27 @@
     flex-direction: column;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
     font-size: 32px;
     font-family: "Matemasie", sans-serif;
     font-weight: 800;
     color: rgb(16, 24, 36);
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 span {
     color: rgb(231, 183, 58);
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
     width: auto;
     font-size: 14px;
     font-weight: 400;
     font-family: "Poppins", system-ui;
     color: grey;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur {
     width: auto;
     margin-top: 30px;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
     width: 170px;
     height: 45px;
     padding: 12px 18px;
@@ -461,7 +448,7 @@
     justify-content: center;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
     width: auto;
     color: white;
     font-size: 16px;
@@ -483,38 +470,38 @@
     align-items: center;
     margin: 30px auto;
   }
-  .dastur-h-container .dastur-h .dastur-left {
+  .dastur-h-container .dastur-h .dastur-left-h {
     width: 47%;
   }
-  .dastur-h-container .dastur-h .dastur-left img {
+  .dastur-h-container .dastur-h .dastur-left-h img {
     width: 512px;
     height: 608px;
   }
-  .dastur-h-container .dastur-h .dastur-img {
+  .dastur-h-container .dastur-h .dastur-img-h {
     width: 47%;
     height: auto;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
     width: auto;
     display: flex;
     align-items: center;
     gap: 20px;
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
     font-size: 28px;
     font-family: "RAYDIS", sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     color: rgb(16, 24, 36);
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title h1 span {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 span {
     color: rgb(231, 183, 58);
   }
-  .dastur-h-container .dastur-h .dastur-img .dastur-title img {
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title img {
     width: 37px;
     height: 21px;
   }
-  .dastur-h-container .dastur-h .dastur-img p {
+  .dastur-h-container .dastur-h .dastur-img-h p {
     width: auto;
     height: auto;
     display: flex;
@@ -525,14 +512,14 @@
     font-family: "Poppins", system-ui;
     margin: 30px 0;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
     width: 371px;
     height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
     width: 170px;
     height: 90%;
     border: 1px solid grey;
@@ -541,27 +528,27 @@
     flex-direction: column;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
     font-size: 32px;
     font-family: "Matemasie", sans-serif;
     font-weight: 800;
     color: rgb(16, 24, 36);
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h2 span {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 span {
     color: rgb(231, 183, 58);
   }
-  .dastur-h-container .dastur-h .dastur-img .aktiv-lorem .aktiv h6 {
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
     width: auto;
     font-size: 14px;
     font-weight: 400;
     font-family: "Poppins", system-ui;
     color: grey;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur {
     width: auto;
     margin-top: 30px;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
     width: 170px;
     height: 45px;
     padding: 12px 18px;
@@ -573,7 +560,7 @@
     justify-content: center;
     align-items: center;
   }
-  .dastur-h-container .dastur-h .dastur-img .button-dastur button h3 {
+  .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
     width: auto;
     color: white;
     font-size: 16px;

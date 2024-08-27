@@ -52,7 +52,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div >
       <Navbar />
       <div className="scrol">
         <div className="sectionn" id="index">

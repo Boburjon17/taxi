@@ -107,7 +107,7 @@
     display: none;
   }
   .m-continer .main .main-right {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .m-continer .main .main-right .main-r-top {
@@ -128,7 +128,7 @@
     width: 100%;
   }
   .m-continer .main .main-right .main-r-top .button-b button {
-    width: 352px;
+    width: 100%;
     height: 42px;
     display: flex;
     justify-content: center;
@@ -167,7 +167,7 @@
     background-size: 100%;
   }
   .m-continer .main .main-right {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
   }
@@ -175,14 +175,14 @@
     width: 100%;
   }
   .m-continer .main .main-right .main-r-top h1 {
-    width: 90%;
-    font-size: 60px;
+    width: 100%;
+    font-size: 40px;
     margin: 0 auto;
     text-align: center;
   }
   .m-continer .main .main-right .main-r-top h6 {
-    width: 90%;
-    font-size: 25px;
+    width: 100%;
+    font-size: 18px;
     text-align: center;
     margin: 30px auto;
   }
@@ -191,10 +191,10 @@
   }
   .m-continer .main .main-right .main-r-top .button-b button {
     width: 70%;
-    line-height: 35px;
+    line-height: 24px;
   }
   .m-continer .main .main-right .main-r-top .button-b button p {
-    font-size: 26px;
+    font-size: 18px;
   }
   .m-continer .main .main-right .main-r-bottom {
     width: 90%;
@@ -240,6 +240,7 @@
     width: 90%;
     line-height: 30px;
     margin: 20px auto;
+    font-size: 20px;
   }
   .m-continer .main .main-right .main-r-top .button-b {
     width: 100%;

@@ -109,6 +109,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    border: 2px solid red;
   }
   .scrol .sectionn {
     display: none;
@@ -129,7 +130,6 @@
 @media screen and (min-width: 769px) and (max-width: 990px) {
   .scrol {
     max-width: 100%;
-    border: 2px solid green;
   }
   .scrol .sectionn {
     display: none;
@@ -151,7 +151,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    border: 2px solid green;
   }
   .scrol .sectionn {
     width: auto;

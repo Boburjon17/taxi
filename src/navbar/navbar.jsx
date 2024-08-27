@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./navbar.scss"
 
 const Navbar = () => {
-  const  [bars , setBars]= useState()
+  const  [bars , setBars]= useState(false)
 
 
 
@@ -19,9 +19,7 @@ const Navbar = () => {
 
           </div>
 
-          {/* {
-            bars=false ? alert(9):" "
-          } */}
+         
         
      
         <ul>
@@ -37,7 +35,7 @@ const Navbar = () => {
         <p>+998 97 628 28 82</p>
         </button>
 
-        <div className={bars? "bars" :"bars active"}>
+        <div className={bars ? "bars active" :"bars "}>
         <ul>
           <li><a href='#afzal'>Bizning afzalliklarimiz</a></li>
           <li><a href='#foydalanuvchi'>Foydalanuvchi dasturi</a></li>

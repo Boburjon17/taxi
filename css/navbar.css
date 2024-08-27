@@ -274,9 +274,23 @@
   .nav-container nav {
     width: 100%;
     padding: 10px;
+    margin: 0;
   }
   .nav-container nav .img-i i {
     display: none !important;
+  }
+  .nav-container nav ul {
+    width: 788px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  .nav-container nav ul li a {
+    font-family: "Cygre Medium";
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(16, 24, 36);
+    opacity: 80%;
   }
 }
 @media screen and (min-width: 1201px) {

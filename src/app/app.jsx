@@ -74,7 +74,7 @@ const App = () => {
        
 
            <div  className="scroll-img "  ref={scrollImgRef} >
-            <img src="./taxi.png" alt="" />
+            <img src="public/taxi.png" alt="" />
             </div>
 
           </div>

@@ -18,9 +18,6 @@
   .m-continer{
     width: 100%;
     margin: 0 auto;
-  
- 
-
     .main{
         width: 100%;
         margin: 53px 0 ;              
@@ -133,12 +130,12 @@
                  
                 
  .main{
-                        width: 100%;
-                        margin: 0 ;              
-                        background-image: url(mainImg3.png);
-                        background-repeat: no-repeat;
-                        background-position: bottom;
-                                   
+                  width: 100%;
+                  margin: 0 ;              
+                  background-image: url(mainImg3.png);
+                  background-repeat: no-repeat;
+                  background-position: bottom;
+                             
                         background-size: 100%;
                    
                        
@@ -507,7 +504,7 @@
     
  }
 
- @media screen and (min-width:1201px) {
+ @media screen and (min-width:1201px) and (max-width:1400px) {
 
     
   .m-continer{

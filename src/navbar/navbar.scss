@@ -157,35 +157,69 @@
                 transition: all .3s linear;
                 z-index: 100;
 
+
                 &.active{ 
-                        left: 0;
-                        width: 100%;
-                        height: 100vh;
-                        justify-content: start;
-                        background-color: #ccc;
-                       
-                }
-                ul{
+                    left: 0;
                     width: 100%;
-                    display: block;
-                    
+                    height: 100vh;
+                    display: flex;
+                    justify-content: start;
+                    background-color: #ccc;
+                    padding: 0 10px;
                    
-          
-                    li{
-                        margin: 10px ;
+    
+    
+                    ul{
+                        width: 100%;
+                        display: block;
                         
-                        a{
-                            font-family: "Cygre Medium";
-                            font-weight: 500;
-                            font-size: 18px;
-                            color: rgba(16, 24, 36, 1);
-                            opacity: 80%;
+                       
+              
+                        li{
+                            margin: 10px ;
                             
-                           
+                            a{
+                                font-family: "Cygre Medium";
+                                font-weight: 500;
+                                font-size: 18px;
+                                color: rgba(16, 24, 36, 1);
+                                opacity: 80%;
+                                
+                               
+                            }
                         }
                     }
-                }
+    
+                    // .exit{
+                    //     width: 25px;
+                    //     height: 25px;
+                    //     background-color: white;
+                    //     margin:10px 0 ;
+                    //     display: flex;
+                    //     justify-content: center;
+                    //     align-items: center;
+                    //     border-radius: 50%;
+                        
+                    // h1{
+                    //     width: 100%;
+                    //     height: 100%;
+                    //     font-size: 25px;
+                    //     border: 1px solid red;
+    
+                    // }
+    
+                    // }
             }
+
+              
+
+                
+                
+
+              
+
+            }
+       
 
                 
             }
@@ -463,7 +497,7 @@
         
     }
 
-    @media screen and (min-width:1201px) {
+    @media screen and (min-width:1201px) and (max-width:1400px) {
 
        .nav-container{
         width: 100%;

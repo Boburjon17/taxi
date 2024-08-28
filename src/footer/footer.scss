@@ -317,20 +317,17 @@
                 width: 100%;
                 height: auto;
                 display: flex;
-                justify-content: end;
-                
-              
-    
+                justify-content:end;
                 .f-bottom-small{
-                    width: 735px;
+                    width: 75%;
               
                 display: flex;
                 
-                justify-content: space-between;
+                justify-content: start;
                 align-items: start;
-              
+                gap: 0;
                     .logo{
-                        width: auto;
+                        width: 50%;
                         height: 70px;
                         display: flex;
                         flex-direction: column;
@@ -346,10 +343,10 @@
                     }
         
                     .phone{
-                        width: auto;
-                        height: auto;
+                        width: 50%;
+                        height: 100%;
                         display: flex;
-                        align-items: center;
+                        align-items: start;
                         justify-content: center;
                         gap: 20px;
                         i{
@@ -719,9 +716,13 @@
                 margin: 30px auto;
                 .footer-title{
                     width: 100%;
+                    h1{
+                        font-size: 25px;
+                    }
                 }
                 p{
                     width: 90%;
+                    font-size: 16px;
                 }
                 .footer-contact{
                     width: 100%;
@@ -732,20 +733,14 @@
                         height: auto;
                         display: flex;
                         flex-wrap: wrap;
-                        gap: 46px;
-                        margin: 0 auto
-                    ;
-                       
-                       
-                        
-                    
-                      
+                        gap: 15px;
+                        margin: 0 auto;
                         .icon-phone{
             
                             width: 282px;
                             height: auto;
                             display: flex;
-                            gap: 20px;
+                            gap: 15px;
                             justify-content: center;
                       
                         
@@ -755,8 +750,8 @@
                    
             
                             .f-icon-img{
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
                                 border: 2px solid rgba(25, 105, 225, 1);
                                 display: flex;
@@ -777,7 +772,7 @@
                                 h2{
                                     width: 100%;
                                     height: 31px;
-                                    font-size: 18px;
+                                    font-size: 16px;
                                     font-weight: 700;
                                     font-family: "Poppins", system-ui;
                                     line-height: 30.53px;
@@ -786,7 +781,7 @@
                                 }
                                 p{
                                     height: auto;
-                                    font-size: 16px;
+                                    font-size: 14px;
                                     font-weight: 500;
                                     font-family: 'Cygre Medium';
             
@@ -798,7 +793,7 @@
             
                             width: 339px;
                             display: flex;
-                            gap: 20px;
+                            gap: 15px;
                             justify-content: center;
                  
                       
@@ -808,8 +803,8 @@
                    
             
                             .f-icon-img{
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
                                 border: 2px solid rgba(25, 105, 225, 1);
                                 display: flex;
@@ -828,13 +823,13 @@
                                 h2{
                                     width: auto;
                                     height: 35px;
-                                    font-size: 18px;
+                                    font-size: 16px;
                                     font-weight: 700;
                                     font-family: "Poppins", system-ui;
                                     
                                 }
                                 p{
-                                    font-size: 16px;
+                                    font-size: 14px;
                                     font-weight: 500;
                                     font-family: ' Cygre Medium';
             
@@ -847,7 +842,7 @@
             
                             width: 236px;
                             display: flex;
-                            gap: 20px;
+                            gap: 15px;
                             justify-content: center;
             
                         
@@ -856,8 +851,8 @@
                    
             
                             .f-icon-img{
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
                                 border: 2px solid rgba(25, 105, 225, 1);
                                 display: flex;
@@ -876,13 +871,13 @@
                                 h2{
                                     width: auto;
                                     height: 35px;
-                                    font-size: 18px;
+                                    font-size: 16px;
                                     font-weight: 700;
                                     font-family: "Poppins", system-ui;
                                     
                                 }
                                 p{
-                                    font-size: 16px;
+                                    font-size: 14px;
                                     font-weight: 500;
                                     font-family: ' Cygre Medium';
             
@@ -910,8 +905,7 @@
                                 height: 48px;
                                 border-radius: 12px;
                                 outline: none;
-                                // border: none;
-                                border: 2px solid blue;
+                               
                                 background-color:rgba(244, 246, 249, 1);
                                 color: black;
                                 padding: 0 10px;
@@ -963,14 +957,33 @@
                       
             
                         .f-bottom-small{
-                            width: 100%;
-                      
+                        width: 100%;
                         display: flex;
                         
-                        justify-content: center;
+                        justify-content: space-evenly;
                         align-items: start;
-                        gap: 60px;
-                      
+                        .logo{
+                            width: auto;
+                            gap: 0;
+                            
+
+                            h3{
+                                font-size: 14px;
+                               
+            
+                            }
+                        }
+            
+                        .phone{
+                            width: auto;
+                            gap: 10px;
+                            
+                            h4{
+                               font-size: 14px;
+                               
+                            }
+            
+                        }
                            
             
                         }
@@ -990,9 +1003,6 @@
             .footer{
                 width: 90%;
                 margin: 30px auto;
-               
-            
-            
                 .footer-title{
                     width: 100%;
                     h1{
@@ -1002,6 +1012,7 @@
                 }
                 p{
                     width: 100%;
+                    font-size: 16px;
                 }
                 .footer-contact{
                     width: auto;
@@ -1009,167 +1020,142 @@
                   
                 
                
-                    .malumot{   
+                    .malumot{
                         width: 100%;
                         height: auto;
                         display: flex;
-                        justify-content: start;
                         flex-wrap: wrap;
-                        gap: 20px;
-                       
-                       
-                       
-                        
-                    
-                      
-                        // .icon-phone{
+                        gap: 30px;
+                        .icon-phone{
             
-                        //     width: 282px;
-                        //     height: auto;
-                        //     display: flex;
-                        //     gap: 20px;
-                        //     justify-content: center;
-                            
-                        
-                        
-                           
+                            width: 282px;
+                            height: auto;
+                            display: flex;
+                            gap: 20px;
+                            justify-content: center;
             
-                   
-            
-                        //     .f-icon-img{
-                        //         width: 60px;
-                        //         height: 60px;
-                        //         border-radius: 50%;
-                        //         border: 2px solid rgba(25, 105, 225, 1);
-                        //         display: flex;
-                        //         justify-content: center;
-                        //         align-items: center;
-                        //         i{
-                        //             font-size: 20px;
-                        //         }
-                        //     }
-                        //     .contact-text{
-                        //         width: 182px;
-                        //         height: auto;
+                            .f-icon-img{
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                border: 2px solid rgba(25, 105, 225, 1);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                i{
+                                    font-size: 20px;
+                                }
+                            }
+                            .contact-text{
+                                width: 182px;
+                                height: auto;
                                 
                              
                                 
                         
                               
-                        //         h2{
-                        //             width: 100%;
-                        //             height: 31px;
-                        //             font-size: 18px;
-                        //             font-weight: 700;
-                        //             font-family: "Poppins", system-ui;
-                        //             line-height: 30.53px;
+                                h2{
+                                    width: 100%;
+                                    height: 31px;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    font-family: "Poppins", system-ui;
+                                    line-height: 30.53px;
                                  
                                     
-                        //         }
-                        //         p{
-                        //             height: auto;
-                        //             font-size: 16px;
-                        //             font-weight: 500;
-                        //             font-family: 'Cygre Medium';
+                                }
+                                p{
+                                    height: auto;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    font-family: 'Cygre Medium';
             
-                        //         }
-                        //     }
-                        // }
+                                }
+                            }
+                        }
             
-                        // .icon-loc{
+                        .icon-loc{
             
-                        //     width: 339px;
-                        //     display: flex;
-                        //     gap: 20px;
-                        //     justify-content: center;
-                      
-                        
-                           
-            
-                   
-            
-                        //     .f-icon-img{
-                        //         width: 60px;
-                        //         height: 60px;
-                        //         border-radius: 50%;
-                        //         border: 2px solid rgba(25, 105, 225, 1);
-                        //         display: flex;
-                        //         justify-content: center;
-                        //         align-items: center;
-                        //         i{
-                        //             font-size: 20px;
-                        //         }
-                        //     }
-                        //     .contact-text{
-                        //         width: 259px;
+                            width: 339px;
+                            display: flex;
+                            gap: 20px;
+                            justify-content: center;
+                            .f-icon-img{
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                border: 2px solid rgba(25, 105, 225, 1);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                i{
+                                    font-size: 20px;
+                                }
+                            }
+                            .contact-text{
+                                width: 259px;
                              
                                 
                         
                               
-                        //         h2{
-                        //             width: auto;
-                        //             height: 35px;
-                        //             font-size: 18px;
-                        //             font-weight: 700;
-                        //             font-family: "Poppins", system-ui;
+                                h2{
+                                    width: auto;
+                                    height: 35px;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    font-family: "Poppins", system-ui;
                                     
-                        //         }
-                        //         p{
-                        //             font-size: 16px;
-                        //             font-weight: 500;
-                        //             font-family: ' Cygre Medium';
+                                }
+                                p{
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    font-family: ' Cygre Medium';
             
-                        //         }
-                        //     }
-                        // }
+                                }
+                            }
+                        }
             
             
-                        // .icon-mail{
+                        .icon-mail{
             
-                        //     width: 236px;
-                        //     display: flex;
-                        //     gap: 20px;
-                        //     justify-content: center;
-                        
-                        
-                           
-            
-                   
-            
-                        //     .f-icon-img{
-                        //         width: 60px;
-                        //         height: 60px;
-                        //         border-radius: 50%;
-                        //         border: 2px solid rgba(25, 105, 225, 1);
-                        //         display: flex;
-                        //         justify-content: center;
-                        //         align-items: center;
-                        //         i{
-                        //             font-size: 20px;
-                        //         }
-                        //     }
-                        //     .contact-text{
-                        //         width: 156px;
+                            width: 236px;
+                            display: flex;
+                            gap: 20px;
+                            justify-content: center;
+                            .f-icon-img{
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50%;
+                                border: 2px solid rgba(25, 105, 225, 1);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                i{
+                                    font-size: 20px;
+                                }
+                            }
+                            .contact-text{
+                                width: 156px;
                              
                                 
                         
                               
-                        //         h2{
-                        //             width: auto;
-                        //             height: 35px;
-                        //             font-size: 18px;
-                        //             font-weight: 700;
-                        //             font-family: "Poppins", system-ui;
+                                h2{
+                                    width: auto;
+                                    height: 35px;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    font-family: "Poppins", system-ui;
                                     
-                        //         }
-                        //         p{
-                        //             font-size: 16px;
-                        //             font-weight: 500;
-                        //             font-family: ' Cygre Medium';
+                                }
+                                p{
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    font-family: ' Cygre Medium';
             
-                        //         }
-                        //     }
-                        // }
+                                }
+                            }
+                        }
                     }
             
                     .footer-middle{
@@ -1229,7 +1215,7 @@
                       
                         display: flex;
                         
-                        justify-content: space-between;
+                        justify-content: space-evenly;
                         align-items: start;
                       
                             .logo{
@@ -1239,7 +1225,7 @@
                                 flex-direction: column;
                                 align-items: center;
                                 h3{
-                                    font-size: 16px;
+                                    font-size: 14px;
                                     color: grey;
                                     font-weight: 400;
                                     font-family: "Roboto", sans-serif;
@@ -1260,7 +1246,7 @@
                                     color: rgba(25, 105, 225, 1);
                                 }
                                 h4{
-                                   font-size: 16px;
+                                   font-size: 14px;
                                    font-weight: 500; 
                                    font-family: " Cygre Medium", system-ui;
                                    color: rgba(103, 108, 116, 1);
@@ -1635,7 +1621,7 @@
         
     }
 
-    @media screen  and (min-width:1201px) {
+    @media screen  and (min-width:1201px) and (max-width:1400px) {
 
         .footer-container{
             width: 100%;

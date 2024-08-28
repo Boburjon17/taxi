@@ -5,7 +5,6 @@
     justify-content: center;
     position: relative;
     
-    
     .sectionn {
       width: auto;
       position: fixed;
@@ -93,8 +92,8 @@
  
 
   .content {
-    margin-left: 50px;
-    padding-top: 20px;
+    margin-left: 0;
+    padding-top: 0;
     width: 100%;
     .section {
       width: 100%;
@@ -240,7 +239,6 @@
     justify-content: center;
     position: relative;
     
-    border: 1px solid red;
     
     
     .sectionn {
@@ -349,7 +347,7 @@
   
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1201px) and (max-width:1400px) {
 
   .scrol{
     width: 100%;
@@ -358,14 +356,12 @@
     align-items: start;
     justify-content: center;
     position: relative;
-    
-    
     .sectionn {
       width: auto;
       position: fixed;
       top: 50%;
       transform: translateY(-50%);
-      left: 20px;
+      left: 10px;
       position: fixed;
       z-index: 5;
    

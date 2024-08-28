@@ -12,16 +12,10 @@
 .fikr-container{
   width: 100%;
   .fikr{
-    width: 1291px;
-    margin: 0 auto;
-    
-
-   
-
-  
-
+    width: 100%;
+    margin: 30px  auto;
     .fikr-title{
-        width: 1200px;
+        width: 72%;
         height: auto;
          margin: 0 auto;
         display: flex;
@@ -49,12 +43,12 @@
     }
 
     .fikr-p{
-      width: auto;
+      width: 72%;
       height: auto;
-      margin: 10px 0 30px 0;
+      margin: 10px auto 30px auto;
 
       p{
-        width: 87%;
+        width: auto;
         height: auto;
         font-size: 18px;
         font-weight: 400;
@@ -77,13 +71,10 @@
   
         margin: 30px 0 60px auto;
         
-        
-       
-        
         .swiper{
          width: 100%;
          height: auto;
-     
+         
         
     
       
@@ -508,21 +499,16 @@
   
  }
 
- @media screen and (min-width:1201px) {
+ @media screen and (min-width:1201px) and (max-width:1400px) {
 
   .fikr-container{
     width: 100%;
     .fikr{
       width: 100%;
       margin: 30px  auto;
-      
-  
-     
-  
-    
   
       .fikr-title{
-          width: 90%;
+          width: 85%;
           height: auto;
            margin: 0 auto;
           display: flex;
@@ -550,12 +536,13 @@
       }
   
       .fikr-p{
-        width: auto;
+        width: 85%;
         height: auto;
-        margin: 10px 0 30px 0;
+        margin: 10px auto 30px auto;
+        
   
         p{
-          width: 90%;
+          width: 100%;
           height: auto;
           font-size: 18px;
           font-weight: 400;
@@ -573,7 +560,7 @@
   
   
       .sliderBrend-container{
-          width: 95%;
+          width: 93%;
           height: auto;
     
           margin: 30px 0 60px auto;
@@ -590,7 +577,7 @@
         
            .swiper-slide {
               width: 300px;
-               height: 420px;
+               height: 400px;
                 
                  .brend-img{
                    width: 100%;

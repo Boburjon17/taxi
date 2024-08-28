@@ -598,7 +598,7 @@
 }
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1201px) and (max-width:1400px) {
 
 
     .dastur-h-container{
@@ -606,7 +606,7 @@
         margin: 0 auto;
     
         .dastur-h{
-            width: 1130px;
+            width: 85%;
             height: auto;
             display: flex;
             justify-content: space-between;
@@ -615,8 +615,8 @@
             .dastur-left-h{
                 width: 47%;
                 img{
-                    width: 512px;
-                    height: 608px;
+                    width: 100%;
+                    height: auto;
                 }
               
                

@@ -615,24 +615,17 @@
     
 }
 
-@media screen and (min-width:1201px) {
+@media screen and (min-width:1201px) and (max-width:1400px) {
    
     .dastur{
         width:100%;
         height: auto;
         margin: 0 auto;
-        .dastur{
-        width:100%;
-    
-    
-
-
- 
-    
+        
 
 
     .dastur-f{
-        width: 1130px;
+        width: 85%;
         height: auto;
         display: flex;
         justify-content: space-between;
@@ -640,7 +633,6 @@
         margin: 30px auto;
         .dastur-left{
             width: 47%;
-          
             .dastur-title{
                 width: auto;
                
@@ -681,39 +673,39 @@
     
             }
             .aktiv-lorem{
-               width: 371px;
-               height: 85px;
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-            
-               .aktiv{
-                width: 180px;
-                height: 90%;
-                border: 1px solid grey;
-                border-radius: 24px;
+                width: 371px;
+                height: 85px;
                 display: flex;
-                flex-direction: column;
+                justify-content: space-between;
                 align-items: center;
-                h2{
-                    font-size: 32px;
-                    font-family: "Matemasie", sans-serif;
-                    font-weight: 800;
-                    color: rgba(16, 24, 36, 1);
-                    span{
-                        color: rgba(231, 183, 58, 1);
-                    }
+             
+                .aktiv{
+                 width: 170px;
+                 height: 90%;
+                 border: 1px solid grey;
+                 border-radius: 24px;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 h2{
+                     font-size: 32px;
+                     font-family: "Matemasie", sans-serif;
+                     font-weight: 800;
+                     color: rgba(16, 24, 36, 1);
+                     span{
+                         color: rgba(231, 183, 58, 1);
+                     }
+                 }
+                 h6{
+                     width: auto;
+                     font-size: 14px;
+                     font-weight: 400;
+                     font-family: "Poppins", system-ui;
+                     color: grey;
+                 }
                 }
-                h6{
-                    width: auto;
-                    font-size: 16px;
-                    font-weight: 400;
-                    font-family: "Poppins", system-ui;
-                    color: grey;
-                }
-               }
-               
-            }
+                
+             }
             .button-dastur{
                 width: auto;
                 margin-top: 30px;
@@ -746,8 +738,8 @@
             height: auto;
  
             img{
-                width: 551px;
-                height: 611px;
+                width: 100%;
+                height: auto;
            
             }
            
@@ -756,7 +748,7 @@
     }
 
     
-}
+
         
     
     
@@ -764,129 +756,129 @@
         
     
     
-        .dastur-f{
-            width: 1130px;
-            height: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0 auto;
-            .dastur-left{
-                width: 47%;
+        // .dastur-f{
+        //     width: 1130px;
+        //     height: auto;
+        //     display: flex;
+        //     justify-content: space-between;
+        //     align-items: center;
+        //     margin: 0 auto;
+        //     .dastur-left{
+        //         width: 47%;
               
-                .dastur-title{
-                    width: auto;
+        //         .dastur-title{
+        //             width: auto;
                    
-                    display: flex;
-                    justify-content: start;
-                    align-items: center;
-                    gap: 10px;
+        //             display: flex;
+        //             justify-content: start;
+        //             align-items: center;
+        //             gap: 10px;
                   
-                    h1{
-                        width: auto;
-                        height: auto;
-                        font-size: 28px;
-                        font-family: "RAYDIS", sans-serif;
-                        font-weight: 800;
-                        text-transform: uppercase;
+        //             h1{
+        //                 width: auto;
+        //                 height: auto;
+        //                 font-size: 28px;
+        //                 font-family: "RAYDIS", sans-serif;
+        //                 font-weight: 800;
+        //                 text-transform: uppercase;
                        
-                        color: rgba(16, 24, 36, 1);
-                        span{
-                            color: rgba(231, 183, 58, 1);
-                        }
-                    }
+        //                 color: rgba(16, 24, 36, 1);
+        //                 span{
+        //                     color: rgba(231, 183, 58, 1);
+        //                 }
+        //             }
         
-                    img{
-                        width: 37px;
-                        height: 21px;
-                    }
-                }
-                p{ 
-                    width: auto;
-                    height: auto;
-                    display: flex;
-                    align-items: center;
-                    font-size: 15px;
-                    color: rgba(100, 111, 128, 1);
-                    font-weight: 300;
-                    font-family: "Poppins", system-ui;
-                    margin: 30px 0;
+        //             img{
+        //                 width: 37px;
+        //                 height: 21px;
+        //             }
+        //         }
+        //         p{ 
+        //             width: auto;
+        //             height: auto;
+        //             display: flex;
+        //             align-items: center;
+        //             font-size: 15px;
+        //             color: rgba(100, 111, 128, 1);
+        //             font-weight: 300;
+        //             font-family: "Poppins", system-ui;
+        //             margin: 30px 0;
         
-                }
-                .aktiv-lorem{
-                   width: 371px;
-                   height: 85px;
-                   display: flex;
-                   justify-content: space-between;
-                   align-items: center;
+        //         }
+        //         .aktiv-lorem{
+        //            width: 371px;
+        //            height: 85px;
+        //            display: flex;
+        //            justify-content: space-between;
+        //            align-items: center;
                 
-                   .aktiv{
-                    width: 180px;
-                    height: 90%;
-                    border: 1px solid grey;
-                    border-radius: 24px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    h2{
-                        font-size: 32px;
-                        font-family: "Matemasie", sans-serif;
-                        font-weight: 800;
-                        color: rgba(16, 24, 36, 1);
-                        span{
-                            color: rgba(231, 183, 58, 1);
-                        }
-                    }
-                    h6{
-                        width: auto;
-                        font-size: 16px;
-                        font-weight: 400;
-                        font-family: "Poppins", system-ui;
-                        color: grey;
-                    }
-                   }
+        //            .aktiv{
+        //             width: 180px;
+        //             height: 90%;
+        //             border: 1px solid grey;
+        //             border-radius: 24px;
+        //             display: flex;
+        //             flex-direction: column;
+        //             align-items: center;
+        //             h2{
+        //                 font-size: 32px;
+        //                 font-family: "Matemasie", sans-serif;
+        //                 font-weight: 800;
+        //                 color: rgba(16, 24, 36, 1);
+        //                 span{
+        //                     color: rgba(231, 183, 58, 1);
+        //                 }
+        //             }
+        //             h6{
+        //                 width: auto;
+        //                 font-size: 16px;
+        //                 font-weight: 400;
+        //                 font-family: "Poppins", system-ui;
+        //                 color: grey;
+        //             }
+        //            }
                    
-                }
-                .button-dastur{
-                    width: auto;
-                    margin-top: 30px;
+        //         }
+        //         .button-dastur{
+        //             width: auto;
+        //             margin-top: 30px;
                     
-                    button{
-                        width: 170px;
-                        height: 45px;
-                        padding: 12px 18px ;
-                        background-color: rgba(25, 105, 225, 1);
-                        border-radius: 12px;
-                        gap: 10px;
-                        border: none; 
+        //             button{
+        //                 width: 170px;
+        //                 height: 45px;
+        //                 padding: 12px 18px ;
+        //                 background-color: rgba(25, 105, 225, 1);
+        //                 border-radius: 12px;
+        //                 gap: 10px;
+        //                 border: none; 
                        
                         
-                        h3{
-                          width: auto;
-                          color: white;
-                          font-size: 16px;
-                          font-weight: 400;
+        //                 h3{
+        //                   width: auto;
+        //                   color: white;
+        //                   font-size: 16px;
+        //                   font-weight: 400;
                           
-                        } 
-                      }
-                }
+        //                 } 
+        //               }
+        //         }
                 
         
                 
-            }
-            .dastur-img{
-                width: 47%;
-                height: auto;
+        //     }
+        //     .dastur-img{
+        //         width: 47%;
+        //         height: auto;
      
-                img{
-                    width: 551px;
-                    height: 611px;
+        //         img{
+        //             width: 551px;
+        //             height: 611px;
                
-                }
+        //         }
                
-            }
+        //     }
         
-        }
+        // }
     
         
     }

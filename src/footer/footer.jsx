@@ -70,7 +70,7 @@ const Footer = () => {
                
                 
             </div>
-            <hr />
+            {/* <hr /> */}
             <div className="footer-bottom">
 
                 <div className="f-bottom-small">

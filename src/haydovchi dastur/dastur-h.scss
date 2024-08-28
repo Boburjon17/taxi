@@ -380,18 +380,19 @@
     
         .dastur-h{
             width: 90%;
-           
             flex-wrap: wrap;
             justify-content: center;
-            
             margin: 30px auto;
+            
+           
             .dastur-left-h{
-                  width: 600px;
+                width: 70%;
                 height: auto;
+               
      
                 img{
                     width: 100%;
-                    height: 100%;
+                    height: auto;
                
                 }
               
@@ -401,18 +402,20 @@
                 
             }
             .dastur-img-h{
-                
                 width: 100%;
-                margin: 30px 0;
               
                 .dastur-title{
                     width: auto;
                     justify-content:center;
                     gap: 10px;
+
+                    h1{
+                        font-size: 25px;
+                    }
                 }
                 p{ 
                     width: auto;
-                    font-size: 18px;
+                    font-size: 16px;
                     margin: 30px 0;
         
                 }
@@ -425,8 +428,16 @@
                   
                 
                    .aktiv{
-                    width: 27%;
-                    padding: 10px 0;
+                    width: 180px;
+                    padding: 5px;
+
+                    h2{
+                        font-size: 22px;
+                    }
+
+                    h6{
+                        font-size: 16px;
+                    }
                    }
                    
                 }
@@ -435,18 +446,19 @@
                     margin-top: 30px;
                     display: flex;
                     justify-content: center;
+                    
 
                     
                     button{
-                        width: 60%; 
+                        width: 391px; 
                         display: flex;
                         justify-content: center;
                         align-items: center;
                        
                         
                         h3{
-                          font-size: 22px;
-                          line-height: 30px;
+                          font-size: 18px;
+                          line-height: 26px;
                           
                           
                         } 
@@ -457,12 +469,7 @@
         
         }
         
-         hr {
-            width: 100%;
-            height: 0;
-            border-top: 1px  dashed  rgb(181, 21, 21);
-           
-        }
+         
     
     
       }
@@ -483,8 +490,10 @@
             margin: 30px auto;
             .dastur-left-h{
                 width: 47%;
+                display: flex;
+                justify-content: center;
                 img{
-                    width: 100%;
+                    width: 90%;
                     height: auto;
                 }
               
@@ -495,29 +504,20 @@
             }
             .dastur-img-h{
                 width: 47%;
-                height: auto;
-               
-        
+              
                 .dastur-title{
-                    width: auto;
+                    width: 100%;
+                   
                     display: flex;
+                    justify-content: start;
                     align-items: center;
-                    gap: 20px;
+                    gap: 10px;
+                  
                     h1{
-                        font-size: 28px;
-                        font-family: "RAYDIS", sans-serif;
-                        font-weight: 800;
-                        text-transform: uppercase;
-                       
-                        color: rgba(16, 24, 36, 1);
-                        span{
-                            color: rgba(231, 183, 58, 1);
-                        }
-                    }
-        
-                    img{
-                        width: 37px;
-                        height: 21px;
+                        width: auto;
+                        height: auto;
+                        font-size: 25px;
+                        
                     }
                 }
                 p{ 
@@ -525,7 +525,7 @@
                     height: auto;
                     display: flex;
                     align-items: center;
-                    font-size: 15px;
+                    font-size: 14px;
                     color: rgba(100, 111, 128, 1);
                     font-weight: 300;
                     font-family: "Poppins", system-ui;
@@ -533,28 +533,27 @@
         
                 }
                 .aktiv-lorem{
-                   width: 371px;
-                   height: 85px;
+                   width: 100%;
+                   height: auto;
                    display: flex;
-                   justify-content: space-between;
+                   justify-content: start;
                    align-items: center;
+                   gap: 50px;
                 
                    .aktiv{
-                    width: 170px;
-                    height: 90%;
+                    width: 160px;
+                    height:auto;
                     border: 1px solid grey;
-                    border-radius: 24px;
+                    border-radius: 16px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     h2{
-                        font-size: 32px;
+                        font-size: 25px;
                         font-family: "Matemasie", sans-serif;
                         font-weight: 800;
                         color: rgba(16, 24, 36, 1);
-                        span{
-                            color: rgba(231, 183, 58, 1);
-                        }
+                      
                     }
                     h6{
                         width: auto;
@@ -578,11 +577,6 @@
                         border-radius: 12px;
                         gap: 10px;
                         border: none; 
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-        
-                        
                        
                         
                         h3{
@@ -590,15 +584,11 @@
                           color: white;
                           font-size: 16px;
                           font-weight: 400;
-                          line-height: 26.4px;
-                          font-family: 'Cygre SemiBold';
-                         
                           
                         } 
                       }
                 }
-               
-               
+                
             }
         
         }

@@ -749,6 +749,9 @@
   .footer-container .footer .footer-title {
     width: 100%;
   }
+  .footer-container .footer .footer-title h1 {
+    font-size: 25px;
+  }
   .footer-container .footer p {
     width: 100%;
   }
@@ -775,7 +778,7 @@
     margin: 30px 0 40px 0;
   }
   .footer-container .footer .footer-contact .inputt input {
-    width: 80%;
+    width: 600px;
     height: 45px;
     padding: 0;
     margin: 10px auto;
@@ -783,14 +786,14 @@
     justify-content: center;
   }
   .footer-container .footer .footer-contact .inputt button {
-    width: 60%;
+    width: 391px;
     height: auto;
     margin: 0 auto;
   }
   .footer-container .footer .footer-contact .inputt button h5 {
     width: auto;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 26px;
   }
   .footer-container .footer hr {
     width: 100%;
@@ -864,7 +867,7 @@
     gap: 10px;
   }
   .footer-container .footer .footer-title h1 {
-    font-size: 28px;
+    font-size: 25px;
     font-family: "RAYDIS", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -874,13 +877,13 @@
     color: rgb(231, 183, 58);
   }
   .footer-container .footer .footer-title img {
-    width: 37px;
-    height: 21px;
+    width: 32px;
+    height: 18px;
   }
   .footer-container .footer p {
     width: auto;
     height: auto;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     font-family: "Poppins", system-ui;
     color: grey;
@@ -891,21 +894,21 @@
     height: auto;
   }
   .footer-container .footer .footer-contact .malumot {
-    width: 950px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     display: flex;
-    gap: 46px;
+    gap: 10px;
   }
   .footer-container .footer .footer-contact .malumot .icon-phone {
     width: 282px;
     height: auto;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
   }
   .footer-container .footer .footer-contact .malumot .icon-phone .f-icon-img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 2px solid rgb(25, 105, 225);
     display: flex;
@@ -922,26 +925,26 @@
   .footer-container .footer .footer-contact .malumot .icon-phone .contact-text h2 {
     width: 100%;
     height: 31px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     font-family: "Poppins", system-ui;
     line-height: 30.53px;
   }
   .footer-container .footer .footer-contact .malumot .icon-phone .contact-text p {
     height: auto;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: "Cygre Medium";
   }
   .footer-container .footer .footer-contact .malumot .icon-loc {
     width: 339px;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
   }
   .footer-container .footer .footer-contact .malumot .icon-loc .f-icon-img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 2px solid rgb(25, 105, 225);
     display: flex;
@@ -957,24 +960,24 @@
   .footer-container .footer .footer-contact .malumot .icon-loc .contact-text h2 {
     width: auto;
     height: 35px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     font-family: "Poppins", system-ui;
   }
   .footer-container .footer .footer-contact .malumot .icon-loc .contact-text p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: " Cygre Medium";
   }
   .footer-container .footer .footer-contact .malumot .icon-mail {
     width: 236px;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
   }
   .footer-container .footer .footer-contact .malumot .icon-mail .f-icon-img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: 2px solid rgb(25, 105, 225);
     display: flex;
@@ -990,12 +993,12 @@
   .footer-container .footer .footer-contact .malumot .icon-mail .contact-text h2 {
     width: auto;
     height: 35px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     font-family: "Poppins", system-ui;
   }
   .footer-container .footer .footer-contact .malumot .icon-mail .contact-text p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: " Cygre Medium";
   }
@@ -1017,14 +1020,10 @@
   .footer-container .footer .footer-contact .footer-middle h1 span {
     color: rgb(231, 183, 58);
   }
-  .footer-container .footer .footer-contact .footer-middle img {
-    width: 60px;
-    height: 30px;
-  }
   .footer-container .footer .footer-contact h6 {
     width: auto;
     height: auto;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-family: "Poppins", system-ui;
     color: rgb(103, 108, 116);
@@ -1095,7 +1094,7 @@
     align-items: center;
   }
   .footer-container .footer .footer-bottom .f-bottom-small .logo h3 {
-    font-size: 16px;
+    font-size: 14px;
     color: grey;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -1114,7 +1113,7 @@
     color: rgb(25, 105, 225);
   }
   .footer-container .footer .footer-bottom .f-bottom-small .phone h4 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: " Cygre Medium", system-ui;
     color: rgb(103, 108, 116);

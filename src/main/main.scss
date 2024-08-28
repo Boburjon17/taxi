@@ -329,7 +329,7 @@
                         background-size: 100%;
                    
                         .main-right{
-                            width: 100%;
+                            width: 90%;
                             height: auto;
                             margin: 0 auto;
                       
@@ -340,25 +340,25 @@
                 
                                 h1{
 
-                                    font-size: 60px;
+                                    font-size: 40px;
                                     text-align: center;
                                 } 
                                     
                                 h6{
-                                    width: 90%;
+                                    width: 100%;
                                    line-height: 30px;
                                     margin: 20px auto;
-                                    font-size: 20px;
+                                    font-size: 18px;
                                     
                                 }
                                 .button-b{
                                     width: 100%;
                 
                                     button{
-                                        width: 60%;
-                                        line-height: 30px;
+                                        width: 391px;
+                                        line-height: 26px;
                                         p{
-                                          font-size: 22px;
+                                          font-size: 18px;
                                           
                                         } 
                                       }
@@ -435,18 +435,19 @@
                     
     
                     h1{
-                        font-size: 60px;
+                        font-size: 50px;
                         font-family: 'RAYDIS';
                         text-transform: uppercase;
                         font-weight: 800;
                         color: rgba(16, 24, 36, 1);
+                        text-align: center;
                         span{
                             color: rgba(231, 183, 58, 1);
                         }
                     }
                     h6{
                         width: 100%;
-                        font-size: 20px;
+                        font-size: 18px;
                         text-align: center ;
                         font-family: 'Cygre Medium';
                         font-weight: 400;

@@ -225,7 +225,7 @@
     background-size: 100%;
   }
   .m-continer .main .main-right {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0 auto;
   }
@@ -233,24 +233,24 @@
     width: 100%;
   }
   .m-continer .main .main-right .main-r-top h1 {
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
   }
   .m-continer .main .main-right .main-r-top h6 {
-    width: 90%;
+    width: 100%;
     line-height: 30px;
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 18px;
   }
   .m-continer .main .main-right .main-r-top .button-b {
     width: 100%;
   }
   .m-continer .main .main-right .main-r-top .button-b button {
-    width: 60%;
-    line-height: 30px;
+    width: 391px;
+    line-height: 26px;
   }
   .m-continer .main .main-right .main-r-top .button-b button p {
-    font-size: 22px;
+    font-size: 18px;
   }
   .m-continer .main .main-right .main-r-bottom {
     width: 100%;
@@ -296,18 +296,19 @@
     width: 782px;
   }
   .m-continer .main .main-right .main-r-top h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-family: "RAYDIS";
     text-transform: uppercase;
     font-weight: 800;
     color: rgb(16, 24, 36);
+    text-align: center;
   }
   .m-continer .main .main-right .main-r-top h1 span {
     color: rgb(231, 183, 58);
   }
   .m-continer .main .main-right .main-r-top h6 {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-family: "Cygre Medium";
     font-weight: 400;

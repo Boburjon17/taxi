@@ -296,6 +296,10 @@
             height: auto;
             justify-content: center;
             margin: 30px 0;
+
+            h1{
+                font-size: 26px;
+            }
         }
         
         .boxes{
@@ -320,21 +324,22 @@
                     width: 100%;
                     padding:  10px;
                    
+                   
                     .box-title{
                         width: 100%;
                         padding: 10px 0;
                     
                         p{
                             width: 100%;
-                            font-size: 25px;
+                            font-size: 20px;
                            
                         }
                     }
                     .box-p{
-                        width: 95%;
+                        width: 100%;
                         p{
-                            
-                            font-size: 16px;
+                            width: 100%;
+                            font-size: 14px;
                            
                         }
                        
@@ -342,7 +347,7 @@
                     }
                 }
                 .box-img{
-                    width: 40%;
+                    width: 30%;
                     height: auto;
                     img{
                         width: 100%;
@@ -356,11 +361,7 @@
         
             }
         }
-        hr{
-            width: 100%;
-            border: 1px dashed grey;
-            
-        }
+       
       }
     
 }
@@ -375,14 +376,16 @@
 
     .title{
         width: 90%;
-        height: 100px;
+        height: auto;
         margin: 0 auto;
         display: flex;
         align-items: center;
         gap: 20px;
+        
+        padding: 0 10px;
        
         h1{
-            font-size: 28px;
+            font-size: 25px;
             font-family: "RAYDIS", sans-serif;
             font-weight: 700;
             text-transform: uppercase;
@@ -404,7 +407,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px;
+        gap: 20px;
+
     
         .box{
             width: 47%;
@@ -414,18 +418,18 @@
             border: 2px solid rgba(230, 235, 243, 1);
             border-radius: 18px;
             margin:  0;
-            padding: 10px 0;
-          
+            padding: 10px ;
+            
     
             .box-text{
                 width: 70%;
-                padding: 0 10px;
+                padding: 0 ;
                
                 .box-title{
-                    width: auto;
+                    width: 100%;
                     padding: 10px 0;
                     p{
-                        font-size: 22px;
+                        font-size: 20px;
                         font-weight: 700;
                         font-family: "Poppins", system-ui;
                         color: rgba(55, 60, 68, 1);
@@ -433,13 +437,7 @@
                 }
                 .box-p{
                     width: 100%;
-                    p{
-                        
-                        font-size: 14px;
-                        font-weight: 400;
-                        font-family: "Poppins", system-ui;
-                        color: rgba(100, 111, 128, 1);
-                    }
+                    
                    
     
                 }
@@ -449,7 +447,10 @@
                 height: 100%;
                 display: flex;
                 align-items: center;
-                
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
     
         }

@@ -291,25 +291,27 @@
     margin: 30px auto;
   }
   .dastur-h-container .dastur-h .dastur-left-h {
-    width: 600px;
+    width: 70%;
     height: auto;
   }
   .dastur-h-container .dastur-h .dastur-left-h img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .dastur-h-container .dastur-h .dastur-img-h {
     width: 100%;
-    margin: 30px 0;
   }
   .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
     width: auto;
     justify-content: center;
     gap: 10px;
   }
+  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
+    font-size: 25px;
+  }
   .dastur-h-container .dastur-h .dastur-img-h p {
     width: auto;
-    font-size: 18px;
+    font-size: 16px;
     margin: 30px 0;
   }
   .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
@@ -320,8 +322,14 @@
     gap: 30px;
   }
   .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
-    width: 27%;
-    padding: 10px 0;
+    width: 180px;
+    padding: 5px;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
+    font-size: 22px;
+  }
+  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
+    font-size: 16px;
   }
   .dastur-h-container .dastur-h .dastur-img-h .button-dastur {
     width: 100%;
@@ -330,19 +338,14 @@
     justify-content: center;
   }
   .dastur-h-container .dastur-h .dastur-img-h .button-dastur button {
-    width: 60%;
+    width: 391px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
-    font-size: 22px;
-    line-height: 30px;
-  }
-  .dastur-h-container hr {
-    width: 100%;
-    height: 0;
-    border-top: 1px dashed rgb(181, 21, 21);
+    font-size: 18px;
+    line-height: 26px;
   }
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
@@ -360,70 +363,61 @@
   }
   .dastur-h-container .dastur-h .dastur-left-h {
     width: 47%;
+    display: flex;
+    justify-content: center;
   }
   .dastur-h-container .dastur-h .dastur-left-h img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .dastur-h-container .dastur-h .dastur-img-h {
     width: 47%;
-    height: auto;
   }
   .dastur-h-container .dastur-h .dastur-img-h .dastur-title {
-    width: auto;
+    width: 100%;
     display: flex;
+    justify-content: start;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
   .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 {
-    font-size: 28px;
-    font-family: "RAYDIS", sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: rgb(16, 24, 36);
-  }
-  .dastur-h-container .dastur-h .dastur-img-h .dastur-title h1 span {
-    color: rgb(231, 183, 58);
-  }
-  .dastur-h-container .dastur-h .dastur-img-h .dastur-title img {
-    width: 37px;
-    height: 21px;
+    width: auto;
+    height: auto;
+    font-size: 25px;
   }
   .dastur-h-container .dastur-h .dastur-img-h p {
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(100, 111, 128);
     font-weight: 300;
     font-family: "Poppins", system-ui;
     margin: 30px 0;
   }
   .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem {
-    width: 371px;
-    height: 85px;
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    gap: 50px;
   }
   .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv {
-    width: 170px;
-    height: 90%;
+    width: 160px;
+    height: auto;
     border: 1px solid grey;
-    border-radius: 24px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 {
-    font-size: 32px;
+    font-size: 25px;
     font-family: "Matemasie", sans-serif;
     font-weight: 800;
     color: rgb(16, 24, 36);
-  }
-  .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h2 span {
-    color: rgb(231, 183, 58);
   }
   .dastur-h-container .dastur-h .dastur-img-h .aktiv-lorem .aktiv h6 {
     width: auto;
@@ -444,17 +438,12 @@
     border-radius: 12px;
     gap: 10px;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .dastur-h-container .dastur-h .dastur-img-h .button-dastur button h3 {
     width: auto;
     color: white;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26.4px;
-    font-family: "Cygre SemiBold";
   }
 }
 @media screen and (min-width: 1201px) {

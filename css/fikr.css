@@ -211,12 +211,20 @@
     height: auto;
     justify-content: center;
   }
+  .fikr-container .fikr .fikr-title h1 {
+    font-size: 25px;
+  }
+  .fikr-container .fikr .fikr-title img {
+    width: 37px;
+    height: 21px;
+  }
   .fikr-container .fikr .fikr-p {
     width: 90%;
     height: auto;
     margin: 10px auto 30px auto;
   }
   .fikr-container .fikr .fikr-p p {
+    font-size: 16px;
     width: 100%;
   }
   .fikr-container .fikr .sliderBrend-container {
@@ -242,7 +250,7 @@
     margin: 0 auto;
   }
   .fikr-container .fikr .fikr-title {
-    width: 90%;
+    width: 85%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -250,17 +258,21 @@
     justify-content: start;
     gap: 10px;
   }
+  .fikr-container .fikr .fikr-title h1 {
+    font-size: 25px;
+  }
   .fikr-container .fikr .fikr-p {
     width: auto;
     height: auto;
     margin: 10px 0 30px 0;
   }
   .fikr-container .fikr .fikr-p p {
-    width: 90%;
+    width: 85%;
     height: auto;
+    font-size: 16px;
   }
   .fikr-container .fikr .sliderBrend-container {
-    width: 95%;
+    width: 93%;
     height: auto;
     margin: 30px 0 60px auto;
   }
@@ -270,7 +282,7 @@
   }
   .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide {
     width: 300px;
-    height: 420px;
+    height: 350px;
   }
   .fikr-container .fikr .sliderBrend-container .swiper .swiper-slide .brend-img {
     width: 100%;

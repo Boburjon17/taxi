@@ -168,11 +168,26 @@
     width: 90%;
     margin: 30px auto;
   }
+  .faq-container .Faq .faq-title {
+    width: 100%;
+  }
+  .faq-container .Faq .faq-title h1 {
+    font-size: 25px;
+  }
+  .faq-container .Faq p {
+    font-size: 16px;
+  }
   .faq-container .Faq .accordion {
     width: 100%;
   }
   .faq-container .Faq .accordion #box {
     width: 100%;
+  }
+  .faq-container .Faq .accordion #h1-title {
+    font-size: 18px;
+  }
+  .faq-container .Faq .accordion #p-title {
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 990px) and (max-width: 1200px) {
@@ -180,7 +195,7 @@
     width: 100%;
   }
   .faq-container .Faq {
-    width: 90%;
+    width: 85%;
     margin: 30px auto;
   }
   .faq-container .Faq .faq-title {
@@ -192,23 +207,12 @@
     gap: 20px;
   }
   .faq-container .Faq .faq-title h1 {
-    font-size: 28px;
-    font-family: "RAYDIS", sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: rgb(16, 24, 36);
-  }
-  .faq-container .Faq .faq-title h1 span {
-    color: rgb(231, 183, 58);
-  }
-  .faq-container .Faq .faq-title img {
-    width: 37px;
-    height: 21px;
+    font-size: 25px;
   }
   .faq-container .Faq p {
     width: auto;
     height: auto;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     font-family: "Poppins", system-ui;
     color: grey;
@@ -224,18 +228,10 @@
   }
   .faq-container .Faq .accordion #h1-title {
     width: auto;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Cygre SemiBold", system-ui;
-    color: rgb(16, 24, 36);
-    line-height: 23.4px;
+    font-size: 16px;
   }
   .faq-container .Faq .accordion #p-title {
-    font-size: 16px;
-    font-weight: 350;
-    font-family: "Cygre Book", system-ui;
-    color: rgb(55, 60, 68);
-    line-height: 20.8px;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 1201px) {

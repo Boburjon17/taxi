@@ -109,7 +109,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    border: 2px solid red;
   }
   .scrol .sectionn {
     display: none;
@@ -151,6 +150,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    border: 1px solid red;
   }
   .scrol .sectionn {
     width: auto;

@@ -280,7 +280,7 @@
     display: none !important;
   }
   .nav-container nav ul {
-    width: 788px;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
@@ -288,9 +288,22 @@
   .nav-container nav ul li a {
     font-family: "Cygre Medium";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(16, 24, 36);
     opacity: 80%;
+  }
+  .nav-container nav button {
+    padding: 10px 5px;
+    border: 2px solid rgb(25, 105, 225);
+    background-color: white;
+    border-radius: 12px;
+  }
+  .nav-container nav button p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(25, 105, 225);
+    font-family: Cygre SemiBold;
   }
 }
 @media screen and (min-width: 1201px) {

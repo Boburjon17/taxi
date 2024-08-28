@@ -419,9 +419,10 @@
             }
 
             ul{
-                width: 788px;
+                width: 75%;
                 display: flex;
                 justify-content: space-between;
+               
                 padding: 0 10px;
                
       
@@ -429,13 +430,28 @@
                     a{
                         font-family: "Cygre Medium";
                         font-weight: 500;
-                        font-size: 16px;
+                        font-size: 15px;
                         color: rgba(16, 24, 36, 1);
                         opacity: 80%;
                     }
                 }
             }
+            
+            button{
+                padding: 10px 5px;
+                border: 2px solid rgba(25, 105, 225, 1);
+                background-color: white;
+                border-radius: 12px;
     
+                p{
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: rgba(25, 105, 225, 1);
+                font-family:Cygre SemiBold ;
+                    
+                }
+            }
               
                 
     

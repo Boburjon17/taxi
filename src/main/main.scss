@@ -81,14 +81,26 @@
                         border-radius: 12px;
                         border: none; 
                         line-height: 26.4px;
+                       font-size: 16px;
+                       font-family: 'Cygre SemiBold';
+                       font-weight: 600;
+                       color: white;
+                       cursor: pointer;
+                        // &:hover{
+
+                        //     background-color: white;
+                        //     border: 2px solid rgba(25, 105, 225, 1);
+                        //     color:rgba(25, 105, 225, 1);
+                        //     transform: none;
+                        // }
                        
                         
-                        p{
-                          width: auto;
-                          color: white;
-                          font-size: 16px;
-                          font-family: 'Cygre SemiBold';
-                          font-weight: 600;
+                        // p{
+                        //   width: auto;
+                          
+                        //   &:hover{
+                        //     color: rgba(25, 105, 225, 1);
+                        //   }
 
                           
                         } 
@@ -110,13 +122,8 @@
             }
         }
     }
-    hr{
-        max-width: 100%;
-        height: 0;
-        border-top: 1px dashed grey;
-        margin: 10px 0;
-    }
-  }
+    
+  
      
         
 

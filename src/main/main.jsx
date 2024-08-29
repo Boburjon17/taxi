@@ -13,7 +13,7 @@ const Main = () => {
                     <h1>Tayyor <span> Taxi</span>  Biznesi</h1>
                     <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
                    <div className="button-b">
-                   <button><p>Batafsil tanishish</p></button>
+                   <button >Batafsil tanishish</button>
                    </div>
                 </div>
                 <div className="main-r-bottom">

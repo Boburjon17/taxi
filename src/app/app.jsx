@@ -36,7 +36,6 @@ const App = () => {
         }
       });
 
-      // Taxi rasmini harakatlantirish
       if (scrollImgRef.current) {
         scrollImgRef.current.style.transform = `translateY(${activeIndex * 55}px)`;
       }
@@ -47,7 +46,7 @@ const App = () => {
   }, [activeIndex]);
 
   const handleDotClick = (index) => {
-    setActiveIndex(index); // Aktiv indexni yangilash
+    setActiveIndex(index); 
     sectionRefs.current[index].scrollIntoView({ behavior: "smooth" }); 
   };
 

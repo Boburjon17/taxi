@@ -32,7 +32,7 @@ const Navbar = () => {
         </ul>
 
         <button>
-        <p>+998 97 628 28 82</p>
+        <>+998 97 628 28 82</>
         </button>
 
         <div className={bars ? "bars active" :"bars "}>

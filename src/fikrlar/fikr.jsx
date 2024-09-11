@@ -100,8 +100,19 @@ const Fikr = () => {
         <SwiperSlide >
         
          
-          <div className="brend-img">
-            <img src="fikr1.png" alt="" />
+          <div className="brend-img1">
+
+            <div className="play-big">
+              <div className="play">
+              <i className="fa-solid fa-play"></i>
+              </div>
+            </div>
+
+            <div className="s-title">
+              <h1>Eshonov Fakhriyor</h1>
+              <p>Lorem ipsum taksi</p>
+            </div>
+            
           </div>
          
         </SwiperSlide>
@@ -109,8 +120,19 @@ const Fikr = () => {
         <SwiperSlide>
         
           
-          <div className="brend-img">
-            <img src="fikr2.png" alt="" />
+          <div className="brend-img2">
+
+          <div className="play-big">
+              <div className="play">
+              <i className="fa-solid fa-play"></i>
+              </div>
+            </div>
+
+            <div className="s-title">
+              <h1>Eshonov Fakhriyor</h1>
+              <p>Lorem ipsum taksi</p>
+            </div>
+           
           </div>
          
         </SwiperSlide>
@@ -118,8 +140,18 @@ const Fikr = () => {
         <SwiperSlide>
         
         
-          <div className="brend-img">
-            <img src= "fikr3.png" alt="" />
+          <div className="brend-img3">
+          <div className="play-big">
+              <div className="play">
+              <i className="fa-solid fa-play"></i>
+              </div>
+            </div>
+
+            <div className="s-title">
+              <h1>Eshonov Fakhriyor</h1>
+              <p>Lorem ipsum taksi</p>
+            </div>
+            
           </div>
          
         </SwiperSlide>
@@ -127,8 +159,18 @@ const Fikr = () => {
         <SwiperSlide>
         
           
-          <div className="brend-img">
-            <img src= "fikr4.png" alt="" />
+          <div className="brend-img4">
+          <div className="play-big">
+              <div className="play">
+              <i className="fa-solid fa-play"></i>
+              </div>
+            </div>
+
+            <div className="s-title">
+              <h1>Eshonov Fakhriyor</h1>
+              <p>Lorem ipsum taksi</p>
+            </div>
+           
           </div>
          
         </SwiperSlide>
@@ -138,8 +180,17 @@ const Fikr = () => {
         <SwiperSlide >
         
          
-        <div className="brend-img">
-          <img src="fikr1.png" alt="" />
+        <div className="brend-img5">
+        <div className="play-big">
+              <div className="play">
+              <i className="fa-solid fa-play"></i>
+              </div>
+            </div>
+
+            <div className="s-title">
+              <h1>Eshonov Fakhriyor</h1>
+              <p>Lorem ipsum taksi</p>
+            </div>
         </div>
        
       </SwiperSlide>

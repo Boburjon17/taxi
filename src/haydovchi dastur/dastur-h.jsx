@@ -41,9 +41,9 @@ const DasturH = () => {
             </div>
           </div>
           <div className="button-dastur">
-            <button>
-              <h3>Ishlatib ko’rish</h3>
-            </button>
+           <a href="#sinash"> <button>  Ishlatib ko’rish  </button></a>
+           
+             
           </div>
         </div>
       </div>

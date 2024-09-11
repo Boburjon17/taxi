@@ -64,7 +64,7 @@ const Footer = () => {
                     <div className="inputt">
                         <input  type="number"  />
                         
-                        <button><h5>Ishlatib ko’rish</h5></button>
+                       <a href="#sinash"> <button>Ishlatib ko’rish</button></a>
                     </div>
                 </div>
                

@@ -31,7 +31,7 @@ const App = () => {
       const sectionElements = document.querySelectorAll(".section");
       sectionElements.forEach((section, index) => {
         const rect = section.getBoundingClientRect();
-        if (rect.top >= 0 && rect.top <= window.innerHeight / 2) {
+        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
           setActiveIndex(index);
         }
       });
@@ -49,6 +49,9 @@ const App = () => {
     setActiveIndex(index); 
     sectionRefs.current[index].scrollIntoView({ behavior: "smooth" }); 
   };
+
+
+
 
   return (
     <div >

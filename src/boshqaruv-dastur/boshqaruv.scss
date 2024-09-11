@@ -126,17 +126,20 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: 'Cygre SemiBold';
+                    line-height: 26.4px;
                    
                     
-                    h3{
+                   
+                    &:hover{
 
-                      width: auto;
-                      color: white;
-                      font-size: 16px;
-                      font-weight: 600;
-                      font-family: 'Cygre SemiBold';
-                      line-height: 26.4px;
-                      
+                        background-color: white;
+                        border: 2px solid rgba(25, 105, 225, 1);
+                        color:rgba(25, 105, 225, 1);
+                        transform: none;
                     } 
                   }
             }

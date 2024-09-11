@@ -12,10 +12,10 @@ const Navbar = () => {
 
       <nav>
         
-          <div className="img-i">
+          <div  className="img-i">
 
           <i onClick={()=> setBars(!bars)}  className="fa-solid fa-bars  "></i>
-         <img src="logo.png" alt="" />
+         <img  src="logo.png" alt="" />
 
           </div>
 

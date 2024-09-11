@@ -291,17 +291,21 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-family: 'Cygre SemiBold';
+                    line-height: 26.4px;
                    
                     
-                    h5{
-                      width: auto;
-                      color: white;
-                      font-size: 16px;
-                      font-weight: 600;
-                      font-family: 'Cygre SemiBold';
-                      line-height: 26.4px;
-                      
-                    } 
+                   
+                    &:hover{
+
+                        background-color: white;
+                        border: 2px solid rgba(25, 105, 225, 1);
+                        color:rgba(25, 105, 225, 1);
+                        transform: none;
+                    }
                 }
             }
     
@@ -417,10 +421,6 @@
                         flex-wrap: wrap;
                         gap: 18px;
                         padding: 0 10px;
-                       
-                        
-                    
-                      
                         .icon-phone{
             
                             width: 275px;
@@ -429,8 +429,8 @@
                             gap: 20px;
                             justify-content: center;
                             .f-icon-img{
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
                                 border: 2px solid rgba(25, 105, 225, 1);
                                 display: flex;
@@ -471,15 +471,15 @@
             
                         .icon-loc{
             
-                            width: 339px;
+                            width: 100%;
                             height: auto;
                             display: flex;
                             gap: 20px;
                             justify-content: center;
             
                             .f-icon-img{
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
                                 border: 2px solid rgba(25, 105, 225, 1);
                                 display: flex;
@@ -488,17 +488,17 @@
                                 i{
                                     font-size: 20px;
                                 }
+
+                                img{
+                                    width: 100%;
+                                    height: auto;
+                                }
                             }
                             .contact-text{
-                                width: 271px;
-                            
-                             
-                                
-                        
-                              
+                                width: 80%;
                                 h2{
                                     width: 90%;
-                                    height: 35px;
+                                    height: auto;
                                     font-size: 18px;
                                     font-weight: 700;
                                     font-family: "Poppins", system-ui;
@@ -524,8 +524,8 @@
                             gap: 20px;
                             justify-content: center;;
                             .f-icon-img{
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                height: 50px;
                                 border-radius: 50%;
                                 border: 2px solid rgba(25, 105, 225, 1);
                                 display: flex;

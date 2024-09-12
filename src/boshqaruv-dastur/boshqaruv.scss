@@ -26,7 +26,6 @@
         width: 916px;
         height: auto;
         margin: 30px auto;
-       
       
         
         .boshqaruv-top{
@@ -35,6 +34,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 30px 0;
 
 
             .boshqaruv-title{
@@ -113,35 +113,36 @@
             }
             .button-boshqar{
                 width: auto;
-               margin: 30px 0 50px 0;
-                
-                button{
-                    width: 170px;
-                    height: 45px;
-                    padding: 12px 18px ;
-                    background-color: rgba(25, 105, 225, 1);
-                    border-radius: 12px;
-                    gap: 10px;
-                    border: none; 
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: white;
-                    font-size: 16px;
-                    font-weight: 600;
-                    font-family: 'Cygre SemiBold';
-                    line-height: 26.4px;
-                   
+                margin-top: 30px;
+                text-align: center;
+                a{
                     
-                   
-                    &:hover{
-
-                        background-color: white;
-                        border: 2px solid rgba(25, 105, 225, 1);
-                        color:rgba(25, 105, 225, 1);
-                        transform: none;
-                    } 
-                  }
+                  
+                    button{
+                        width: 170px;
+                        height: 45px;
+                        padding: 12px 18px ;
+                        background-color: rgba(25, 105, 225, 1);
+                        border-radius: 12px;
+                        gap: 10px;
+                        color: white;
+                          font-size: 16px;
+                          font-weight: 400;
+                        border: none; 
+                        &:hover{
+    
+                            background-color: white;
+                            border: 2px solid rgba(25, 105, 225, 1);
+                            color:rgba(25, 105, 225, 1);
+                            transform: none;
+                        }
+                       
+                        
+                        
+                      }
+                }
+                
+                
             }
         }
         .boshqaruv-bottom{
@@ -271,16 +272,37 @@
         
                     }
                     .button-boshqar{
-                     width: 90%;
-                     display: flex;
-                     justify-content: center;
-                        
-                        button{
-                            width: 100%;
-    
-                            padding: 12px 18px ;
+                        width: 100%;
+                        margin-top: 30px;
+                        text-align: center;
+                        a{
+                            
+                          
+                            button{
+                                width: 90%;
+                                height: 45px;
+                                padding: 12px 18px ;
+                                background-color: rgba(25, 105, 225, 1);
+                                border-radius: 12px;
+                                gap: 10px;
+                                color: white;
+                                  font-size: 16px;
+                                  font-weight: 400;
+                                border: none; 
+                                &:hover{
             
-                          }
+                                    background-color: white;
+                                    border: 2px solid rgba(25, 105, 225, 1);
+                                    color:rgba(25, 105, 225, 1);
+                                    transform: none;
+                                }
+                               
+                                
+                                
+                              }
+                        }
+                        
+                        
                     }
                 }
                 .boshqaruv-bottom{
@@ -394,26 +416,35 @@
                     .button-boshqar{
                         width: 100%;
                         margin-top: 30px;
-                        display: flex;
-                        justify-content: center;
-                        button{
-                            width: 351px;
-                            height: 45px;
-                            padding: 12px 18px ;
-                            background-color: rgba(25, 105, 225, 1);
-                            border-radius: 12px;
-                            gap: 10px;
-                            border: none; 
-                           
+                        text-align: center;
+                        a{
                             
-                            h3{
-                              width: auto;
-                              color: white;
-                              font-size: 16px;
-                              font-weight: 400;
-                              
-                            } 
-                          }
+                          
+                            button{
+                                width: 351px;
+                                height: 45px;
+                                padding: 12px 18px ;
+                                background-color: rgba(25, 105, 225, 1);
+                                border-radius: 12px;
+                                gap: 10px;
+                                color: white;
+                                  font-size: 16px;
+                                  font-weight: 400;
+                                border: none; 
+                                &:hover{
+            
+                                    background-color: white;
+                                    border: 2px solid rgba(25, 105, 225, 1);
+                                    color:rgba(25, 105, 225, 1);
+                                    transform: none;
+                                }
+                               
+                                
+                                
+                              }
+                        }
+                        
+                        
                     }
                 }
                 .boshqaruv-bottom{
@@ -512,23 +543,36 @@
             }
             .button-boshqar{
                 width: 100%;
-               margin: 30px 0 50px 0;
-               display: flex;
-               justify-content: center;
+                margin-top: 30px;
+                text-align: center;
+                a{
+                    
+                  
+                    button{
+                        width: 351px;
+                        height: 45px;
+                        padding: 12px 18px ;
+                        background-color: rgba(25, 105, 225, 1);
+                        border-radius: 12px;
+                        gap: 10px;
+                        color: white;
+                          font-size: 16px;
+                          font-weight: 400;
+                        border: none; 
+                        &:hover{
+    
+                            background-color: white;
+                            border: 2px solid rgba(25, 105, 225, 1);
+                            color:rgba(25, 105, 225, 1);
+                            transform: none;
+                        }
+                       
+                        
+                        
+                      }
+                }
                 
-                button{
-                    width: 391px;
-                    height: auto;
-                    
-                   
-                    
-                    h3{
-                      font-size: 18px;
-                     
-                      line-height: 26px;
-                      
-                    } 
-                  }
+                
             }
         }
         .boshqaruv-bottom{
